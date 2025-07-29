@@ -4,3 +4,13 @@
  - We will some python libraries such as pandas, numpy, matplotlib, and scikit-learn and etc.
  - We will also cover some advanced topics such as deep learning and natural language processing
  - We will also cover some real-world applications of data science and machine learning
+
+ # Module Python-for-Data Science
+   # Python Fundmentals
+   - Variables
+   - Data Types
+   - Operators
+   - Control Structures
+   - [Go-through](https://github.com/vinayakmishra4/DS-ML-COURSE/Python-for-Data-Science/Python-Fundmentals/Python.md)
+
+   # File Management System
