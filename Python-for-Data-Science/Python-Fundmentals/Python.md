@@ -13,3 +13,10 @@
 - Introduction to Modules and Packages
 - Working with Files
 
+# Prerequisites
+- Python 3.8 or higher
+- Basic understanding of programming concepts
+- Familiarity with basic data structures and algorithms
+- A code editor or IDE of your choice
+- A terminal or command prompt
+
