@@ -11,6 +11,7 @@
    - Data Types
    - Operators
    - Control Structures
-   - [Go-through](https://github.com/vinayakmishra4/DS-ML-COURSE/Python-for-Data-Science/Python-Fundmentals/Python.md)
+   - [Go-through](https://github.com/vinayakmishra4/DS-ML-COURSE/blob/main/Python-for-Data-Science/Python-Fundmentals/Python.md)
+
 
    # File Management System
