@@ -1,0 +1,38 @@
+Access modes determine what type of operations can be performed on a file after it is opened. These modes also control the position of the file handle, which acts like a cursor indicating where reading or writing will begin.
+
+Here are the six primary access modes in Python:
+
+1. **Read Only (`'r'`)**:
+   - Opens a file for reading only.
+   - File handle is positioned at the beginning.
+   - Raises an `IOError` if the file does not exist.
+   - This is the default mode.
+
+2. **Read and Write (`'r+'`)**:
+   - Opens a file for both reading and writing.
+   - File handle is positioned at the beginning.
+   - Raises an `IOError` if the file does not exist.
+
+3. **Write Only (`'w'`)**:
+   - Opens a file for writing only.
+   - Overwrites the file if it already exists (truncates it).
+   - Creates a new file if it does not exist.
+   - File handle is positioned at the beginning.
+
+4. **Write and Read (`'w+'`)**:
+   - Opens a file for both writing and reading.
+   - Overwrites the file if it already exists.
+   - Creates a new file if it does not exist.
+   - File handle is positioned at the beginning.
+
+5. **Append Only (`'a'`)**:
+   - Opens a file for writing only.
+   - Creates the file if it does not exist.
+   - File handle is positioned at the end.
+   - New data is written at the end of the file.
+
+6. **Append and Read (`'a+'`)**:
+   - Opens a file for both appending and reading.
+   - Creates the file if it does not exist.
+   - File handle is positioned at the end.
+   - New data is written at the end; reading can still occur from anywhere in the file.
