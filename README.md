@@ -14,6 +14,13 @@
    - [Go-through](https://github.com/vinayakmishra4/DS-ML-COURSE/blob/main/Python-for-Data-Science/Python-Fundmentals/Python.md)
 
    # File Management System
-   - Setup of Juypter Notebook
-   - [Setup](https://github.com/vinayakmishra4/DS-ML-COURSE/blob/main/Python-for-Data-Science/File-Management-System/Jupyter-Notebook-Setup/Setup.md)
+     # Setup of Juypter Notebook
+     - [Setup](https://github.com/vinayakmishra4/DS-ML-COURSE/blob/main/Python-for-Data-Science/File-Management-System/Jupyter-Notebook-Setup/Setup.md)
+  
+     # Play with data on files
+     -  Read the data
+     -  Write the data
+     -  Text processing
+     -  Acces modes
+     -  [Go-through](https://github.com/vinayakmishra4/DS-ML-COURSE/blob/main/Python-for-Data-Science/File-Management-System/Play-Data-in-Files/Read-Data.md)
    
