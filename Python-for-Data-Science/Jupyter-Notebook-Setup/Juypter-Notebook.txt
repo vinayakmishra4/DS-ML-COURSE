@@ -1,0 +1,79 @@
+# Introduction to Jupyter Notebook
+
+A **Jupyter Notebook** is a web-based interactive computing environment where you can combine **code execution**, **rich text**, and **visualizations**. It is especially useful for exploratory programming and data analysis, as it allows you to document your work alongside the code.
+
+## Setting Up Jupyter Notebook
+
+Creating a new Jupyter Notebook is very straightforward:
+
+- Navigate to the Jupyter dashboard (where all your notebooks are listed).
+- Click on the **New** button and select **Python 3** to create a new notebook.
+- Your notebook will open, and you can start writing code immediately.
+
+## Understanding the Jupyter Notebook Interface
+
+When you open Jupyter Notebook, you will see a file directory with various features:
+
+- **Running Status**: A green indicator shows that the notebook is currently running. If gray, it’s not running.
+- **File Name**: Click the file name at the top to rename your notebook.
+- **Last Saved Time**: Helps keep track of your progress.
+
+## Working with Cells
+
+Cells are the primary components of Jupyter Notebook where you write and execute code.
+
+- **Adding Cells**: Click the **+** button.
+- **Deleting Cells**: Select a cell and click the **scissors icon** or press `dd` (press "d" twice).
+- **Copying/Pasting Cells**: Select the cell, copy and paste it as needed.
+- **Running Code**: Click **Run** or press `Shift + Enter`.
+- **Move a Cell**: Use up/down arrows to reorder cells.
+
+## Multi-line Code Execution
+
+You can write multiple lines of code in a single cell:
+
+```python
+print("Hello")
+print("World")
+```
+
+This code displays both lines when executed.
+
+## Understanding Cell Execution Numbers
+
+Jupyter assigns numbers to cells based on execution order. For example:
+
+- Executing `a = 10` shows `[1]`
+- Then `b = 20` shows `[2]`
+
+These help track the sequence and state of variables.
+
+## Keeping Track of Variables
+
+Execution order matters:
+
+```python
+a = 10
+a = 20
+print(a)  # Will output 20 if both cells are run, 10 if only the first is run.
+```
+
+## Tracking Code Execution
+
+Each run shows a number to the left of the cell like `[1]`, `[2]`, etc., indicating execution order.
+
+## Other Useful Features
+
+- **Interrupt Execution**: Stop code that's running indefinitely by interrupting the kernel.
+- **Restart Kernel**: Clears all variables and starts fresh.
+- **Saving Work**: Frequently save your notebook to avoid data loss.
+
+## Formatting Your Notebook
+
+Use **Markdown cells** for documentation:
+
+- **Headings**:
+  - `# Heading 1`
+  - `## Heading 2`
+- **Comments in code**:
+  - `# This is a comment`
