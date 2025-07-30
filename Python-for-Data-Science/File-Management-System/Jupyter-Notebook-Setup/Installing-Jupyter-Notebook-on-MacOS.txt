@@ -1,0 +1,46 @@
+Installing Jupyter Notebook on MacOS
+
+Method 1: Using pip to install Jupyter Notebook Package
+
+Follow the below steps to install the Jupyter Notebook package on macOS using pip:
+
+Step 1: Install the latest Python3 in MacOS
+
+
+Step 2: Check if pip3 and python3 are correctly installed.
+
+    python3 --version
+    pip3 --version
+
+Step 3: Upgrade your pip to avoid errors during installation.
+
+    pip3 install --upgrade pip
+
+Step 4: Enter the following command to install Jupyter Notebook using pip3.
+
+    pip3 install jupyter
+
+Method 2: Using setup.py to install Jupyter Notebook 
+
+Follow the below steps to install the Jupyter Notebook package on macOS using the setup.py file:
+
+Step 1: Download the latest source package of Jupyter Notebook for python3 from here.
+
+Step 2: Extract the downloaded package using the following command.
+
+    tar -xzvf jupyter.tar.gz
+
+Step 3: Go inside the folder and Enter the following command to install the package.
+
+Note: You must have developer tools for XCode MacOS installed in your system
+
+    cd jupyter-1.0.0
+    python3 setup.py install
+
+Verifying Jupyter Notebook installation on macOS:
+
+Enter the following command in your terminal to start up Jupyter Notebook and verify if the installation has been done properly:
+
+    jupyter notebook
+
+If there is any error while importing the module then it is not installed properly.
