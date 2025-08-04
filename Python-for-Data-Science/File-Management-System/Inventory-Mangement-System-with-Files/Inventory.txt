@@ -1,0 +1,5 @@
+1, Chocolate, 5, 100
+2, Milky Bar, 10, 50
+3, Cake, 300, 5
+4, Candy, 1, 200
+5, Ice Cream, 20, 100
