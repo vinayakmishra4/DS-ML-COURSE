@@ -1,5 +1,4 @@
 # 🚀 Python Fundamentals: From Basics to Pro!
-- Repository:https://github.com/vinayakmishra4/PYTHON-FROM-BASIC-TO-ADVANCE 
 
 Learn Python step-by-step with this beginner-friendly yet comprehensive guide. Whether you're just starting or need a refresher, this course covers it all!
 
