@@ -1,3 +1,7 @@
+Sure! Here's the updated content with all `.txt` references changed to `.md`:
+
+---
+
 # 📂 Python File Management & Text Processing
 
 This module is a part of the **DS-ML Course** and introduces file handling in Python—from opening and reading files to performing basic text processing and word frequency analysis.
@@ -6,47 +10,46 @@ This module is a part of the **DS-ML Course** and introduces file handling in Py
 
 ## 📌 Table of Contents
 
-- [🔗 Source Files](#-source-files)
-- [📁 File Access Modes](#-file-access-modes)
-- [📖 Reading Data from Files](#-reading-data-from-files)
-- [🧠 Text Processing in Python](#-text-processing-in-python)
-- [💡 Key Takeaways](#-key-takeaways)
-- [🚀 Real-World Use Cases](#-real-world-use-cases)
+* [🔗 Source Files](#-source-files)
+* [📁 File Access Modes](#-file-access-modes)
+* [📖 Reading Data from Files](#-reading-data-from-files)
+* [🧠 Text Processing in Python](#-text-processing-in-python)
+* [💡 Key Takeaways](#-key-takeaways)
+* [🚀 Real-World Use Cases](#-real-world-use-cases)
 
 ---
 
 ## 🔗 Source Files
 
-1. 📄 **Access Modes Explanation**  
-   [Acess-Modes.txt](https://github.com/vinayakmishra4/DS-ML-COURSE/blob/main/Python-for-Data-Science/File-Management-System/Play-Data-in-Files/Acess-Modes.txt)
+1. 📄 **Access Modes Explanation**
+   [Acess-Modes.md](https://github.com/vinayakmishra4/DS-ML-COURSE/blob/main/Python-for-Data-Science/File-Management-System/Play-Data-in-Files/Acess-Modes.md)
 
-2. 📘 **Reading File Content**  
+2. 📘 **Reading File Content**
    [Read-Data.ipynb](https://github.com/vinayakmishra4/DS-ML-COURSE/blob/main/Python-for-Data-Science/File-Management-System/Play-Data-in-Files/Read-Data.ipynb)
 
-3. 📘 **Text Processing Notebook**  
+3. 📘 **Text Processing Notebook**
    [Text-processing.ipynb](https://github.com/vinayakmishra4/DS-ML-COURSE/blob/main/Python-for-Data-Science/File-Management-System/Play-Data-in-Files/Text-processing.ipynb)
 
 ---
 
 ## 📁 File Access Modes
 
-| Mode     | Description                                                              |
-|----------|---------------------------------------------------------------------------|
-| `'r'`    | Read-only mode. File must exist.                                          |
-| `'w'`    | Write-only mode. Overwrites file if it exists or creates a new one.       |
-| `'a'`    | Append-only mode. Creates a new file if it doesn’t exist.                 |
-| `'r+'`   | Read and write mode. File must exist.                                     |
-| `'w+'`   | Write and read mode. Overwrites existing file or creates a new one.       |
-| `'a+'`   | Append and read mode. Reads and appends at the end; creates if not exists.|
-| `'rb'`   | Read-only in binary mode. File must exist.                                |
-| `'wb'`   | Write-only in binary mode. Creates or overwrites file.                    |
-| `'ab'`   | Append-only in binary mode. Creates file if it doesn't exist.             |
-| `'rb+'`  | Read and write in binary mode. File must exist.                           |
-| `'wb+'`  | Write and read in binary mode. Creates or overwrites file.                |
-| `'ab+'`  | Append and read in binary mode. Creates file if it doesn’t exist.         |
+| Mode    | Description                                                                |
+| ------- | -------------------------------------------------------------------------- |
+| `'r'`   | Read-only mode. File must exist.                                           |
+| `'w'`   | Write-only mode. Overwrites file if it exists or creates a new one.        |
+| `'a'`   | Append-only mode. Creates a new file if it doesn’t exist.                  |
+| `'r+'`  | Read and write mode. File must exist.                                      |
+| `'w+'`  | Write and read mode. Overwrites existing file or creates a new one.        |
+| `'a+'`  | Append and read mode. Reads and appends at the end; creates if not exists. |
+| `'rb'`  | Read-only in binary mode. File must exist.                                 |
+| `'wb'`  | Write-only in binary mode. Creates or overwrites file.                     |
+| `'ab'`  | Append-only in binary mode. Creates file if it doesn't exist.              |
+| `'rb+'` | Read and write in binary mode. File must exist.                            |
+| `'wb+'` | Write and read in binary mode. Creates or overwrites file.                 |
+| `'ab+'` | Append and read in binary mode. Creates file if it doesn’t exist.          |
 
-
-📌 From: [Access-Modes](https://github.com/vinayakmishra4/DS-ML-COURSE/blob/main/Python-for-Data-Science/File-Management-System/Play-Data-in-Files/Acess-Modes.txt)
+📌 From: [Access-Modes](https://github.com/vinayakmishra4/DS-ML-COURSE/blob/main/Python-for-Data-Science/File-Management-System/Play-Data-in-Files/Acess-Modes.md)
 
 ---
 
@@ -54,11 +57,11 @@ This module is a part of the **DS-ML Course** and introduces file handling in Py
 
 Python offers multiple methods to read text files—such as `.read()`, `.readline()`, and loop iteration—making it easy to handle both small and large datasets efficiently.
 
-| Method        | Description                                              |
-|---------------|----------------------------------------------------------|
-| `read()`      | Reads the entire file content as a single string.        |
-| `readline()`  | Reads the file one line at a time.                       |
-| `readlines()` | Returns a list containing each line as a string.         |
+| Method          | Description                                             |
+| --------------- | ------------------------------------------------------- |
+| `read()`        | Reads the entire file content as a single string.       |
+| `readline()`    | Reads the file one line at a time.                      |
+| `readlines()`   | Returns a list containing each line as a string.        |
 | `for line in f` | Iterates over each line in the file (memory-efficient). |
 
 📌 From: [Read-Data](https://github.com/vinayakmishra4/DS-ML-COURSE/blob/main/Python-for-Data-Science/File-Management-System/Play-Data-in-Files/Read-Data.ipynb)
@@ -98,18 +101,22 @@ for word, count in sorted_freq:
 
 ## 💡 Key Takeaways
 
-- Use the correct file mode (`'r'`, `'w'`, `'a'`, etc.) based on the task.
-- Always prefer using `with open(...)` to ensure files are closed properly.
-- Use `.read()`, `.readline()`, or iterate line-by-line depending on the file size.
-- Normalize text (e.g., lowercase) for consistent processing.
-- Use dictionaries to efficiently count word frequencies.
+* Use the correct file mode (`'r'`, `'w'`, `'a'`, etc.) based on the task.
+* Always prefer using `with open(...)` to ensure files are closed properly.
+* Use `.read()`, `.readline()`, or iterate line-by-line depending on the file size.
+* Normalize text (e.g., lowercase) for consistent processing.
+* Use dictionaries to efficiently count word frequencies.
 
 ---
 
 ## 🚀 Real-World Use Cases
 
-- 📊 Analyze server or application logs to detect anomalies.
-- 📚 Summarize documents or articles based on word frequency.
-- 🔍 Build simple search features for local text files.
-- 🧠 Perform text preprocessing for machine learning models.
-- 📝 Automate daily reporting from structured text files.
+* 📊 Analyze server or application logs to detect anomalies.
+* 📚 Summarize documents or articles based on word frequency.
+* 🔍 Build simple search features for local text files.
+* 🧠 Perform text preprocessing for machine learning models.
+* 📝 Automate daily reporting from structured text files.
+
+---
+
+Let me know if you want me to help with anything else!
