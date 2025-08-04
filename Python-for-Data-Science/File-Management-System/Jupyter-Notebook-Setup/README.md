@@ -75,7 +75,7 @@ Enhance your notebooks with well-formatted text using **Markdown**:
 
 ## 📂 Source Code
 
-[🔗 For more information about Jupyter Notebook, check out this link.](https://github.com/vinayakmishra4/DS-ML-COURSE/tree/main/Python-for-Data-Science/File-Management-System/Jupyter-Notebook-Setup)
+[🔗 For more information about Jupyter Notebook, check out this link.](https://github.com/vinayakmishra4/DS-ML-COURSE/blob/main/Python-for-Data-Science/File-Management-System/Jupyter-Notebook-Setup/Juypter-Notebook.md)
 
 - 💻 For macOS setup help, check out [this guide](https://github.com/vinayakmishra4/DS-ML-COURSE/blob/main/Python-for-Data-Science/File-Management-System/Jupyter-Notebook-Setup/Installing-Jupyter-Notebook-on-MacOS.md).
 
