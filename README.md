@@ -24,7 +24,7 @@ Start your journey with Python essentials:
 - 🔁 Control Structures  
 - 🧠 Logic & Flow Control  
 
-👉 [**Go through the fundamentals »**](https://github.com/vinayakmishra4/DS-ML-COURSE/blob/main/Python-for-Data-Science/Python-Fundmentals/Python.md)
+👉 [**Go through the fundamentals »**](https://github.com/vinayakmishra4/DS-ML-COURSE/blob/main/Python-for-Data-Science/Python-Fundmentals/README.md)
 
 ---
 
@@ -32,7 +32,7 @@ Start your journey with Python essentials:
 
 ### ⚙️ Jupyter Notebook Setup  
 Set up your development environment with ease.  
-👉 [**Setup Guide »**](https://github.com/vinayakmishra4/DS-ML-COURSE/blob/main/Python-for-Data-Science/File-Management-System/Jupyter-Notebook-Setup/Setup.md)
+👉 [**Setup Guide »**](https://github.com/vinayakmishra4/DS-ML-COURSE/blob/main/Python-for-Data-Science/File-Management-System/Jupyter-Notebook-Setup/README.md)
 
 ---
 
@@ -43,7 +43,7 @@ Learn how to handle files in Python:
 - ✏️ Text Processing  
 - 🔐 Access Modes  
 
-👉 [**Explore File Handling »**](https://github.com/vinayakmishra4/DS-ML-COURSE/blob/main/Python-for-Data-Science/File-Management-System/Play-Data-in-Files/Read-Data.md)
+👉 [**Explore File Handling »**](https://github.com/vinayakmishra4/DS-ML-COURSE/blob/main/Python-for-Data-Science/File-Management-System/Play-Data-in-Files/README.md)
 
 ---
 
