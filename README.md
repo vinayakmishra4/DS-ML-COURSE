@@ -52,11 +52,7 @@ Learn how to handle files in Python:
 Project on file operations in Python.
  
 🔍 Explore the code and file structure:  
-<<<<<<< Updated upstream
 👉 [**Inventory Management System Files »**](https://github.com/vinayakmishra4/Mini-Project-Inventory-Management-System-Using-Text-Files/blob/main/README.md)
-=======
-👉 [**Project :- Inventory Management System with files»**]()
->>>>>>> Stashed changes
 
 ---
 
