@@ -1,7 +1,3 @@
-Here's the updated README with the new **Getting Started with OS** section added below the **Play with Data in Files** section:
-
----
-
 # 🎓 Welcome to the Data Science & Machine Learning Course
 
 🚀 Master **Python**, explore **Data Science**, and unlock the world of **Machine Learning** in a structured, beginner-friendly learning path.
@@ -96,5 +92,3 @@ This course is your gateway into the exciting world of **Data Science & Machine 
 **Happy Learning! 🚀**
 
 ---
-
-This version includes the **Getting Started with OS** section, summarizing key topics about operating systems, commands, and file management, and provides a link for further exploration.
