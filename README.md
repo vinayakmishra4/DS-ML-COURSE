@@ -71,6 +71,13 @@ Project on file operations in Python.
 🔍 Explore the code and file structure:
 👉 [**Inventory Management System Files »**](https://github.com/vinayakmishra4/Mini-Project-Inventory-Management-System-Using-Text-Files/blob/main/README.md)
 
+## 📦 Mini Project: Inventory Management System
+
+A **Python-based project** demonstrating the use of **file operations** for managing inventory data efficiently. This system allows users to **add, update, delete, and view products**, manage **categories**, and record **sales or purchase transactions** — all stored persistently using **text or JSON files**. It features a simple **command-line interface (CLI)** for easy interaction and showcases key programming concepts like data handling, modular design, and file I/O.
+
+🔍 Explore the code and file structure:
+👉 [**Inventory Management System Files »**](https://github.com/vinayakmishra4/Mini-Project-Inventory-Management-System-with-JSON/blob/main/README.md)
+
 ---
 
 ## 📈 What's Next?
