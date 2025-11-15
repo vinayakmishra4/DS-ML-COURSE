@@ -60,8 +60,7 @@ Learn basic terminal/command-line operations for macOS & Windows:
 
 Pandas offers fast, flexible tools for data exploration and analysis using **Series** and **DataFrames**.
 
-👉 Overview:
-[https://github.com/vinayakmishra4/DS-ML-COURSE/blob/main/Data%20Anaylsis%20with%20python/Foundation%20of%20Data%20Analysis/Getting%20Started%20with%20Pandas/Strated-with-pandas.md](https://github.com/vinayakmishra4/DS-ML-COURSE/blob/main/Data%20Anaylsis%20with%20python/Foundation%20of%20Data%20Analysis/Getting%20Started%20with%20Pandas/Strated-with-pandas.md)
+[👉 Overview:](https://github.com/vinayakmishra4/DS-ML-COURSE/blob/main/Data%20Anaylsis%20with%20python/Foundation%20of%20Data%20Analysis/Getting%20Started%20with%20Pandas/Strated-with-pandas.md)
 
 ### 📁 Dataset Walkthrough
 
@@ -71,8 +70,7 @@ Learn how to:
 * Inspect data (`head`, `shape`, `columns`)
 * Select columns & access values
 
-👉 Walkthrough:
-[https://github.com/vinayakmishra4/DS-ML-COURSE/blob/main/Data%20Anaylsis%20with%20python/Foundation%20of%20Data%20Analysis/Getting%20Started%20with%20Pandas/Walkthrough.md](https://github.com/vinayakmishra4/DS-ML-COURSE/blob/main/Data%20Anaylsis%20with%20python/Foundation%20of%20Data%20Analysis/Getting%20Started%20with%20Pandas/Walkthrough.md)
+[👉 Walkthrough:](https://github.com/vinayakmishra4/DS-ML-COURSE/blob/main/Data%20Anaylsis%20with%20python/Foundation%20of%20Data%20Analysis/Getting%20Started%20with%20Pandas/Walkthrough.md)
 
 ---
 
@@ -81,12 +79,12 @@ Learn how to:
 ### 🔹 Using Text Files
 
 A Python CLI project demonstrating reading/writing text files for managing inventory.
-👉 [https://github.com/vinayakmishra4/Mini-Project-Inventory-Management-System-Using-Text-Files/blob/main/README.md](https://github.com/vinayakmishra4/Mini-Project-Inventory-Management-System-Using-Text-Files/blob/main/README.md)
+👉 [Mini-Project-Inventory-Management-System-Using-Text-Files](https://github.com/vinayakmishra4/Mini-Project-Inventory-Management-System-Using-Text-Files/blob/main/README.md)
 
 ### 🔹 Using JSON
 
 Improved version using JSON for structured data storage, with features to add/update/delete products and manage transactions.
-👉 [https://github.com/vinayakmishra4/Mini-Project-Inventory-Management-System-with-JSON/blob/main/README.md](https://github.com/vinayakmishra4/Mini-Project-Inventory-Management-System-with-JSON/blob/main/README.md)
+👉 [Mini-Project-Inventory-Management-System-with-JSON](https://github.com/vinayakmishra4/Mini-Project-Inventory-Management-System-with-JSON/blob/main/README.md)
 
 ---
 
