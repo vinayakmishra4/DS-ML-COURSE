@@ -76,8 +76,8 @@ Perfect for efficient data handling, analysis, and visualization.
 
 Pandas lets you load, inspect, and explore datasets easily using functions like `read_csv()`, `head()`, `columns`, and `shape`. You can select specific columns with `data['column']` and access values directly using indexing. A full dataset is a **DataFrame**, while each column is a **Series**. These basics help you quickly understand and work with real-world data.
 
-[*Dataset Gothrough](https://github.com/vinayakmishra4/DS-ML-COURSE/blob/main/Data%20Anaylsis%20with%20python/Foundation%20of%20Data%20Analysis/Getting%20Started%20with%20Pandas/Walkthrough.md)
-[code](https://github.com/vinayakmishra4/DS-ML-COURSE/blob/main/Data%20Anaylsis%20with%20python/Foundation%20of%20Data%20Analysis/Getting%20Started%20with%20Pandas/Walkthrough.ipynb)
+ [Dataset Gothrough](https://github.com/vinayakmishra4/DS-ML-COURSE/blob/main/Data%20Anaylsis%20with%20python/Foundation%20of%20Data%20Analysis/Getting%20Started%20with%20Pandas/Walkthrough.md)
+ [code](https://github.com/vinayakmishra4/DS-ML-COURSE/blob/main/Data%20Anaylsis%20with%20python/Foundation%20of%20Data%20Analysis/Getting%20Started%20with%20Pandas/Walkthrough.ipynb)
 
 ---
 
