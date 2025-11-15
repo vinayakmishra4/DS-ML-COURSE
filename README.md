@@ -71,12 +71,12 @@ It provides two main structures: **Series** (1D) and **DataFrame** (2D).
 You can easily read, clean, merge, and transform data from many sources.
 Perfect for efficient data handling, analysis, and visualization.
 
-👉 [*** for more infromation of Pandas »**](https://github.com/vinayakmishra4/DS-ML-COURSE/blob/main/Data%20Anaylsis%20with%20python/Foundation%20of%20Data%20Analysis/Getting%20Started%20with%20Pandas/Strated-with-pandas.md)
+👉 [***for more infromation of Pandas »**](https://github.com/vinayakmishra4/DS-ML-COURSE/blob/main/Data%20Anaylsis%20with%20python/Foundation%20of%20Data%20Analysis/Getting%20Started%20with%20Pandas/Strated-with-pandas.md)
 
 
 Pandas lets you load, inspect, and explore datasets easily using functions like `read_csv()`, `head()`, `columns`, and `shape`. You can select specific columns with `data['column']` and access values directly using indexing. A full dataset is a **DataFrame**, while each column is a **Series**. These basics help you quickly understand and work with real-world data.
 
-👉 [*** Dataset Gothrough ***](https://github.com/vinayakmishra4/DS-ML-COURSE/blob/main/Data%20Anaylsis%20with%20python/Foundation%20of%20Data%20Analysis/Getting%20Started%20with%20Pandas/Walkthrough.md)
+👉 [***Dataset Gothrough ***](https://github.com/vinayakmishra4/DS-ML-COURSE/blob/main/Data%20Anaylsis%20with%20python/Foundation%20of%20Data%20Analysis/Getting%20Started%20with%20Pandas/Walkthrough.md)
 
 ---
 
