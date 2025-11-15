@@ -48,8 +48,6 @@ Learn how to handle files in Python:
 
 👉 [**Explore File Handling »**](https://github.com/vinayakmishra4/DS-ML-COURSE/blob/main/Python-for-Data-Science/File-Management-System/Play-Data-in-Files/README.md)
 
----
-
 ## 🖥️ **Getting Started with OS**
 
 This section introduces you to the basic commands used to interact with your computer's **Operating System**. These commands are essential for navigating the file system, managing files and directories, and automating tasks through the **Command Line Interface (CLI)**.
@@ -61,6 +59,24 @@ This section introduces you to the basic commands used to interact with your com
 * **System Management:** Basic tasks like clearing the terminal and checking the current directory for smooth navigation.
 
 👉 [**Start with OS Basics »**](http://github.com/vinayakmishra4/DS-ML-COURSE/tree/main/Python-for-Data-Science/File-Management-System/Getting-Strat-OS)
+
+---
+
+## 🧰 Module 2: Foundation of Data Analysis
+
+### Getting Started with Pandas
+
+**Pandas** is a Python library for fast, flexible data analysis.
+It provides two main structures: **Series** (1D) and **DataFrame** (2D).
+You can easily read, clean, merge, and transform data from many sources.
+Perfect for efficient data handling, analysis, and visualization.
+
+👉 [*** for more infromation of Pandas »**](https://github.com/vinayakmishra4/DS-ML-COURSE/blob/main/Data%20Anaylsis%20with%20python/Foundation%20of%20Data%20Analysis/Getting%20Started%20with%20Pandas/Strated-with-pandas.md)
+
+
+Pandas lets you load, inspect, and explore datasets easily using functions like `read_csv()`, `head()`, `columns`, and `shape`. You can select specific columns with `data['column']` and access values directly using indexing. A full dataset is a **DataFrame**, while each column is a **Series**. These basics help you quickly understand and work with real-world data.
+
+👉 [*** Dataset Gothrough ***](https://github.com/vinayakmishra4/DS-ML-COURSE/blob/main/Data%20Anaylsis%20with%20python/Foundation%20of%20Data%20Analysis/Getting%20Started%20with%20Pandas/Walkthrough.md)
 
 ---
 
