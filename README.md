@@ -81,6 +81,23 @@ Pandas lets you load, inspect, and explore datasets easily using functions like 
 
 ---
 
+### Data Preprocessing 
+
+#### Handling Null Values
+
+Handling null values is a crucial step in data preprocessing, as missing values can lead to inaccurate analysis and errors in modeling. In Pandas, null values are typically represented as `NaN`, and we can identify them using the `isnull()` and `notnull()` methods, which return Boolean masks indicating the presence or absence of nulls.  
+
+For handling missing data, there are two main approaches: **removing** or **filling** them. Removing rows with `dropna()` ensures a clean dataset but can lead to significant data loss, especially if many rows contain nulls. Filling missing values, or **imputation**, is often preferred.  
+
+- **Numeric columns:** Replace nulls with the mean, median, or most frequent value.  
+- **Categorical columns:** Fill with the mode or a meaningful placeholder like `"Unknown"` or `"N/A"`.  
+
+Using scikit-learn’s `SimpleImputer`, we can efficiently implement these imputation strategies, preserving dataset integrity while minimizing the impact of missing values.
+
+[code](https://github.com/vinayakmishra4/DS-ML-COURSE/blob/main/Foundation%20of%20Data%20Analysis/Data%20Anaylsis%20with%20python/Data-Preprocessing/Removenullvalues.ipynb)
+
+
+
 ## 📦 Mini Project: Inventory Management System
 
 Project on file operations in Python.
