@@ -142,6 +142,4 @@ df.dropna()
 
 ✨ *Happy Data-Wrangling!* 🐼
 
-```
-
 ---
