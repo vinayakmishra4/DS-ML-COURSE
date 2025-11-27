@@ -44,7 +44,7 @@ Master the core building blocks of Python:
 * 🧩 Functions & Basics of OOP
 
 👉 **Start Learning:**
-🔗 [https://github.com/vinayakmishra4/DS-ML-COURSE/blob/main/Python-for-Data-Science/Python-Fundmentals/README.md](https://github.com/vinayakmishra4/DS-ML-COURSE/blob/main/Python-for-Data-Science/Python-Fundmentals/README.md)
+[🔗](https://github.com/vinayakmishra4/DS-ML-COURSE/blob/main/Python-for-Data-Science/Python-Fundmentals/README.md)
 
 ---
 
@@ -55,7 +55,7 @@ Master the core building blocks of Python:
 Set up your environment for seamless coding.
 ✨ Includes: Installation, interface walkthrough & tips.
 
-🔗 [https://github.com/vinayakmishra4/DS-ML-COURSE/blob/main/Python-for-Data-Science/File-Management-System/Jupyter-Notebook-Setup/README.md](https://github.com/vinayakmishra4/DS-ML-COURSE/blob/main/Python-for-Data-Science/File-Management-System/Jupyter-Notebook-Setup/README.md)
+[🔗](https://github.com/vinayakmishra4/DS-ML-COURSE/blob/main/Python-for-Data-Science/File-Management-System/Jupyter-Notebook-Setup/README.md)
 
 ---
 
@@ -68,7 +68,7 @@ Learn how Python handles real-world data:
 * 🔐 Access Modes
 * 📁 Managing File Structure
 
-🔗 [https://github.com/vinayakmishra4/DS-ML-COURSE/blob/main/Python-for-Data-Science/File-Management-System/Play-Data-in-Files/README.md](https://github.com/vinayakmishra4/DS-ML-COURSE/blob/main/Python-for-Data-Science/File-Management-System/Play-Data-in-Files/README.md)
+[🔗](https://github.com/vinayakmishra4/DS-ML-COURSE/blob/main/Python-for-Data-Science/File-Management-System/Play-Data-in-Files/README.md)
 
 ---
 
@@ -84,7 +84,7 @@ Master essential **Command Line** operations:
 * Essential macOS & Windows commands
 
 👉 **Start Now:**
-🔗 [http://github.com/vinayakmishra4/DS-ML-COURSE/tree/main/Python-for-Data-Science/File-Management-System/Getting-Strat-OS](http://github.com/vinayakmishra4/DS-ML-COURSE/tree/main/Python-for-Data-Science/File-Management-System/Getting-Strat-OS)
+[🔗] (http://github.com/vinayakmishra4/DS-ML-COURSE/tree/main/Python-for-Data-Science/File-Management-System/Getting-Strat-OS)
 
 ---
 
@@ -100,7 +100,7 @@ Work with real datasets using:
 * Quick EDA tools
 
 📘 Learn Pandas:
-🔗 [https://github.com/vinayakmishra4/DS-ML-COURSE/blob/main/Foundation%20of%20Data%20Analysis/Pandas/Readme.md](https://github.com/vinayakmishra4/DS-ML-COURSE/blob/main/Foundation%20of%20Data%20Analysis/Pandas/Readme.md)
+[🔗](https://github.com/vinayakmishra4/DS-ML-COURSE/blob/main/Foundation%20of%20Data%20Analysis/Pandas/Readme.md)
 
 🗂️ Dataset Walkthrough
 
@@ -121,7 +121,7 @@ Master the backbone of scientific computing:
 * Mathematical & statistical functions
 
 📘 Notebook:
-🔗 [https://github.com/vinayakmishra4/DS-ML-COURSE/tree/main/Foundation%20of%20Data%20Analysis/Data%20Anaylsis%20with%20python/Numpy](https://github.com/vinayakmishra4/DS-ML-COURSE/tree/main/Foundation%20of%20Data%20Analysis/Data%20Anaylsis%20with%20python/Numpy)
+[🔗] (https://github.com/vinayakmishra4/DS-ML-COURSE/tree/main/Foundation%20of%20Data%20Analysis/Data%20Anaylsis%20with%20python/Numpy)
 
 ---
 
@@ -135,8 +135,7 @@ Create stunning visuals:
 * Object-Oriented API
 
 📘 Read & Practice:
-🔗 Intro to Matplotlib
-[https://github.com/vinayakmishra4/DS-ML-COURSE/blob/main/Foundation%20of%20Data%20Analysis/Data%20Anaylsis%20with%20python/Matplotlib/Readme.md](https://github.com/vinayakmishra4/DS-ML-COURSE/blob/main/Foundation%20of%20Data%20Analysis/Data%20Anaylsis%20with%20python/Matplotlib/Readme.md)
+[Intro to Matplotlib](https://github.com/vinayakmishra4/DS-ML-COURSE/blob/main/Foundation%20of%20Data%20Analysis/Data%20Anaylsis%20with%20python/Matplotlib/Readme.md)
 
 ---
 
@@ -166,11 +165,9 @@ A CLI-based project covering:
 * File handling (Text/JSON)
 * Modular Python design
 
-🔗 **Text File Version:**
-[https://github.com/vinayakmishra4/Mini-Project-Inventory-Management-System-Using-Text-Files/blob/main/README.md](https://github.com/vinayakmishra4/Mini-Project-Inventory-Management-System-Using-Text-Files/blob/main/README.md)
+[🔗 **Text File Version:**](https://github.com/vinayakmishra4/Mini-Project-Inventory-Management-System-Using-Text-Files/blob/main/README.md)
 
-🔗 **JSON Version:**
-[https://github.com/vinayakmishra4/Mini-Project-Inventory-Management-System-with-JSON/blob/main/README.md](https://github.com/vinayakmishra4/Mini-Project-Inventory-Management-System-with-JSON/blob/main/README.md)
+[🔗 **JSON Version:**](https://github.com/vinayakmishra4/Mini-Project-Inventory-Management-System-with-JSON/blob/main/README.md)
 
 ---
 
