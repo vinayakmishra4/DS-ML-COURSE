@@ -84,7 +84,7 @@ Master essential **Command Line** operations:
 * Essential macOS & Windows commands
 
 👉 **Start Now:**
-[🔗] (http://github.com/vinayakmishra4/DS-ML-COURSE/tree/main/Python-for-Data-Science/File-Management-System/Getting-Strat-OS)
+[🔗](http://github.com/vinayakmishra4/DS-ML-COURSE/tree/main/Python-for-Data-Science/File-Management-System/Getting-Strat-OS)
 
 ---
 
@@ -121,7 +121,7 @@ Master the backbone of scientific computing:
 * Mathematical & statistical functions
 
 📘 Notebook:
-[🔗] (https://github.com/vinayakmishra4/DS-ML-COURSE/tree/main/Foundation%20of%20Data%20Analysis/Data%20Anaylsis%20with%20python/Numpy)
+[🔗](https://github.com/vinayakmishra4/DS-ML-COURSE/tree/main/Foundation%20of%20Data%20Analysis/Data%20Anaylsis%20with%20python/Numpy)
 
 ---
 
@@ -139,7 +139,7 @@ Create stunning visuals:
 
 ---
 
-## 🧹 **Data Preprocessing — Clean Your Data Like a Pro**
+## 🧹 **Data Preprocessing and Data Cleaning — Clean Your Data Like a Pro**
 
 ### 🔍 Handling Missing Values
 
@@ -149,7 +149,7 @@ Create stunning visuals:
 * Using `SimpleImputer` efficiently
 
 📘 Notebook:
-🔗 Removenullvalues.ipynb
+[🔗 Removenullvalues](https://github.com/vinayakmishra4/DS-ML-COURSE/blob/main/Foundation%20of%20Data%20Analysis/Data%20Anaylsis%20with%20python/Data-Preprocessing/Removenullvalues.md)
 
 ---
 
