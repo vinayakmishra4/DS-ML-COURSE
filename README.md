@@ -149,7 +149,7 @@ Create stunning visuals:
 * Using `SimpleImputer` efficiently
 
 📘 Notebook:
-[🔗 Removenullvalues](https://github.com/vinayakmishra4/DS-ML-COURSE/blob/main/Foundation%20of%20Data%20Analysis/Data%20Anaylsis%20with%20python/Data-Preprocessing/Removenullvalues.md)
+[🔗 Removenullvalues](https://github.com/vinayakmishra4/DS-ML-COURSE/blob/main/Foundation%20of%20Data%20Analysis/Data%20Anaylsis%20with%20python/Data-Preprocessing-And-Cleaning/Removenullvalues.md)
 
 ---
 
