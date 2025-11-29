@@ -1,8 +1,3 @@
-Great — here is a **more attractive, modern, clean, and beautifully formatted** GitHub-ready README with better visuals, structure, emojis, highlights, and section styling.
-This version looks like a **professional course landing page**.
-
----
-
 # 🌟 **Data Science & Machine Learning Course**
 
 ### *Your Complete Beginner-to-Advanced Learning Path 🚀*
