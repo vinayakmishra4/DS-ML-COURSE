@@ -1,3 +1,8 @@
+Great — here is a **more attractive, modern, clean, and beautifully formatted** GitHub-ready README with better visuals, structure, emojis, highlights, and section styling.
+This version looks like a **professional course landing page**.
+
+---
+
 # 🌟 **Data Science & Machine Learning Course**
 
 ### *Your Complete Beginner-to-Advanced Learning Path 🚀*
@@ -144,7 +149,7 @@ Create stunning visuals:
 * Using `SimpleImputer` efficiently
 
 📘 Notebook:
-[🔗 Removenullvalues](https://github.com/vinayakmishra4/DS-ML-COURSE/blob/main/Foundation%20of%20Data%20Analysis/Data%20Anaylsis%20with%20python/Data-Preprocessing-And-Cleaning/Removenullvalues.md)
+[🔗 Removenullvalues](https://github.com/vinayakmishra4/DS-ML-COURSE/blob/main/Foundation%20of%20Data%20Analysis/Data%20Anaylsis%20with%20python/Data-Preprocessing-And-Cleaning/Readme.md)
 
 ---
 
