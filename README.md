@@ -147,8 +147,10 @@ Create stunning visuals:
 * Dropping rows/columns
 * Filling with mean/median/mode
 * Using `SimpleImputer` efficiently
+* Remove the Outliers using `Z-score`,`IQR`,`Percentile`
+* Change the Datatypes to Correct Data types
 
-📘 Notebook:
+📘 Details:
 [🔗 Removenullvalues](https://github.com/vinayakmishra4/DS-ML-COURSE/blob/main/Foundation%20of%20Data%20Analysis/Data%20Anaylsis%20with%20python/Data-Preprocessing-And-Cleaning/Readme.md)
 
 ---
