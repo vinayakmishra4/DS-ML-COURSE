@@ -154,6 +154,19 @@ Create stunning visuals:
 [🔗 Removenullvalues](https://github.com/vinayakmishra4/DS-ML-COURSE/blob/main/Foundation%20of%20Data%20Analysis/Data%20Anaylsis%20with%20python/Data-Preprocessing-And-Cleaning/Readme.md)
 
 ---
+## 📊 **Data Analysis — Explore Your Data Like a Pro**
+
+* Inspect datasets using **Pandas** (`head()`, `info()`, `describe()`)
+* Analyze **numerical columns**: mean, median, min, max, standard deviation
+* Analyze **categorical columns**: value counts, frequency distribution, and percentages
+* Visualize data using **bar charts and pie charts** for better insights
+* Draw **observations** and identify **patterns, trends, and anomalies**
+
+### 📘 Notebook:
+
+[🔗 Analysis.ipynb](https://github.com/vinayakmishra4/DS-ML-COURSE/blob/main/Foundation%20of%20Data%20Analysis/Data%20Anaylsis%20with%20python/Data-Analysis/Analysis.ipynb)
+
+---
 
 # 🧩 **Mini Projects (Hands-On)**
 
