@@ -168,6 +168,16 @@ Create stunning visuals:
 
 ---
 
+# 📊 Data Visualization with Python
+
+This module introduces **data visualization using Python** to help understand patterns, trends, and relationships in data. It covers common plots such as line, bar, histogram, pie, scatter, and box plots using **Matplotlib, Seaborn, and Pandas**. Visualization is used as a key foundation for **Exploratory Data Analysis (EDA)**.
+
+🔗 **Detailed README:**
+[Readme](https://github.com/vinayakmishra4/DS-ML-COURSE/blob/main/Foundation%20of%20Data%20Analysis/Data%20Anaylsis%20with%20python/DataVisualization/Readme.md)
+
+
+---
+
 # 🧩 **Mini Projects (Hands-On)**
 
 ## 📦 Inventory Management System (Text / JSON)
