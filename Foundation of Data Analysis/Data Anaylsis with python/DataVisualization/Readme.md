@@ -156,4 +156,19 @@ Visualization is the bridge between raw data and insights — mastering it is es
 
 ---
 
+## 📓 Visualization Notebook
+
+You can explore the complete hands-on implementation of all the above visualizations in the Jupyter Notebook below:
+
+🔗 **Data Visualization Notebook**
+[Notebook](https://github.com/vinayakmishra4/DS-ML-COURSE/blob/main/Foundation%20of%20Data%20Analysis/Data%20Anaylsis%20with%20python/DataVisualization/Visulization.ipynb)
+
+The notebook includes:
+
+* Step-by-step plotting examples
+* Well-commented Python code
+* Practical demonstrations using real datasets
+
+---
+
 ✨ *This README covers only the Visualization component of the course.*
