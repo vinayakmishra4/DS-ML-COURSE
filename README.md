@@ -175,6 +175,15 @@ This module introduces **data visualization using Python** to help understand pa
 🔗 **Detailed README:**
 [Readme](https://github.com/vinayakmishra4/DS-ML-COURSE/blob/main/Foundation%20of%20Data%20Analysis/Data%20Anaylsis%20with%20python/DataVisualization/Readme.md)
 
+---
+
+# 🌟 Intro to EDA (Exploratory Data Analysis)
+
+Learn the fundamentals of **Exploratory Data Analysis (EDA)** using Python to inspect, visualize, and understand datasets.
+Covers data loading, summary statistics, univariate & multivariate analysis, and visualizations with **Pandas**, **Matplotlib**, and **Seaborn**.
+Ideal for beginners in **Data Science** who want to explore and prepare data before modeling.
+
+🔗 **Full README & Notebook:** [Intro to EDA](https://github.com/vinayakmishra4/DS-ML-COURSE/blob/main/Foundation%20of%20Data%20Analysis/Data%20Anaylsis%20with%20python/EDA/Readme.md)
 
 ---
 
