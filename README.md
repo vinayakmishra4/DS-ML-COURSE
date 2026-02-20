@@ -216,6 +216,15 @@ A **data cleaning and analysis project** focused on **global sugarcane productio
 
 ---
 
+## 📊 Black Friday Sales Analysis
+
+Performed **Exploratory Data Analysis (EDA)** on retail sales data to uncover customer purchasing behavior and revenue trends. Identified key revenue drivers such as the **26–35 age group**, **male customers**, **City Category B**, and **top-performing product categories** using Python (Pandas, NumPy, Matplotlib, Seaborn). Generated actionable business insights for marketing, customer targeting, and sales optimization, and prepared the dataset for future machine learning modeling.
+
+🔗 [View Full Project](https://github.com/vinayakmishra4/Project-Black-Firday-Sales-Analysis)
+
+
+---
+
 # 🚀 **What’s Next?**
 
 | Upcoming Module      | Description                                    |
