@@ -204,6 +204,17 @@ A CLI-based project covering:
 [🔗 **JSON Version:**](https://github.com/vinayakmishra4/Mini-Project-Inventory-Management-System-with-JSON/blob/main/README.md)
 
 ---
+## 🌾 [Sugarcane Production Data Analysis](https://github.com/vinayakmishra4/Project-Sugarcane-Production)  
+A **data cleaning and analysis project** focused on **global sugarcane production trends**.
+
+**Highlights:**  
+- Cleaned messy real-world dataset  
+- Handled missing values & inconsistent formats  
+- Performed EDA using Pandas & NumPy  
+- Built visual insights using Matplotlib & Seaborn  
+- Prepared dataset for predictive analytics  
+
+---
 
 # 🚀 **What’s Next?**
 
