@@ -182,7 +182,7 @@ Ideal for beginners in **Data Science** who want to explore and prepare data bef
 
 ---
 
-# 🧩 **Mini Projects (Hands-On)**
+# 🧩 Projects (Hands-On)**
 
 ## 📦 Inventory Management System (Text / JSON)
 
@@ -231,8 +231,22 @@ A **data analysis project** focused on **exploring factors related to heart dise
 * Performed EDA using Pandas & NumPy
 * Visualized trends with Matplotlib & Seaborn
 * Insights can support predictive analysis
+---
+
+### 🌍 [Global GDP Analysis](https://github.com/vinayakmishra4/Project-Gross-Domestic-Product-Analysis)
+
+A **data analysis project** focused on **exploring global economic trends using GDP data**.
+
+**Highlights:**
+
+* Cleaned and processed historical GDP data for 200+ countries
+* Handled missing values and standardized inconsistent formats
+* Performed exploratory data analysis (EDA) using Pandas & NumPy
+* Visualized economic trends with Matplotlib & Seaborn
+* Derived insights on top-performing and emerging economies
 
 ---
+
 # 🚀 **What’s Next?**
 
 | Upcoming Module      | Description                                    |
