@@ -1,8 +1,3 @@
-Great — here is a **more attractive, modern, clean, and beautifully formatted** GitHub-ready README with better visuals, structure, emojis, highlights, and section styling.
-This version looks like a **professional course landing page**.
-
----
-
 # 🌟 **Data Science & Machine Learning Course**
 
 ### *Your Complete Beginner-to-Advanced Learning Path 🚀*
@@ -225,6 +220,19 @@ Performed **Exploratory Data Analysis (EDA)** on retail sales data to uncover cu
 
 ---
 
+### ❤️ [Heart Disease Data Analysis](https://github.com/vinayakmishra4/Project-Heart-Disease-Analysis)
+
+A **data analysis project** focused on **exploring factors related to heart disease**.
+
+**Highlights:**
+
+* Loaded and cleaned heart disease dataset
+* Explored clinical & demographic features
+* Performed EDA using Pandas & NumPy
+* Visualized trends with Matplotlib & Seaborn
+* Insights can support predictive analysis
+
+---
 # 🚀 **What’s Next?**
 
 | Upcoming Module      | Description                                    |
