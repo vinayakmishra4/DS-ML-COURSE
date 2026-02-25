@@ -116,7 +116,7 @@ Master the backbone of scientific computing:
 * Mathematical & statistical functions
 
 📘 Notebook:
-[🔗](https://github.com/vinayakmishra4/DS-ML-COURSE/tree/main/Foundation%20of%20Data%20Analysis/Data%20Anaylsis%20with%20python/Numpy)
+[🔗](https://github.com/vinayakmishra4/DS-ML-COURSE/tree/main/Foundation%20of%20Data%20Analysis/Numpy)
 
 ---
 
@@ -130,7 +130,7 @@ Create stunning visuals:
 * Object-Oriented API
 
 📘 Read & Practice:
-[Intro to Matplotlib](https://github.com/vinayakmishra4/DS-ML-COURSE/blob/main/Foundation%20of%20Data%20Analysis/Data%20Anaylsis%20with%20python/Matplotlib/Readme.md)
+[Intro to Matplotlib](https://github.com/vinayakmishra4/DS-ML-COURSE/blob/main/Foundation%20of%20Data%20Analysis/Matplotlib/Readme.md)
 
 ---
 
