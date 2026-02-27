@@ -25,11 +25,8 @@ Machine Learning → Deep Learning → NLP → Capstone Projects
 ```
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Module-1_Python-blue?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Module-2_Data_Analysis-green?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Module-3_Excel_Exploration-lightblue?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Module-4_Visualization-orange?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Module-5_Preprocessing-purple?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Module-1_Python for Data Science-blue?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Module-2_Foundation of Data Analysis-green?style=for-the-badge" />
 </p>
 
 ---
@@ -145,6 +142,22 @@ CLI-based project covering:
 📘 Read & Practice: [🔗 Matplotlib Intro](https://github.com/vinayakmishra4/DS-ML-COURSE/blob/main/Foundation%20of%20Data%20Analysis/Matplotlib/Readme.md)
 
 ---
+## 📊 Module 3: Data Exploration with Excel
+
+### 💻 **Exploring Data Efficiently in Microsoft Excel**
+
+#### 🔹 What You’ll Learn
+
+* ✅ Navigate **workbooks, worksheets, rows, and columns** efficiently
+* ✅ Understand and manage **data types**
+* ✅ Clean and organize data using **TRIM, sorting, and lookup functions**
+* ✅ Build **dynamic formulas** with nesting and type conversion
+* ✅ Prepare datasets for **reports, dashboards, and professional insights**
+
+📘 **Full README & Notebooks:** [🔗 Exploring Data in Excel](https://github.com/vinayakmishra4/DS-ML-COURSE/blob/main/Foundation%20of%20Data%20Exploration-Excel/Exploring-Data/Readme.md)
+
+
+----
 
 # 🧩 **Projects — Module 2**
 
@@ -181,28 +194,6 @@ CLI-based project covering:
 * EDA & visualization to derive economic insights
 
 [🔗 Project Link](https://github.com/vinayakmishra4/Project-Gross-Domestic-Product-Analysis)
-
----
-
-# 📊 **Module 3: Data Exploration with Excel**
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Excel-Office365-green?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Level-Beginner%20to%20Intermediate-blue?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Focus-Data%20Exploration-orange?style=for-the-badge" />
-</p>
-
-## 💻 **Exploring Data Efficiently in Microsoft Excel**
-
-### 🔹 What You’ll Learn
-
-* ✅ Navigate **workbooks, worksheets, rows, and columns** efficiently
-* ✅ Understand and manage **data types**
-* ✅ Clean and organize data using **TRIM, sorting, and lookup functions**
-* ✅ Build **dynamic formulas** with nesting and type conversion
-* ✅ Prepare datasets for **reports, dashboards, and professional insights**
-
-📘 **Full README & Notebooks:** [🔗 Exploring Data in Excel](https://github.com/vinayakmishra4/DS-ML-COURSE/blob/main/Foundation%20of%20Data%20Exploration-Excel/Exploring-Data/Readme.md)
 
 ---
 # 🚀 **Next Modules**
