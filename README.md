@@ -154,7 +154,7 @@ CLI-based project covering:
 * ✅ Build **dynamic formulas** with nesting and type conversion
 * ✅ Prepare datasets for **reports, dashboards, and professional insights**
 
-📘 **Full README & Notebooks:** [🔗 Exploring Data in Excel](https://github.com/vinayakmishra4/DS-ML-COURSE/blob/main/Foundation%20of%20Data%20Exploration-Excel/Exploring-Data/Readme.md)
+📘 **Full README & Notebooks:** [🔗 Exploring Data in Excel](https://github.com/vinayakmishra4/DS-ML-COURSE/blob/main/Foundation%20of%20Data%20Analysis/Data-Exploration-Excel/Exploring-Data/Readme.md)
 
 
 ----
