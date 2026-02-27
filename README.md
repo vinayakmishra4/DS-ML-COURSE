@@ -20,9 +20,17 @@ You’ll learn everything step-by-step with guided notebooks, exercises, and min
 # 🧭 **Course Roadmap**
 
 ```
-Python → Data Analysis → Visualization → Preprocessing →
+Python → Data Analysis → Excel Data Exploration → Visualization → Preprocessing →
 Machine Learning → Deep Learning → NLP → Capstone Projects
 ```
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Module-1_Python-blue?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Module-2_Data_Analysis-green?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Module-3_Excel_Exploration-lightblue?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Module-4_Visualization-orange?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Module-5_Preprocessing-purple?style=for-the-badge" />
+</p>
 
 ---
 
@@ -39,7 +47,7 @@ Master the core building blocks of Python:
 * 🧩 Functions & Basics of OOP
 
 👉 **Start Learning:**
-[🔗](https://github.com/vinayakmishra4/DS-ML-COURSE/blob/main/Python-for-Data-Science/Python-Fundmentals/README.md)
+[🔗 Python Fundamentals](https://github.com/vinayakmishra4/DS-ML-COURSE/blob/main/Python-for-Data-Science/Python-Fundmentals/README.md)
 
 ---
 
@@ -50,7 +58,7 @@ Master the core building blocks of Python:
 Set up your environment for seamless coding.
 ✨ Includes: Installation, interface walkthrough & tips.
 
-[🔗](https://github.com/vinayakmishra4/DS-ML-COURSE/blob/main/Python-for-Data-Science/File-Management-System/Jupyter-Notebook-Setup/README.md)
+[🔗 Jupyter Notebook Setup](https://github.com/vinayakmishra4/DS-ML-COURSE/blob/main/Python-for-Data-Science/File-Management-System/Jupyter-Notebook-Setup/README.md)
 
 ---
 
@@ -63,7 +71,7 @@ Learn how Python handles real-world data:
 * 🔐 Access Modes
 * 📁 Managing File Structure
 
-[🔗](https://github.com/vinayakmishra4/DS-ML-COURSE/blob/main/Python-for-Data-Science/File-Management-System/Play-Data-in-Files/README.md)
+[🔗 Working With Files](https://github.com/vinayakmishra4/DS-ML-COURSE/blob/main/Python-for-Data-Science/File-Management-System/Play-Data-in-Files/README.md)
 
 ---
 
@@ -71,122 +79,21 @@ Learn how Python handles real-world data:
 
 Master essential **Command Line** operations:
 
-### 💻 What You’ll Learn
-
 * Navigate directories
 * Create/Delete files
 * Move, copy, rename content
 * Essential macOS & Windows commands
 
 👉 **Start Now:**
-[🔗](http://github.com/vinayakmishra4/DS-ML-COURSE/tree/main/Python-for-Data-Science/File-Management-System/Getting-Strat-OS)
+[🔗 OS Commands](http://github.com/vinayakmishra4/DS-ML-COURSE/tree/main/Python-for-Data-Science/File-Management-System/Getting-Strat-OS)
 
 ---
 
-# 📊 **Module 2: Foundation of Data Analysis**
+# 🧩 **Projects — Module 1**
 
-## 🐼 **Pandas — Data Analysis Powerhouse**
+### 📦 Inventory Management System
 
-Work with real datasets using:
-
-* DataFrames & Series
-* Reading CSV, Excel, JSON
-* Cleaning, filtering & transforming data
-* Quick EDA tools
-
-📘 Learn Pandas:
-[🔗](https://github.com/vinayakmishra4/DS-ML-COURSE/blob/main/Foundation%20of%20Data%20Analysis/Pandas/Readme.md)
-
-🗂️ Dataset Walkthrough
-
-* Markdown:
-  🔗 Walkthrough.md
-* Notebook:
-  🔗 Walkthrough.ipynb
-
----
-
-## 🔢 **NumPy — Fast Numerical Computing**
-
-Master the backbone of scientific computing:
-
-* Multi-dimensional arrays
-* Vectorized operations
-* Broadcasting
-* Mathematical & statistical functions
-
-📘 Notebook:
-[🔗](https://github.com/vinayakmishra4/DS-ML-COURSE/tree/main/Foundation%20of%20Data%20Analysis/Numpy)
-
----
-
-## 📉 **Matplotlib — Visualize Anything**
-
-Create stunning visuals:
-
-* Line, Bar, Scatter, Histograms
-* Subplots
-* Styling, Colors, Grids
-* Object-Oriented API
-
-📘 Read & Practice:
-[Intro to Matplotlib](https://github.com/vinayakmishra4/DS-ML-COURSE/blob/main/Foundation%20of%20Data%20Analysis/Matplotlib/Readme.md)
-
----
-
-## 🧹 **Data Preprocessing and Data Cleaning — Clean Your Data Like a Pro**
-
-### 🔍 Handling Missing Values
-
-* Detecting nulls
-* Dropping rows/columns
-* Filling with mean/median/mode
-* Using `SimpleImputer` efficiently
-* Remove the Outliers using `Z-score`,`IQR`,`Percentile`
-* Change the Datatypes to Correct Data types
-
-📘 Details:
-[🔗 Removenullvalues](https://github.com/vinayakmishra4/DS-ML-COURSE/blob/main/Foundation%20of%20Data%20Analysis/Data%20Anaylsis%20with%20python/Data-Preprocessing-And-Cleaning/Readme.md)
-
----
-## 📊 **Data Analysis — Explore Your Data Like a Pro**
-
-* Inspect datasets using **Pandas** (`head()`, `info()`, `describe()`)
-* Analyze **numerical columns**: mean, median, min, max, standard deviation
-* Analyze **categorical columns**: value counts, frequency distribution, and percentages
-* Visualize data using **bar charts and pie charts** for better insights
-* Draw **observations** and identify **patterns, trends, and anomalies**
-
-### 📘 Notebook:
-
-[🔗 Analysis.ipynb](https://github.com/vinayakmishra4/DS-ML-COURSE/blob/main/Foundation%20of%20Data%20Analysis/Data%20Anaylsis%20with%20python/Data-Analysis/Analysis.ipynb)
-
----
-
-# 📊 Data Visualization with Python
-
-This module introduces **data visualization using Python** to help understand patterns, trends, and relationships in data. It covers common plots such as line, bar, histogram, pie, scatter, and box plots using **Matplotlib, Seaborn, and Pandas**. Visualization is used as a key foundation for **Exploratory Data Analysis (EDA)**.
-
-🔗 **Detailed README:**
-[Readme](https://github.com/vinayakmishra4/DS-ML-COURSE/blob/main/Foundation%20of%20Data%20Analysis/Data%20Anaylsis%20with%20python/DataVisualization/Readme.md)
-
----
-
-# 🌟 Intro to EDA (Exploratory Data Analysis)
-
-Learn the fundamentals of **Exploratory Data Analysis (EDA)** using Python to inspect, visualize, and understand datasets.
-Covers data loading, summary statistics, univariate & multivariate analysis, and visualizations with **Pandas**, **Matplotlib**, and **Seaborn**.
-Ideal for beginners in **Data Science** who want to explore and prepare data before modeling.
-
-🔗 **Full README & Notebook:** [Intro to EDA](https://github.com/vinayakmishra4/DS-ML-COURSE/blob/main/Foundation%20of%20Data%20Analysis/Data%20Anaylsis%20with%20python/EDA/Readme.md)
-
----
-
-# 🧩 Projects (Hands-On)**
-
-## 📦 Inventory Management System (Text / JSON)
-
-A CLI-based project covering:
+CLI-based project covering:
 
 * Product management
 * Category organization
@@ -194,60 +101,111 @@ A CLI-based project covering:
 * File handling (Text/JSON)
 * Modular Python design
 
-[🔗 **Text File Version:**](https://github.com/vinayakmishra4/Mini-Project-Inventory-Management-System-Using-Text-Files/blob/main/README.md)
-
-[🔗 **JSON Version:**](https://github.com/vinayakmishra4/Mini-Project-Inventory-Management-System-with-JSON/blob/main/README.md)
-
----
-## 🌾 [Sugarcane Production Data Analysis](https://github.com/vinayakmishra4/Project-Sugarcane-Production)  
-A **data cleaning and analysis project** focused on **global sugarcane production trends**.
-
-**Highlights:**  
-- Cleaned messy real-world dataset  
-- Handled missing values & inconsistent formats  
-- Performed EDA using Pandas & NumPy  
-- Built visual insights using Matplotlib & Seaborn  
-- Prepared dataset for predictive analytics  
+[🔗 Text File Version](https://github.com/vinayakmishra4/Mini-Project-Inventory-Management-System-Using-Text-Files/blob/main/README.md)
+[🔗 JSON Version](https://github.com/vinayakmishra4/Mini-Project-Inventory-Management-System-with-JSON/blob/main/README.md)
 
 ---
 
-## 📊 Black Friday Sales Analysis
+# 📊 **Module 2: Foundation of Data Analysis**
 
-Performed **Exploratory Data Analysis (EDA)** on retail sales data to uncover customer purchasing behavior and revenue trends. Identified key revenue drivers such as the **26–35 age group**, **male customers**, **City Category B**, and **top-performing product categories** using Python (Pandas, NumPy, Matplotlib, Seaborn). Generated actionable business insights for marketing, customer targeting, and sales optimization, and prepared the dataset for future machine learning modeling.
+## 🐼 **Pandas — Data Analysis Powerhouse**
 
-🔗 [View Full Project](https://github.com/vinayakmishra4/Project-Black-Firday-Sales-Analysis)
+* Work with real datasets using DataFrames & Series
+* Read CSV, Excel, JSON
+* Cleaning, filtering & transforming data
+* Quick EDA tools
 
+📘 Learn Pandas: [🔗 Pandas Readme](https://github.com/vinayakmishra4/DS-ML-COURSE/blob/main/Foundation%20of%20Data%20Analysis/Pandas/Readme.md)
 
----
+🗂️ Dataset Walkthrough:
 
-### ❤️ [Heart Disease Data Analysis](https://github.com/vinayakmishra4/Project-Heart-Disease-Analysis)
-
-A **data analysis project** focused on **exploring factors related to heart disease**.
-
-**Highlights:**
-
-* Loaded and cleaned heart disease dataset
-* Explored clinical & demographic features
-* Performed EDA using Pandas & NumPy
-* Visualized trends with Matplotlib & Seaborn
-* Insights can support predictive analysis
----
-
-### 🌍 [Global GDP Analysis](https://github.com/vinayakmishra4/Project-Gross-Domestic-Product-Analysis)
-
-A **data analysis project** focused on **exploring global economic trends using GDP data**.
-
-**Highlights:**
-
-* Cleaned and processed historical GDP data for 200+ countries
-* Handled missing values and standardized inconsistent formats
-* Performed exploratory data analysis (EDA) using Pandas & NumPy
-* Visualized economic trends with Matplotlib & Seaborn
-* Derived insights on top-performing and emerging economies
+* Markdown: 🔗 Walkthrough.md
+* Notebook: 🔗 Walkthrough.ipynb
 
 ---
 
-# 🚀 **What’s Next?**
+## 🔢 **NumPy — Fast Numerical Computing**
+
+* Multi-dimensional arrays
+* Vectorized operations
+* Broadcasting
+* Mathematical & statistical functions
+
+📘 Notebook: [🔗 NumPy](https://github.com/vinayakmishra4/DS-ML-COURSE/tree/main/Foundation%20of%20Data%20Analysis/Numpy)
+
+---
+
+## 📉 **Matplotlib — Visualize Anything**
+
+* Line, Bar, Scatter, Histograms
+* Subplots
+* Styling, Colors, Grids
+* Object-Oriented API
+
+📘 Read & Practice: [🔗 Matplotlib Intro](https://github.com/vinayakmishra4/DS-ML-COURSE/blob/main/Foundation%20of%20Data%20Analysis/Matplotlib/Readme.md)
+
+---
+
+# 🧩 **Projects — Module 2**
+
+### 🌾 Sugarcane Production Data Analysis
+
+* Real-world dataset cleaning & EDA
+* Visualized production trends globally
+
+[🔗 Project Link](https://github.com/vinayakmishra4/Project-Sugarcane-Production)
+
+---
+
+### 📊 Black Friday Sales Analysis
+
+* Retail sales EDA
+* Insights: customer behavior, top products, age groups
+
+[🔗 Project Link](https://github.com/vinayakmishra4/Project-Black-Firday-Sales-Analysis)
+
+---
+
+### ❤️ Heart Disease Data Analysis
+
+* Explore factors influencing heart disease
+* Visualized trends for clinical & demographic features
+
+[🔗 Project Link](https://github.com/vinayakmishra4/Project-Heart-Disease-Analysis)
+
+---
+
+### 🌍 Global GDP Analysis
+
+* Cleaned historical GDP data for 200+ countries
+* EDA & visualization to derive economic insights
+
+[🔗 Project Link](https://github.com/vinayakmishra4/Project-Gross-Domestic-Product-Analysis)
+
+---
+
+# 📊 **Module 3: Data Exploration with Excel**
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Excel-Office365-green?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Level-Beginner%20to%20Intermediate-blue?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Focus-Data%20Exploration-orange?style=for-the-badge" />
+</p>
+
+## 💻 **Exploring Data Efficiently in Microsoft Excel**
+
+### 🔹 What You’ll Learn
+
+* ✅ Navigate **workbooks, worksheets, rows, and columns** efficiently
+* ✅ Understand and manage **data types**
+* ✅ Clean and organize data using **TRIM, sorting, and lookup functions**
+* ✅ Build **dynamic formulas** with nesting and type conversion
+* ✅ Prepare datasets for **reports, dashboards, and professional insights**
+
+📘 **Full README & Notebooks:** [🔗 Exploring Data in Excel](https://github.com/vinayakmishra4/DS-ML-COURSE/blob/main/Foundation%20of%20Data%20Exploration-Excel/Exploring-Data/Readme.md)
+
+---
+# 🚀 **Next Modules**
 
 | Upcoming Module      | Description                                    |
 | -------------------- | ---------------------------------------------- |
