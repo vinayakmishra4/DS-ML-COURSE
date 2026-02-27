@@ -142,7 +142,7 @@ CLI-based project covering:
 📘 Read & Practice: [🔗 Matplotlib Intro](https://github.com/vinayakmishra4/DS-ML-COURSE/blob/main/Foundation%20of%20Data%20Analysis/Matplotlib/Readme.md)
 
 ---
-## 📊 Module 3: Data Exploration with Excel
+## **Data Exploration with Excel**
 
 ### 💻 **Exploring Data Efficiently in Microsoft Excel**
 
