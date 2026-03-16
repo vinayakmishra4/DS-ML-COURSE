@@ -1,9 +1,3 @@
-Sure 👍 Vinayak. I will **hide the links behind clickable text**, which looks much more professional in a GitHub README.
-
-Here is the **updated version with hidden links**.
-
----
-
 # 📊 Preparing Data in Excel
 
 ![Excel](https://img.shields.io/badge/Tool-Microsoft%20Excel-green)
