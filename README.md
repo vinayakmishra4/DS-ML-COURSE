@@ -156,8 +156,17 @@ CLI-based project covering:
 
 📘 **Full README & Notebooks:** [🔗 Exploring Data in Excel](https://github.com/vinayakmishra4/DS-ML-COURSE/blob/main/Foundation%20of%20Data%20Analysis/Data-Exploration-Excel/Exploring-Data/Readme.md)
 
-
 ----
+
+### 📊 **Preparing Data in Excel**
+
+Learn how to clean, organize, and prepare raw datasets for analysis using Excel.
+This section covers essential data preparation techniques along with important functions like **VLOOKUP** and **SUMIF**, which help in searching data and performing conditional calculations efficiently.
+
+🔗 **Explore the full guide:**
+[Preparing Data in Excel](https://github.com/vinayakmishra4/DS-ML-COURSE/tree/main/Foundation%20of%20Data%20Analysis/Data-Exploration-Excel/Preparing-Data#readme)
+
+---
 
 # 🧩 **Projects — Module 2**
 
