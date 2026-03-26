@@ -1,8 +1,6 @@
 # 📊 Analysing Data
 
 ![Excel](https://img.shields.io/badge/Tool-Microsoft%20Excel-green?style=for-the-badge&logo=microsoft-excel)
-![Data Analysis](https://img.shields.io/badge/Focus-Data%20Analysis-blue?style=for-the-badge)
-![Level](https://img.shields.io/badge/Level-Beginner%20to%20Intermediate-orange?style=for-the-badge)
 
 ---
 
@@ -122,6 +120,6 @@ If you found this helpful:
 
 ## 🔗 Connect With Me
 
-- 🐙 GitHub (https://github.com/vinayakmishra4)
+- 🐙 [GitHub](https://github.com/vinayakmishra4)
 
 ---
