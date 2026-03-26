@@ -167,6 +167,22 @@ This section covers essential data preparation techniques along with important f
 [Preparing Data in Excel](https://github.com/vinayakmishra4/DS-ML-COURSE/tree/main/Foundation%20of%20Data%20Analysis/Data-Exploration-Excel/Preparing-Data#readme)
 
 ---
+Got it 👍 Here’s the same summary with the **link hidden behind text**:
+
+---
+
+### 📊 Analysing Data in Excel
+
+🔗 [Analysing Data in Excel](https://github.com/vinayakmishra4/DS-ML-COURSE/tree/main/Foundation%20of%20Data%20Analysis/Data-Exploration-Excel/Analysing-Data#readme)
+
+* Focuses on **analyzing structured data** using Excel tools and functions
+* Covers techniques like **sorting, filtering, and data summarization**
+* Uses **formulas (COUNT, SUM, etc.)** to extract meaningful insights
+* Demonstrates how to identify **patterns, trends, and key metrics**
+* Helps in building a strong foundation for **data-driven decision making**
+
+---
+
 
 # 🧩 **Projects — Module 2**
 
