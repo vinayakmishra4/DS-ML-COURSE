@@ -247,7 +247,7 @@ It collects:
 Built using **Requests, BeautifulSoup, Pandas, and tqdm**, and scrapes data across all 50 pages.
 
 <p align="left">
-  <a href="https://github.com/vinayakmishra4/book-scraper">
+  <a href="https://github.com/vinayakmishra4/Project-Book-Scraper">
     <img src="https://img.shields.io/badge/View%20Project-Book%20Scraper-purple?style=for-the-badge&logo=github"/>
   </a>
 </p>
