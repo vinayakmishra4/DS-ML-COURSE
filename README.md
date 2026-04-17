@@ -218,6 +218,14 @@ This section covers essential data preparation techniques along with important f
 [🔗 Project Link](https://github.com/vinayakmishra4/Project-Gross-Domestic-Product-Analysis)
 
 ---
+### 📚 Book Scraper
+
+A Python web scraper that extracts book data from https://books.toscrape.com and saves it into CSV files.  
+It collects details like title, price, rating, UPC, and availability across all 50 pages.  
+Built using Requests, BeautifulSoup, Pandas, and tqdm.  
+👉 [View Project Repository](https://github.com/your-username/book-scraper)
+
+---
 # 🚀 **Next Modules**
 
 | Upcoming Module      | Description                                    |
