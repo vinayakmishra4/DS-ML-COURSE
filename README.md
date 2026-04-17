@@ -179,7 +179,35 @@ This section covers essential data preparation techniques along with important f
 * Helps in building a strong foundation for **data-driven decision making**
 
 ---
+## 🌐 Data Collection: Web Scraping
 
+### 🔍 Introduction to Web Scraping
+
+Web scraping is the process of extracting data from websites and converting it into structured formats such as CSV or JSON. It enables automated data collection from online sources, which is essential for real-world data science workflows.
+
+### ⚙️ How It Works
+
+* Send HTTP requests to web pages
+* Parse HTML content
+* Extract relevant data fields
+* Store data in structured formats
+
+### 🛠️ Tools & Technologies
+
+* **Requests** → Fetch web pages
+* **BeautifulSoup** → Parse and extract HTML data
+
+### 📊 Use Cases
+
+* Price tracking (e-commerce platforms)
+* Data collection for machine learning
+* News aggregation
+* Market research
+
+📘 **Learn More:**
+🔗 [introduction-to-web-scraping] (https://github.com/vinayakmishra4/DS-ML-COURSE/tree/main/Foundation%20of%20Data%20Analysis/Web-Scrapping/Intro-to-Web-Scrapping)
+
+---
 
 # 🧩 **Projects — Module 2**
 
@@ -218,14 +246,7 @@ This section covers essential data preparation techniques along with important f
 [🔗 Project Link](https://github.com/vinayakmishra4/Project-Gross-Domestic-Product-Analysis)
 
 ---
-### 📚 Book Scraper
 
-A Python web scraper that extracts book data from https://books.toscrape.com and saves it into CSV files.  
-It collects details like title, price, rating, UPC, and availability across all 50 pages.  
-Built using Requests, BeautifulSoup, Pandas, and tqdm.  
-👉 [View Project Repository](https://github.com/your-username/book-scraper)
-
----
 # 🚀 **Next Modules**
 
 | Upcoming Module      | Description                                    |
