@@ -205,7 +205,7 @@ Web scraping is the process of extracting data from websites and converting it i
 * Market research
 
 📘 **Learn More:**
-🔗 [introduction-to-web-scraping] (https://github.com/vinayakmishra4/DS-ML-COURSE/tree/main/Foundation%20of%20Data%20Analysis/Web-Scrapping/Intro-to-Web-Scrapping)
+🔗 [introduction-to-web-scraping](https://github.com/vinayakmishra4/DS-ML-COURSE/tree/main/Foundation%20of%20Data%20Analysis/Web-Scrapping/Intro-to-Web-Scrapping)
 
 ---
 
