@@ -187,59 +187,6 @@ A real-world CLI project:
 
 ### 🌾 Sugarcane Production Analysis
 
-📊 Global dataset cleaning + visualization
-
-<p align="left">
-  <a href="https://github.com/vinayakmishra4/Project-Sugarcane-Production">
-    <img src="https://img.shields.io/badge/View%20Project-Sugarcane%20Analysis-green?style=for-the-badge&logo=github"/>
-  </a>
-</p>
-
----
-
-### 🛒 Black Friday Sales Analysis
-
-🧠 Customer behavior & purchase patterns
-
-<p align="left">
-  <a href="https://github.com/vinayakmishra4/Project-Black-Firday-Sales-Analysis">
-    <img src="https://img.shields.io/badge/View%20Project-Black%20Friday%20Sales-blue?style=for-the-badge&logo=github"/>
-  </a>
-</p>
-
----
-
-### ❤️ Heart Disease Data Analysis
-
-🏥 Medical dataset exploration
-
-<p align="left">
-  <a href="https://github.com/vinayakmishra4/Project-Heart-Disease-Analysis">
-    <img src="https://img.shields.io/badge/View%20Project-Heart%20Disease%20Analysis-red?style=for-the-badge&logo=github"/>
-  </a>
-</p>
-
----
-
-### 🌍 Global GDP Analysis
-
-📈 Economic trends of 200+ countries
-
-<p align="left">
-  <a href="https://github.com/vinayakmishra4/Project-Gross-Domestic-Product-Analysis">
-    <img src="https://img.shields.io/badge/View%20Project-GDP%20Analysis-orange?style=for-the-badge&logo=github"/>
-  </a>
-</p>
-
----
-Here is your **updated Module 2 Projects section with the new Book Scraper project added in a clean, professional format with GitHub badge style** 🚀
-
----
-
-# 🧩 Module 2 Projects
-
-### 🌾 Sugarcane Production Analysis
-
 📊 Global dataset cleaning + trend visualization
 
 <p align="left">
