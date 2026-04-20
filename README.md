@@ -165,6 +165,17 @@ Collect title, price, rating, and availability into CSV format.
 🔗 [View Project](https://github.com/your-username/book-scraper)
 
 ---
+## 🌐 Wikipedia Scraper
+
+A Python project that takes a person’s name as input, searches for their Wikipedia page using Google, extracts paragraph content using BeautifulSoup, and saves it into a text file.
+
+🔹 Uses `requests` and `BeautifulSoup` for web scraping
+🔹 Automatically finds correct Wikipedia link (even with misspellings)
+🔹 Outputs clean text data into a `.txt` file
+
+👉 [View Project](https://github.com/vinayakmishra4/Project-Wikipedia-Scrapper/blob/main/README.md)
+
+---
 
 # 🚀 **Coming Next Modules**
 
