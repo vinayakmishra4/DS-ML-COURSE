@@ -1,0 +1,24 @@
+Question on the Bayes therom
+
+Question 1:
+* 1% of people have a disease → P(A) = 0.01
+* The test correctly detects the disease 99% of the time → P(B|A) = 0.99
+* The test falsely shows positive in 5% of healthy people → P(B|not A) = 0.05
+
+Step 1: Find total probability of testing positive
+
+A positive result can happen in two ways:
+
+1. Person has the disease and tests positive
+2. Person is healthy but still tests positive
+
+P(B) = (0.99 × 0.01) + (0.05 × 0.99)
+P(B) = 0.0099 + 0.0495 = 0.0594
+
+Step 2: Apply Bayes’ Theorem
+
+P(A|B) = (0.99 × 0.01) / 0.0594
+P(A|B) = 0.0099 / 0.0594 ≈ 0.1667
+
+Final Result:
+Even after testing positive, the probability of actually having the disease is about 16.7%.
