@@ -1,3 +1,7 @@
+Here’s an extended **GitHub-style README.md (with badges + your new “Probability Rules” section added cleanly)**:
+
+---
+
 # 📊 Basic Probability for Data Science
 
 ![GitHub stars](https://img.shields.io/github/stars/your-username/your-repo?style=social)
@@ -10,12 +14,12 @@
 
 ## 📌 Overview
 
-Probability is a branch of mathematics that deals with uncertainty. In **data science and machine learning**, it plays a crucial role in:
+Probability helps us understand uncertainty and randomness in data. It is a **core foundation of data science and machine learning** used for:
 
-* Making predictions 📈
-* Classifying data 🧠
-* Handling uncertainty ⚡
-* Improving model accuracy 🎯
+* 📈 Predictions
+* 🧠 Classification
+* ⚡ Handling uncertainty
+* 🎯 Improving model performance
 
 ---
 
@@ -25,125 +29,178 @@ Probability is a branch of mathematics that deals with uncertainty. In **data sc
 P(A) = \frac{\text{Favorable Outcomes}}{\text{Total Outcomes}}
 ]
 
-* **0** → Impossible event
-* **1** → Certain event
+* **0** → Impossible
+* **1** → Certain
 
 **Example:**
 
 ```math
-P(H) = \frac{1}{2}
+P(H) = 1/2
 ```
 
 ---
 
 ## 🧠 Basics of Probability
 
-| Concept           | Description           | Example         |
-| ----------------- | --------------------- | --------------- |
-| Sample Space      | All possible outcomes | `{1,2,3,4,5,6}` |
-| Event             | Subset of outcomes    | `{2,4,6}`       |
-| Random Variable   | Numerical outcome     | Heads count     |
-| Random Experiment | Uncertain process     | Coin toss       |
+| Concept         | Description    | Example         |
+| --------------- | -------------- | --------------- |
+| Sample Space    | All outcomes   | `{1,2,3,4,5,6}` |
+| Event           | Subset         | `{2,4,6}`       |
+| Random Variable | Numeric value  | Heads count     |
+| Experiment      | Random process | Coin toss       |
 
 ---
 
-## 📐 Probability Rules
+# 📐 Probability Rules
 
-### ➕ Addition Rule
+Probability rules are fundamental laws used to calculate chances of events.
+
+---
+
+## ➕ Addition Rule
+
+Used for **union of events**:
 
 ```math
 P(A ∪ B) = P(A) + P(B) - P(A ∩ B)
 ```
 
-### ✖️ Multiplication Rule
+✔ Applies when events are **not mutually exclusive**
+
+**Example:**
 
 ```math
-P(A ∩ B) = P(A) ⋅ P(B)
+P(A ∪ B) = 1/2 + 1/2 = 1
 ```
 
-### 🔄 Complement Rule
+---
+
+## ✖️ Multiplication Rule
+
+Used for **independent events**:
+
+```math
+P(A ∩ B) = P(A) × P(B)
+```
+
+**Example:**
+
+```math
+P(A ∩ B) = 1/2 × 1/2 = 1/4
+```
+
+---
+
+## 🔄 Complement Rule
+
+Probability of an event **not occurring**:
 
 ```math
 P(A') = 1 - P(A)
 ```
 
-### 🔗 Conditional Probability
+**Example:**
 
 ```math
-P(A|B) = \frac{P(A ∩ B)}{P(B)}
+P(A') = 1 - 1/4 = 3/4
 ```
 
-### 🔁 Bayes' Theorem
+---
+
+## 🔗 Conditional Probability
+
+Probability of A given B:
 
 ```math
-P(A|B) = \frac{P(B|A)P(A)}{P(B)}
+P(A|B) = P(A ∩ B) / P(B)
+```
+
+**Example:**
+
+```math
+P(A|B) = (3/52) / (12/52) = 1/4
+```
+
+---
+
+# 🧩 Solved Examples
+
+### 🎯 Example 1: Exactly One Head
+
+```math
+P = 1 - P(HH) - P(TT) = 1 - 1/4 - 1/4 = 1/2
+```
+
+---
+
+### 🎯 Example 2: Red & Blue Balls
+
+```math
+P = (5/8) × (3/7) = 15/56
+```
+
+---
+
+### 🎯 Example 3: Divisible by 2 or 3
+
+```math
+P = 1/2 + 1/3 - 1/6 = 5/6
+```
+
+---
+
+### 🎯 Example 4: Face Card or Heart
+
+```math
+P = 12/52 + 13/52 - 3/52 = 11/26
+```
+
+---
+
+### 🎯 Example 5: Sum > 9 (Two Dice)
+
+```math
+P = 6/36 = 1/6
+```
+
+---
+
+## 🧪 Practice Problems
+
+Try solving these:
+
+1. Probability of red or green ball
+2. Two heads in two tosses
+3. Not drawing a heart
+4. Face card being a spade
+
+**Answers:**
+
+```
+1. 0.8
+2. 0.25
+3. 0.75
+4. 0.25
 ```
 
 ---
 
 ## 📊 Key Probability Functions
 
-| Function | Use Case               | Example        |
-| -------- | ---------------------- | -------------- |
-| PMF      | Discrete variables     | Spam detection |
-| PDF      | Continuous variables   | Sensor data    |
-| CDF      | Cumulative probability | Risk scoring   |
-
----
-
-## 🔍 Likelihood
-
-```math
-L(\theta|X) = \prod_{i=1}^{n} P(x_i|\theta)
-```
-
-Log form:
-
-```math
-\log L(\theta|X) = \sum_{i=1}^{n} \log P(x_i|\theta)
-```
-
-Used in **Maximum Likelihood Estimation (MLE)**.
-
----
-
-## 🔥 Entropy
-
-```math
-H(X) = -\sum P(x_i)\log P(x_i)
-```
-
-* High → More uncertainty
-* Low → Less uncertainty
-
----
-
-## 📏 Confidence Interval
-
-```math
-\bar{x} \pm z \frac{s}{\sqrt{n}}
-```
-
----
-
-## 📈 Probability Distributions
-
-* 🎯 **Bernoulli** → Binary outcome
-* 🎲 **Binomial** → Multiple trials
-* ⏱️ **Geometric** → First success
-* 📉 **Poisson** → Rare events
-* 📏 **Uniform** → Equal probability
-* ⌛ **Exponential** → Time between events
-* 🔔 **Normal (Gaussian)** → Bell curve
+| Function | Use                    |
+| -------- | ---------------------- |
+| PMF      | Discrete variables     |
+| PDF      | Continuous variables   |
+| CDF      | Cumulative probability |
 
 ---
 
 ## 🤖 ML Algorithms Using Probability
 
-* 📧 **Naive Bayes** → Spam detection
-* 🗣️ **HMM** → Speech recognition
-* 🧩 **Bayesian Networks** → Decision making
-* 📊 **GMM** → Clustering
+* 📧 Naive Bayes
+* 🗣️ Hidden Markov Models
+* 🧩 Bayesian Networks
+* 📊 Gaussian Mixture Models
 
 ---
 
@@ -151,33 +208,52 @@ H(X) = -\sum P(x_i)\log P(x_i)
 
 ✔ Handles uncertainty
 ✔ Improves predictions
-✔ Supports decision-making
-✔ Core of machine learning
+✔ Core ML foundation
+✔ Enables decision-making
+
+---
+
+## 📂 Project Structure
+
+```
+📁 Basic-Probability
+ ├── README.md
+ ├── examples/
+ ├── notebooks/
+ └── datasets/
+```
+
+---
+
+## 🛠️ Getting Started
+
+```bash
+git clone https://github.com/your-username/your-repo.git
+cd your-repo
+```
 
 ---
 
 ## 🤝 Contributing
 
-Contributions are welcome!
-
-1. Fork the repo
-2. Create a new branch
+1. Fork repo
+2. Create branch
 3. Commit changes
-4. Open a PR
+4. Open PR
 
 ---
 
 ## 📜 License
 
-This project is licensed under the **MIT License**.
+MIT License
 
 ---
 
 ## ⭐ Support
 
-If you like this project:
+If you found this useful:
 
-👉 Give it a ⭐ on GitHub
+👉 Star ⭐ the repo
 👉 Share with others
 
 ---
