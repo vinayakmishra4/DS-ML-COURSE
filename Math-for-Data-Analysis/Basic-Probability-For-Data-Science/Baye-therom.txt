@@ -1,24 +1,87 @@
-Question on the Bayes therom
+BAYES' THEOREM PRACTICE QUESTIONS WITH ANSWERS
 
-Question 1:
-* 1% of people have a disease → P(A) = 0.01
-* The test correctly detects the disease 99% of the time → P(B|A) = 0.99
-* The test falsely shows positive in 5% of healthy people → P(B|not A) = 0.05
+---
 
-Step 1: Find total probability of testing positive
+Q1. Basic Probability Check
+A bag contains 3 red balls and 2 blue balls. One ball is drawn at random.
+Given that the ball drawn is red, what is the probability that it came from this bag?
 
-A positive result can happen in two ways:
+Answer:
+Since there is only one bag, the probability is = 1
 
-1. Person has the disease and tests positive
-2. Person is healthy but still tests positive
+---
 
-P(B) = (0.99 × 0.01) + (0.05 × 0.99)
-P(B) = 0.0099 + 0.0495 = 0.0594
+Q2. Direct Bayes Application
+Given:
+P(A) = 0.4
+P(B|A) = 0.5
+P(B) = 0.2
 
-Step 2: Apply Bayes’ Theorem
+Find P(A|B).
 
-P(A|B) = (0.99 × 0.01) / 0.0594
-P(A|B) = 0.0099 / 0.0594 ≈ 0.1667
+Answer:
+P(A|B) = (P(B|A) × P(A)) / P(B)
+= (0.5 × 0.4) / 0.2
+= 0.2 / 0.2
+= 1
 
-Final Result:
-Even after testing positive, the probability of actually having the disease is about 16.7%.
+---
+
+Q3. Medical Test Problem
+A disease affects 2% of the population. A test has:
+
+* 95% sensitivity (P(+|D))
+* 10% false positive rate (P(+|¬D))
+
+If a person tests positive, what is the probability they actually have the disease?
+
+Answer:
+P(+) = (0.95 × 0.02) + (0.10 × 0.98)
+= 0.019 + 0.098
+= 0.117
+
+P(D|+) = 0.019 / 0.117 ≈ 0.162
+
+Final Answer ≈ 16.2%
+
+---
+
+Q4. Machine Defect Problem
+A factory has two machines:
+
+* Machine A produces 60% of items with a 3% defect rate
+* Machine B produces 40% of items with a 5% defect rate
+
+If a randomly selected item is defective, find the probability it was produced by Machine A.
+
+Answer:
+P(D) = (0.6 × 0.03) + (0.4 × 0.05)
+= 0.018 + 0.020
+= 0.038
+
+P(A|D) = (0.6 × 0.03) / 0.038
+= 0.018 / 0.038 ≈ 0.474
+
+Final Answer ≈ 47.4%
+
+---
+
+Q5. Multiple Boxes Problem
+There are three boxes:
+
+* Box 1: 2 red balls, 1 blue ball
+* Box 2: 1 red ball, 2 blue balls
+* Box 3: 3 red balls, 0 blue balls
+
+A box is chosen at random, and a red ball is drawn.
+Find the probability that the ball came from Box 3.
+
+Answer:
+P(R) = (1/3 × 2/3) + (1/3 × 1/3) + (1/3 × 1)
+= 2/9 + 1/9 + 3/9
+= 6/9 = 2/3
+
+P(Box 3 | R) = (1 × 1/3) / (2/3)
+= 1/2
+
+Final Answer = 0.5
