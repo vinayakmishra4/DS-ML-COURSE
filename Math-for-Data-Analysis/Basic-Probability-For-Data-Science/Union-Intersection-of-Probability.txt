@@ -1,0 +1,26 @@
+Union & Intersection of Probability – Detailed Answers
+
+1.  Die Problem Sample space = {1,2,3,4,5,6} A = even numbers = {2,4,6}
+    B = numbers > 4 = {5,6}
+
+P(A) = 3/6 = 1/2 P(B) = 2/6 = 1/3 P(A ∩ B) = {6} = 1/6 P(A ∪ B) = P(A) +
+P(B) - P(A ∩ B) = 1/2 + 1/3 - 1/6 = 2/3
+
+2.  Students Problem P(A) = 0.6 P(B) = 0.5 P(A ∩ B) = 0.3
+
+P(A ∪ B) = P(A) + P(B) - P(A ∩ B) = 0.6 + 0.5 - 0.3 = 0.8
+
+3.  Two Coins Sample space = {HH, HT, TH, TT} A = at least one head =
+    {HH, HT, TH} B = two heads = {HH}
+
+P(A) = 3/4 P(B) = 1/4 P(A ∩ B) = 1/4 P(A ∪ B) = 3/4
+
+4.  Cards Problem Total cards = 52 A = hearts = 13 cards B = kings = 4
+    cards
+
+P(A) = 13/52 = 1/4 P(B) = 4/52 = 1/13 P(A ∩ B) = 1/52 (king of hearts)
+P(A ∪ B) = 1/4 + 1/13 - 1/52 = 4/13
+
+5.  Independent Events P(A) = 0.4 P(B) = 0.5
+
+P(A ∩ B) = P(A) × P(B) = 0.2 P(A ∪ B) = 0.4 + 0.5 - 0.2 = 0.7
