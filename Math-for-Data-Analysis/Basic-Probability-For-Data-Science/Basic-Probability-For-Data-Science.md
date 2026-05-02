@@ -1,179 +1,248 @@
-# 📊 Basic Probability for Data Science (Theory)
+# 📊 Basic Probability for Data Science — Clean Notes
 
 ---
 
-## 📌 Overview
+## 🌟 Overview
 
-Probability is a branch of mathematics that deals with **uncertainty and randomness**. It provides a framework to model, analyze, and predict outcomes in situations where results are not deterministic.
+Probability is the mathematical language of uncertainty. It helps us quantify how likely something is to happen when outcomes are not fixed.
 
-In data science and machine learning, probability is used to:
+In data science, probability is essential for:
 
-* Model uncertainty
-* Make predictions
-* Analyze data patterns
-* Support decision-making
+- Predicting outcomes  
+- Understanding data patterns  
+- Making decisions under uncertainty  
+- Building machine learning models  
 
 ---
 
-## 🧮 Definition of Probability
+## 🧮 Probability Definition
 
-Probability measures the likelihood of an event occurring.
+At its core:
 
-[
-P(A) = \frac{\text{Number of Favorable Outcomes}}{\text{Total Number of Outcomes}}
-]
+```
+P(A) = Favorable Outcomes / Total Outcomes
+```
 
-* ( P(A) = 0 ) → Impossible event
-* ( P(A) = 1 ) → Certain event
+**Interpretation:**
+
+- `P(A) = 0` → Impossible event  
+- `P(A) = 1` → Certain event  
 
 ---
 
 ## 🧠 Fundamental Concepts
 
-### Sample Space
+### 🔹 Sample Space (S)
 
-The set of all possible outcomes of an experiment.
+Set of all possible outcomes.
 
-### Event
+---
 
-A subset of the sample space representing one or more outcomes.
+### 🔹 Event
 
-### Random Variable
+A subset of the sample space.
 
-A variable that assigns numerical values to outcomes of a random process.
+---
 
-### Experiment
+### 🔹 Random Variable
 
-A process that produces observable outcomes under uncertain conditions.
+A variable that assigns numerical values to outcomes.
+
+---
+
+### 🔹 Experiment
+
+A process that produces outcomes under uncertainty.
 
 ---
 
 ## 📐 Types of Probability
 
-### 1. Classical Probability
-
-Based on equally likely outcomes.
-
-### 2. Empirical Probability
-
-Based on observed data and experiments.
-
-### 3. Subjective Probability
-
-Based on personal belief or experience.
+| Type        | Description                          |
+|------------|--------------------------------------|
+| Classical   | Based on equally likely outcomes     |
+| Empirical   | Based on observed data               |
+| Subjective  | Based on belief or experience        |
 
 ---
 
 ## 📊 Probability Rules
 
-### Addition Rule
+### ➕ Addition Rule
 
-For any two events:
+For mutually exclusive events:
 
-[
-P(A \cup B) = P(A) + P(B) - P(A \cap B)
-]
-
-If events are mutually exclusive:
-
-[
-P(A \cup B) = P(A) + P(B)
-]
+```
+P(A ∪ B) = P(A) + P(B)
+```
 
 ---
 
-### Multiplication Rule
+### ✖️ Multiplication Rule
 
-#### Independent Events
+**Independent Events:**
 
-[
-P(A \cap B) = P(A) \times P(B)
-]
+```
+P(A ∩ B) = P(A) × P(B)
+```
 
-#### Dependent Events
+**Dependent Events:**
 
-[
-P(A \cap B) = P(A) \times P(B|A)
-]
+```
+P(A ∩ B) = P(A) × P(B|A)
+```
 
 ---
 
-### Complement Rule
+### 🔁 Complement Rule
 
-[
+```
 P(A') = 1 - P(A)
-]
+```
 
 ---
 
-### Conditional Probability
+### 🔗 Conditional Probability
 
-[
-P(A|B) = \frac{P(A \cap B)}{P(B)}
-]
+```
+P(B|A) = P(A ∩ B) / P(A)
+```
 
 ---
 
-## 🔗 Independence of Events
+### 🔗 Independence of Events
 
-Two events are independent if the occurrence of one does not affect the probability of the other.
+Two events are independent if:
 
-[
-P(A \cap B) = P(A) \times P(B)
-]
+```
+P(A ∩ B) = P(A) × P(B)
+```
 
 ---
 
 ## 📊 Probability Distributions
 
-### PMF (Probability Mass Function)
-
-Used for discrete random variables.
-
-### PDF (Probability Density Function)
-
-Used for continuous random variables.
-
-### CDF (Cumulative Distribution Function)
-
-Represents cumulative probability up to a value.
+| Type | Use                  |
+|------|----------------------|
+| PMF  | Discrete variables   |
+| PDF  | Continuous variables |
+| CDF  | Cumulative probability |
 
 ---
 
-## 🤖 Role in Data Science & Machine Learning
+## 🤖 Role in Data Science
 
-Probability forms the backbone of many algorithms and techniques, including:
+Probability powers:
 
-* Classification models
-* Statistical inference
-* Predictive modeling
-* Uncertainty estimation
-
-It enables systems to make decisions under incomplete or uncertain information.
+- Classification models  
+- Predictive analytics  
+- Statistical inference  
+- Uncertainty estimation  
 
 ---
 
-## 🚀 Importance
+## 🚀 Why It Matters
 
-* Helps quantify uncertainty
-* Supports data-driven decisions
-* Essential for statistical modeling
-* Core foundation for machine learning
+- Quantifies uncertainty  
+- Enables better decisions  
+- Forms the base of machine learning  
+- Supports statistical modeling  
 
 ---
 
 ## 📚 Prerequisites
 
-* Basic mathematics
-* Understanding of sets and functions
+- Basic mathematics  
+- Sets and functions  
 
 ---
 
-## 🔜 Next Topics
+## 🔜 What’s Next
 
-* Bayes’ Theorem
-* Random Variables
-* Probability Distributions
-* Statistical Inference
+- Bayes’ Theorem  
+- Random Variables  
+- Probability Distributions  
+- Statistical Inference  
 
 ---
+
+# 🧩 Events in Probability (Extended Notes)
+
+---
+
+## 📌 Event Definition
+
+An event is a set of outcomes from a random experiment.
+
+---
+
+## 🎯 Sample Space (S)
+
+All possible outcomes.
+
+---
+
+## 🔢 Types of Events
+
+### 1️⃣ Impossible & Sure Events
+
+- Impossible → Probability = 0  
+- Sure → Probability = 1  
+
+---
+
+### 2️⃣ Independent & Dependent Events
+
+- Independent → No influence between events  
+- Dependent → Outcome depends on previous result  
+
+---
+
+### 3️⃣ Simple & Compound Events
+
+- Simple → One outcome  
+- Compound → Multiple outcomes  
+
+---
+
+### 4️⃣ Mutually Exclusive Events
+
+Cannot occur together:
+
+```
+A ∩ B = ∅
+```
+
+---
+
+### 5️⃣ Exhaustive Events
+
+Together cover the entire sample space:
+
+```
+A ∪ B = S
+```
+
+---
+
+### 6️⃣ Equally Likely Events
+
+All outcomes have equal probability.
+
+---
+
+## 🧮 Finding Probability
+
+```
+P(A) = Favorable Outcomes / Total Outcomes
+```
+
+---
+
+## ✨ Summary
+
+Probability is the backbone of data science. Mastering these basics builds a strong foundation for:
+
+- Machine learning  
+- Statistical analysis  
+- Real-world decision-making  
