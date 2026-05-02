@@ -1,0 +1,76 @@
+Independent and Dependent Events 
+
+
+Q1. Coin + Die (Independent events)
+
+* Coin → P(Head) = 1/2
+* Die → P(4) = 1/6
+* Independent ⇒ multiply
+    👉 1/2 × 1/6 = 1/12
+
+✔️ Nothing changes between events.
+
+⸻
+
+Q2. Two Kings (with replacement)
+
+* Total cards = 52, Kings = 4
+* First draw: P(King) = 4/52
+* Card is replaced, so second draw is same
+* Second draw: P(King) = 4/52
+
+👉 Multiply:
+\frac{4}{52} \times \frac{4}{52} = \frac{16}{2704} = \frac{1}{169}
+
+✔️ Replacement ⇒ independent
+
+⸻
+
+Q3. Two Red Balls (without replacement)
+
+* Total = 8 balls (5 red, 3 blue)
+
+Step 1: First red
+P = 5/8
+
+Step 2: One red is gone → now 4 red out of 7
+P = 4/7
+
+👉 Multiply:
+\frac{5}{8} \times \frac{4}{7} = \frac{20}{56} = \frac{5}{14}
+
+✔️ No replacement ⇒ dependent (numbers change)
+
+⸻
+
+Q4. Two Girls (without replacement)
+
+* Total students = 10 (4 girls, 6 boys)
+
+Step 1: First girl
+P = 4/10
+
+Step 2: One girl removed → 3 girls out of 9
+P = 3/9
+
+👉 Multiply:
+\frac{4}{10} \times \frac{3}{9} = \frac{12}{90} = \frac{2}{15}
+
+✔️ Again dependent
+
+⸻
+
+Q5. Green then White (without replacement)
+
+* Total = 10 balls (3 green, 2 yellow, 5 white)
+
+Step 1: Green
+P = 3/10
+
+Step 2: One ball removed → total = 9, white still 5
+P = 5/9
+
+👉 Multiply:
+\frac{3}{10} \times \frac{5}{9} = \frac{15}{90} = \frac{1}{6}
+
+⸻
