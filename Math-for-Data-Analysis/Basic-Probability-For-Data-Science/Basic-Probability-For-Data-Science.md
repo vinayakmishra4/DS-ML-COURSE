@@ -1,32 +1,31 @@
-# 📊 Basic Probability for Data Science — Clean Notes
+# 📊 Basic Probability for Data Science
 
 ---
 
 ## 🌟 Overview
 
-Probability is the mathematical language of uncertainty. It helps us quantify how likely something is to happen when outcomes are not fixed.
+Probability is the mathematical framework for measuring uncertainty. It allows us to quantify how likely an event is to occur when outcomes are not deterministic.
 
 In data science, probability is essential for:
 
-- Predicting outcomes  
-- Understanding data patterns  
-- Making decisions under uncertainty  
-- Building machine learning models  
+* Predicting outcomes
+* Understanding data patterns
+* Making decisions under uncertainty
+* Building machine learning models
 
 ---
 
 ## 🧮 Probability Definition
 
-At its core:
-
 ```
 P(A) = Favorable Outcomes / Total Outcomes
 ```
 
-**Interpretation:**
+### 📌 Interpretation
 
-- `P(A) = 0` → Impossible event  
-- `P(A) = 1` → Certain event  
+* `P(A) = 0` → Impossible event
+* `P(A) = 1` → Certain event
+* `0 < P(A) < 1` → Likely event
 
 ---
 
@@ -34,7 +33,7 @@ P(A) = Favorable Outcomes / Total Outcomes
 
 ### 🔹 Sample Space (S)
 
-Set of all possible outcomes.
+The set of all possible outcomes of an experiment.
 
 ---
 
@@ -58,11 +57,11 @@ A process that produces outcomes under uncertainty.
 
 ## 📐 Types of Probability
 
-| Type        | Description                          |
-|------------|--------------------------------------|
-| Classical   | Based on equally likely outcomes     |
-| Empirical   | Based on observed data               |
-| Subjective  | Based on belief or experience        |
+| Type       | Description                      |
+| ---------- | -------------------------------- |
+| Classical  | Based on equally likely outcomes |
+| Empirical  | Based on observed data           |
+| Subjective | Based on belief or experience    |
 
 ---
 
@@ -122,10 +121,10 @@ P(A ∩ B) = P(A) × P(B)
 
 ## 📊 Probability Distributions
 
-| Type | Use                  |
-|------|----------------------|
-| PMF  | Discrete variables   |
-| PDF  | Continuous variables |
+| Type | Use                    |
+| ---- | ---------------------- |
+| PMF  | Discrete variables     |
+| PDF  | Continuous variables   |
 | CDF  | Cumulative probability |
 
 ---
@@ -134,39 +133,39 @@ P(A ∩ B) = P(A) × P(B)
 
 Probability powers:
 
-- Classification models  
-- Predictive analytics  
-- Statistical inference  
-- Uncertainty estimation  
+* Classification models
+* Predictive analytics
+* Statistical inference
+* Uncertainty estimation
 
 ---
 
 ## 🚀 Why It Matters
 
-- Quantifies uncertainty  
-- Enables better decisions  
-- Forms the base of machine learning  
-- Supports statistical modeling  
+* Helps quantify uncertainty
+* Enables better decision-making
+* Forms the foundation of machine learning
+* Supports statistical modeling
 
 ---
 
 ## 📚 Prerequisites
 
-- Basic mathematics  
-- Sets and functions  
+* Basic mathematics
+* Understanding of sets and functions
 
 ---
 
 ## 🔜 What’s Next
 
-- Bayes’ Theorem  
-- Random Variables  
-- Probability Distributions  
-- Statistical Inference  
+* Bayes’ Theorem
+* Random Variables
+* Probability Distributions
+* Statistical Inference
 
 ---
 
-# 🧩 Events in Probability (Extended Notes)
+# 🧩 Events in Probability
 
 ---
 
@@ -186,28 +185,28 @@ All possible outcomes.
 
 ### 1️⃣ Impossible & Sure Events
 
-- Impossible → Probability = 0  
-- Sure → Probability = 1  
+* Impossible → Probability = 0
+* Sure → Probability = 1
 
 ---
 
 ### 2️⃣ Independent & Dependent Events
 
-- Independent → No influence between events  
-- Dependent → Outcome depends on previous result  
+* Independent → No influence between events
+* Dependent → Outcome depends on previous results
 
 ---
 
 ### 3️⃣ Simple & Compound Events
 
-- Simple → One outcome  
-- Compound → Multiple outcomes  
+* Simple → Single outcome
+* Compound → Multiple outcomes
 
 ---
 
 ### 4️⃣ Mutually Exclusive Events
 
-Cannot occur together:
+Events that cannot occur together:
 
 ```
 A ∩ B = ∅
@@ -217,7 +216,7 @@ A ∩ B = ∅
 
 ### 5️⃣ Exhaustive Events
 
-Together cover the entire sample space:
+Events that together cover the entire sample space:
 
 ```
 A ∪ B = S
@@ -239,10 +238,11 @@ P(A) = Favorable Outcomes / Total Outcomes
 
 ---
 
-## ✨ Summary
+## ✨ Final Summary
 
-Probability is the backbone of data science. Mastering these basics builds a strong foundation for:
+* Probability measures uncertainty
+* Events describe outcomes
+* Rules help compute likelihoods
+* Core foundation for data science and machine learning
 
-- Machine learning  
-- Statistical analysis  
-- Real-world decision-making  
+---
