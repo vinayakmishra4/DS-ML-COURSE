@@ -1,0 +1,37 @@
+Permutation and Combination 
+
+1. How many ways can 3 students be selected from 5 students?
+   Answer: 10 ways
+   Explanation: Since selection is required and order does not matter, we use combination.
+   ( 5C3 = \frac{5!}{3!2!} = \frac{120}{6 \times 2} = 10 )
+
+---
+
+2. How many ways can 2 prizes be given to 4 students (first and second prize)?
+   Answer: 12 ways
+   Explanation: First and second prize are different, so order matters. We use permutation.
+   ( 4P2 = \frac{4!}{(4-2)!} = \frac{24}{2} = 12 )
+
+---
+
+3. In how many ways can the letters of the word "CAT" be arranged?
+   Answer: 6 ways
+   Explanation: All letters are different, so total arrangements = ( 3! = 6 )
+
+---
+
+4. How many combinations of 2 items can be chosen from 6 items?
+   Answer: 15 ways
+   Explanation: Order does not matter, so we use combination.
+   ( 6C2 = \frac{6!}{2!4!} = \frac{720}{2 \times 24} = 15 )
+
+---
+
+5. How many 3-digit numbers can be formed using digits 1, 2, 3, 4 without repetition?
+   Answer: 24 numbers
+   Explanation: Forming numbers means order matters, so we use permutation.
+   ( 4P3 = \frac{4!}{(4-3)!} = \frac{24}{1} = 24 )
+
+---
+
+If you want, I can make **harder questions** or give **shortcut tricks for exams** 👍
