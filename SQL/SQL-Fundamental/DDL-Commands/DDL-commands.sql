@@ -31,6 +31,10 @@ ALTER TABLE employees DROP COLUMN hire_date;
 
 ALTER TABLE employees RENAME COLUMN job_title TO position;
 
--- Rename the table 
+-- Rename 
 
-rename table employess to staff
+rename table employess to staff;
+
+-- Drop COMMENT
+
+drop table staff;
