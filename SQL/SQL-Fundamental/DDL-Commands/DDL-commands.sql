@@ -21,4 +21,4 @@ CREATE TABLE employees (
 
 -- Add a new column for department
 
-ALTER TABLE employees ADD COLUMN department VARCHAR(50);
+ALTER TABLE employees ADD department VARCHAR(50);
