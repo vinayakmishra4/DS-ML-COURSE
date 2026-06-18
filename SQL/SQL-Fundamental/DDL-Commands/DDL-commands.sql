@@ -22,3 +22,15 @@ CREATE TABLE employees (
 -- Add a new column for department
 
 ALTER TABLE employees ADD department VARCHAR(50);
+
+-- drop the hire_date column
+
+ALTER TABLE employees DROP COLUMN hire_date;
+
+-- Rename the job_title column to position for mysql 
+
+ALTER TABLE employees RENAME COLUMN job_title TO position;
+
+-- Rename the table 
+
+rename table employess to staff
