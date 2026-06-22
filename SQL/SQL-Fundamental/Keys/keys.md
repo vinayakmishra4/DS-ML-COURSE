@@ -1,5 +1,3 @@
-I've redesigned the README to be more **documentation-focused**, **informative**, and **GitHub-friendly**, while removing all code blocks and examples written as code.
-
 # 🔑 Introduction to Keys in Database Management Systems (DBMS)
 
 ## 📖 What are Keys?
