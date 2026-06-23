@@ -28,4 +28,15 @@ select SUM(salary) as unqiue_salary from employees;
 
 select AVG(salary) as avg_salary, AVG(EmpID) as avg_employee from employees;
 
+-- 4 Minimum of salary
+
+SELECT MIN(salary) as minimun_salary from employees;
+
+-- 5 Maximum of Salary 
+
+SELECT MAX(salary) as maximum_salary from employees;
+
+
+
+
 
