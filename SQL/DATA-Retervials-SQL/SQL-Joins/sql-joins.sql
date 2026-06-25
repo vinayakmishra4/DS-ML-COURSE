@@ -18,13 +18,31 @@ CREATE TABLE Departments (
 );
 
 
--- INNER JION 
+-- INNER JOIN
 
 -- Display employee names and salary along with their department names
 
 select Employees.EmployeeName as Name,Departments.DepartmentName as department,Employees.Salary as Salary
 from Employees
-INNER JOIN Departments ON Employees.EmployeeID=Departments.EmployeeID;
+INNER JOIN Departments 
+ON Employees.EmployeeID=Departments.EmployeeID;
 
+-- LEFT JOIN
+
+-- Display all employees and their department names (if assigned)
+
+select Employees.EmployeeName as Name,Departments.DepartmentName as department,Employees.Salary as Salary
+from Employees
+LEFT JOIN Departments 
+ON Employees.EmployeeID=Departments.EmployeeID;
+
+-- RIGHT JOIN
+
+-- Display all departments and their corresponding employee names
+
+select Employees.EmployeeName as Name,Departments.DepartmentName as department,Employees.Salary as Salary
+from Employees
+LEFT JOIN Departments 
+ON Employees.EmployeeID=Departments.EmployeeID;
 
 
