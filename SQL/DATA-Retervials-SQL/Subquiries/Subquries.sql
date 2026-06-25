@@ -29,5 +29,17 @@ WHERE salary > (
 
 -- 4.Scalar Subquery
 
+-- Select
 
+SELECT employee_name,salary,
+       (SELECT AVG(salary) FROM Employees) AS avg_salary
+FROM Employees;
 
+-- Clause 
+
+SELECT employee_name
+FROM Employees
+WHERE salary > (
+    SELECT AVG(salary)
+    FROM Employees
+);
