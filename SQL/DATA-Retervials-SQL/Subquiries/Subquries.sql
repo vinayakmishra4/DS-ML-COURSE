@@ -16,3 +16,18 @@ WHERE department_id IN (
     FROM Departments
     WHERE location = 'Delhi'
 );
+
+-- 3. Correlated Subquery
+
+SELECT e1.name
+FROM Employees e1
+WHERE salary > (
+    SELECT AVG(salary)
+    FROM Employees e2
+    WHERE e2.department_id = e1.department_id
+);
+
+-- 4.Scalar Subquery
+
+
+
