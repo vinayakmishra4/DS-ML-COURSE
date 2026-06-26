@@ -1,123 +1,176 @@
+<div align="center">
 
-# 🌟 **Data Science & Machine Learning Course**
+# 🌟 Data Science & Machine Learning Course
 
-### 🚀 *From Beginner to Industry-Ready Data Scientist*
+### 🚀 From Beginner to Industry-Ready Data Scientist
+
+![Language](https://img.shields.io/badge/Language-Python-blue?style=for-the-badge)
+![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
+![Status](https://img.shields.io/badge/Status-In%20Progress-orange?style=for-the-badge)
+![PRs Welcome](https://img.shields.io/badge/PRs-Welcome-orange?style=for-the-badge)
+
+</div>
 
 ---
 
-## ✨ **Why This Course?**
+## ✨ Why This Course?
 
 This course is designed to take you from **zero coding knowledge to job-ready Data Scientist**.
 You will learn through **hands-on coding, real datasets, and practical projects**.
 Each module builds your skills step-by-step in a structured way.
 
----
-
-## 🧭 **Course Roadmap**
-
-Python → Data Analysis → Visualization → Preprocessing → Machine Learning → Deep Learning → NLP → Capstone Projects
+> 💡 **New here?** Skip to [How to Use This Repo](#-how-to-use-this-repo) for a quick start before diving into the modules.
 
 ---
 
-# 🧰 **Module 1: Python for Data Science**
+## 🧭 Course Roadmap
+
+```
+  Python   →  Data Analysis  →  Visualization  →  Preprocessing
+(Fundamentals)  (Pandas/NumPy)    (Matplotlib)     (Cleaning)
+
+                          ↓
+
+ Machine Learning  →  Deep Learning  →  NLP  →  Capstone Projects
+   (coming soon)       (coming soon)  (coming soon)  (coming soon)
+```
 
 ---
 
-## 🐍 **Python Fundamentals**
+## 📑 Table of Contents
+
+| Section | Link |
+|---|---|
+| How to Use This Repo | [Go](#-how-to-use-this-repo) |
+| Prerequisites | [Go](#-prerequisites) |
+| Module 1: Python for Data Science | [Go](#-module-1-python-for-data-science) |
+| Module 2: Foundation of Data Analysis | [Go](#-module-2-foundation-of-data-analysis) |
+| Module 2 Projects | [Go](#-module-2-projects) |
+| Coming Next Modules | [Go](#-coming-next-modules) |
+| What You'll Learn | [Go](#-what-youll-learn) |
+| FAQ | [Go](#-faq) |
+| Contributing | [Go](#-contributing) |
+| License | [Go](#-license) |
+
+---
+
+## 🧭 How to Use This Repo
+
+1. **Start with Module 1** and work through each topic in order — every section links to a short explanation plus the actual code/notes.
+2. Each topic includes 2–3 lines explaining *why it matters*, not just *what it is* — read that before jumping to the link.
+3. After finishing both modules, try the **Module 2 Projects** to apply what you've learned on real datasets.
+4. New modules (Machine Learning, Deep Learning, NLP, Capstone) are listed under [Coming Next Modules](#-coming-next-modules) — check back as they're added.
+
+---
+
+## ⚙️ Prerequisites
+
+- 🐍 **Python 3.8 or above**
+- 📓 **Jupyter Notebook** (setup covered in Module 1)
+- 💻 **A code editor** — VS Code, PyCharm, or Jupyter itself
+- 🧠 **No prior data science experience needed** — this course starts from zero
+
+---
+
+# 🧰 Module 1: Python for Data Science
+
+---
+
+## 🐍 Python Fundamentals
 
 Learn the core concepts of Python programming.
 Covers variables, loops, functions, and OOP basics.
 Build strong logic through hands-on practice.
-🔗 [Start Learning](https://www.google.com/search?q=https://github.com/vinayakmishra4/DS-ML-COURSE/blob/main/Python-for-Data-Science/Python-Fundmentals/README.md)
+🔗 [Start Learning](https://github.com/vinayakmishra4/DS-ML-COURSE/blob/main/Python-for-Data-Science/Python-Fundmentals/README.md)
 
 ---
 
-## 📂 **Jupyter Notebook Setup**
+## 📂 Jupyter Notebook Setup
 
 Set up and use Jupyter Notebook for data science workflows.
 Learn how to write and execute interactive Python code.
 Essential tool for analysis and experimentation.
-🔗 [Setup Guide](https://www.google.com/search?q=https://github.com/vinayakmishra4/DS-ML-COURSE/blob/main/Python-for-Data-Science/File-Management-System/Jupyter-Notebook-Setup/README.md)
+🔗 [Setup Guide](https://github.com/vinayakmishra4/DS-ML-COURSE/blob/main/Python-for-Data-Science/File-Management-System/Jupyter-Notebook-Setup/README.md)
 
 ---
 
-## 📝 **File Handling in Python**
+## 📝 File Handling in Python
 
 Learn how to read and write files using Python.
 Work with text files and structured data storage.
 Important for real-world data processing tasks.
-🔗 [Learn File Handling](https://www.google.com/search?q=https://github.com/vinayakmishra4/DS-ML-COURSE/blob/main/Python-for-Data-Science/File-Management-System/Play-Data-in-Files/README.md)
+🔗 [Learn File Handling](https://github.com/vinayakmishra4/DS-ML-COURSE/blob/main/Python-for-Data-Science/File-Management-System/Play-Data-in-Files/README.md)
 
 ---
 
-## 🖥️ **OS Commands**
+## 🖥️ OS Commands
 
 Master essential command-line operations.
 Navigate directories, manage files, and automate tasks.
 Useful for developers and data professionals.
-🔗 [Learn OS Commands](https://www.google.com/search?q=https://github.com/vinayakmishra4/DS-ML-COURSE/tree/main/Python-for-Data-Science/File-Management-System/Getting-Strat-OS)
+🔗 [Learn OS Commands](https://github.com/vinayakmishra4/DS-ML-COURSE/tree/main/Python-for-Data-Science/File-Management-System/Getting-Strat-OS)
 
 ---
 
-## 🧩 **Module 1 Project**
+## 🧩 Module 1 Project
 
 Build a real-world Inventory Management System.
 Includes file handling, product tracking, and modular design.
 Available in text file and JSON versions.
-🔗 [View Project](https://www.google.com/search?q=https://github.com/vinayakmishra4/Mini-Project-Inventory-Management-System-Using-Text-Files)
+🔗 [View Project](https://github.com/vinayakmishra4/Mini-Project-Inventory-Management-System-Using-Text-Files)
 
 ---
 
-# 📊 **Module 2: Foundation of Data Analysis**
+# 📊 Module 2: Foundation of Data Analysis
 
 ---
 
-## 🐼 **Pandas**
+## 🐼 Pandas
 
 Learn data manipulation using Pandas library.
 Work with DataFrames, cleaning, and exploratory data analysis.
 Essential for real-world data science workflows.
-🔗 [Learn Pandas](https://www.google.com/search?q=https://github.com/vinayakmishra4/DS-ML-COURSE/blob/main/Foundation%2520of%2520Data%2520Analysis/Pandas/Readme.md)
+🔗 [Learn Pandas](https://github.com/vinayakmishra4/DS-ML-COURSE/blob/main/Foundation%20of%20Data%20Analysis/Pandas/Readme.md)
 
 ---
 
-## 🔢 **NumPy**
+## 🔢 NumPy
 
 Master numerical computing with NumPy arrays.
 Covers vectorization, broadcasting, and mathematical operations.
 Foundation for machine learning algorithms.
-🔗 [Learn NumPy](https://www.google.com/search?q=https://github.com/vinayakmishra4/DS-ML-COURSE/tree/main/Foundation%2520of%2520Data%2520Analysis/Numpy)
+🔗 [Learn NumPy](https://github.com/vinayakmishra4/DS-ML-COURSE/tree/main/Foundation%20of%20Data%20Analysis/Numpy)
 
 ---
 
-## 📉 **Matplotlib**
+## 📉 Matplotlib
 
 Visualize data using charts and graphs.
 Create line plots, bar charts, and histograms.
 Helps in understanding patterns and insights.
-🔗 [Learn Matplotlib](https://www.google.com/search?q=https://github.com/vinayakmishra4/DS-ML-COURSE/blob/main/Foundation%2520of%2520Data%2520Analysis/Matplotlib/Readme.md)
+🔗 [Learn Matplotlib](https://github.com/vinayakmishra4/DS-ML-COURSE/blob/main/Foundation%20of%20Data%20Analysis/Matplotlib/Readme.md)
 
 ---
 
-## 💻 **Data Exploration with Excel**
+## 💻 Data Exploration with Excel
 
 Analyze and clean datasets using Excel tools.
 Covers sorting, filtering, formulas, and data preparation.
 Helps convert raw data into structured insights.
-🔗 [Explore Excel](https://www.google.com/search?q=https://github.com/vinayakmishra4/DS-ML-COURSE/blob/main/Foundation%2520of%2520Data%2520Analysis/Data-Exploration-Excel/Exploring-Data/Readme.md)
+🔗 [Explore Excel](https://github.com/vinayakmishra4/DS-ML-COURSE/blob/main/Foundation%20of%20Data%20Analysis/Data-Exploration-Excel/Exploring-Data/Readme.md)
 
 ---
 
-## 🌐 **Web Scraping**
+## 🌐 Web Scraping
 
 Extract data from websites using Python.
 Uses requests and BeautifulSoup for HTML parsing.
 Useful for automation and dataset creation.
-🔗 [Learn Web Scraping](https://www.google.com/search?q=https://github.com/vinayakmishra4/DS-ML-COURSE/blob/main/Foundation%2520of%2520Data%2520Analysis/Web-Scrapping/Intro-to-Web-Scrapping/Readme.md)
+🔗 [Learn Web Scraping](https://github.com/vinayakmishra4/DS-ML-COURSE/blob/main/Foundation%20of%20Data%20Analysis/Web-Scrapping/Intro-to-Web-Scrapping/Readme.md)
 
 ---
 
-# 🧩 **Module 2 Projects**
+# 🧩 Module 2 Projects
 
 ---
 
@@ -125,7 +178,7 @@ Useful for automation and dataset creation.
 
 Analyze agricultural production trends across regions.
 Focus on data cleaning, visualization, and insights.
-🔗 [View Project](https://www.google.com/search?q=https://github.com/vinayakmishra4/Project-Sugarcane-Production)
+🔗 [View Project](https://github.com/vinayakmishra4/Project-Sugarcane-Production)
 
 ---
 
@@ -133,7 +186,7 @@ Focus on data cleaning, visualization, and insights.
 
 Analyze customer behavior and retail sales patterns.
 Identify top products, trends, and demographics.
-🔗 [View Project](https://www.google.com/search?q=https://github.com/vinayakmishra4/Project-Black-Firday-Sales-Analysis)
+🔗 [View Project](https://github.com/vinayakmishra4/Project-Black-Firday-Sales-Analysis)
 
 ---
 
@@ -141,7 +194,7 @@ Identify top products, trends, and demographics.
 
 Analyze medical data to study heart disease factors.
 Perform EDA and visualize health patterns.
-🔗 [View Project](https://www.google.com/search?q=https://github.com/vinayakmishra4/Project-Heart-Disease-Analysis)
+🔗 [View Project](https://github.com/vinayakmishra4/Project-Heart-Disease-Analysis)
 
 ---
 
@@ -149,7 +202,7 @@ Perform EDA and visualize health patterns.
 
 Analyze GDP trends across countries.
 Understand global economic patterns and comparisons.
-🔗 [View Project](https://www.google.com/search?q=https://github.com/vinayakmishra4/Project-Gross-Domestic-Product-Analysis)
+🔗 [View Project](https://github.com/vinayakmishra4/Project-Gross-Domestic-Product-Analysis)
 
 ---
 
@@ -157,19 +210,19 @@ Understand global economic patterns and comparisons.
 
 Scrape book data from websites using Python.
 Collect title, price, rating, and availability into CSV format.
-🔗 [View Project](https://www.google.com/search?q=https://github.com/your-username/book-scraper)
+🔗 View Project — 🚧 *TODO: placeholder link needs to be replaced with the real repo URL*
 
 ---
 
 ## 🌐 Wikipedia Scraper
 
-A Python project that takes a person’s name as input, searches for their Wikipedia page using Google, extracts paragraph content using BeautifulSoup, and saves it into a text file.
+A Python project that takes a person's name as input, searches for their Wikipedia page using Google, extracts paragraph content using BeautifulSoup, and saves it into a text file.
 
 🔹 Uses `requests` and `BeautifulSoup` for web scraping
 🔹 Automatically finds correct Wikipedia link (even with misspellings)
 🔹 Outputs clean text data into a `.txt` file
 
-👉 [View Project](https://www.google.com/search?q=https://github.com/vinayakmishra4/Project-Wikipedia-Scrapper/blob/main/README.md)
+👉 [View Project](https://github.com/vinayakmishra4/Project-Wikipedia-Scrapper/blob/main/README.md)
 
 ---
 
@@ -181,7 +234,7 @@ A Python-based automation tool that extracts stock images and metadata from dyna
 🔹 Downloads physical high-resolution image files directly to your local drive
 🔹 Exports extracted data (Tags, Likes, Comments, and URLs) to a ready-to-use `Pandas` Excel dataset
 
-👉 [View Project](https://www.google.com/search?q=https://github.com/vinayakmishra4/Stock-Image-Scraper-)
+👉 [View Project](https://github.com/vinayakmishra4/Stock-Image-Scraper-)
 
 ---
 
@@ -197,7 +250,7 @@ An end-to-end Python pipeline that automates the collection, cleaning, and visua
 
 ---
 
-# 🚀 **Coming Next Modules**
+# 🚀 Coming Next Modules
 
 * 📘 Machine Learning (Regression, Classification, Clustering)
 * 🧠 Deep Learning (Neural Networks, TensorFlow, Keras)
@@ -206,7 +259,7 @@ An end-to-end Python pipeline that automates the collection, cleaning, and visua
 
 ---
 
-# 🏁 **What You’ll Learn**
+# 🏁 What You'll Learn
 
 By completing this course, you will:
 
@@ -216,3 +269,40 @@ By completing this course, you will:
 * Develop complete end-to-end projects
 
 ---
+
+## ❓ FAQ
+
+**Do I need any coding experience to start?**
+No — Module 1 starts from the basics of Python itself. If you've never written code before, start there.
+
+**What's the difference between this and the 60-Day Python Challenge repo?**
+The 60-Day Challenge teaches core Python programming. This course assumes basic Python and focuses specifically on data science skills — Pandas, NumPy, visualization, and (soon) machine learning.
+
+**Are Machine Learning and Deep Learning modules available yet?**
+Not yet — they're listed under [Coming Next Modules](#-coming-next-modules) and will be added as they're completed.
+
+**Some project links say "TODO" — is something missing?**
+Only the Book Scraper project currently has a placeholder link while the real one is added. Everything else is live.
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome! Whether it's fixing a broken link, improving an explanation, or suggesting a new project:
+
+- Fork the repo
+- Create a feature branch
+- Commit your changes
+- Open a Pull Request 🚀
+
+---
+
+## 📜 License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+---
+
+<div align="center">
+  <b>Made with ❤️ by <a href="https://github.com/vinayakmishra4">Vinayak Mishra</a></b>
+</div>
