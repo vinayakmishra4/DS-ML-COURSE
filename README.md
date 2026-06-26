@@ -1,6 +1,7 @@
 <div align="center">
-  
-<img src="https://via.placeholder.com/1000x250/150458/FFFFFF?text=Data+Science+%26+Machine+Learning+Mastery" alt="DS & ML Course Banner" style="border-radius: 10px; margin-bottom: 20px;">
+
+<!-- This generates a cool, dynamic waving banner with your title -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=150458&height=250&section=header&text=Data%20Science%20%26%20Machine%20Learning&fontSize=50&fontColor=ffffff&animation=fadeIn" alt="DS & ML Course Banner" style="border-radius: 10px; margin-bottom: 20px;">
 
 # 🌟 Data Science & Machine Learning Mastery
 ### *From Absolute Beginner to Industry-Ready Data Scientist*
@@ -8,6 +9,7 @@
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue?style=for-the-badge&logo=python&logoColor=white)
 ![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-150458?style=for-the-badge&logo=pandas&logoColor=white)
 ![NumPy](https://img.shields.io/badge/NumPy-Math-013243?style=for-the-badge&logo=numpy&logoColor=white)
+![Scikit-Learn](https://img.shields.io/badge/Scikit_Learn-Machine_Learning-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
 ![Jupyter](https://img.shields.io/badge/Jupyter-Interactive-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
 ![Status](https://img.shields.io/badge/Status-Active%20%26%20Growing-brightgreen?style=for-the-badge)
 
