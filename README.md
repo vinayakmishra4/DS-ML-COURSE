@@ -1,6 +1,5 @@
 <div align="center">
-
-<!-- You can replace this placeholder with a custom banner image designed in Figma! -->
+  
 <img src="https://via.placeholder.com/1000x250/150458/FFFFFF?text=Data+Science+%26+Machine+Learning+Mastery" alt="DS & ML Course Banner" style="border-radius: 10px; margin-bottom: 20px;">
 
 # 🌟 Data Science & Machine Learning Mastery
