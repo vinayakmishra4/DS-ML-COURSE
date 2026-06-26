@@ -1,7 +1,8 @@
 -- Create the database for swiggy
 
-IF DB_ID('swiggy') IS NULL
-    CREATE DATABASE swiggy;
+create database swiggy
+
+
 
 USE swiggy; 
 
@@ -11,7 +12,17 @@ select * from restaurants;
 
 -- 1. Which restaurant of abohar is visied by least number of people?
 
+select name,rating_count,city as loaction
+from restaurants
+where city='abohar'
+order by rating_count;
+
+
 -- 2. Which restaurant has generated maximum revenue all over india?
+
+select name,city,(rating_count*cost) as revenue
+from restaurants
+order by revenue desc;
 
 -- 3. How many restaurants are having rating more than the average rating?
 
@@ -32,4 +43,3 @@ select * from restaurants;
 -- 11. What is the city is having Biryani as most popular cuisine
 
 -- 12. List top 10 unique restaurants with unique name only thorughout the dataset as per generate maximum revenue (Single restaurant with that name)
-
