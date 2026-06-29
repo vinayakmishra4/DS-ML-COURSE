@@ -4,10 +4,12 @@
 </p>
 
 <p align="center">
+
 ![SQL](https://img.shields.io/badge/SQL-Window%20Functions-blue)
 ![Level](https://img.shields.io/badge/Level-Beginner%20to%20Intermediate-success)
 ![Category](https://img.shields.io/badge/Category-Database-orange)
 ![Documentation](https://img.shields.io/badge/Documentation-Complete-brightgreen)
+
 </p>
 
 ---
