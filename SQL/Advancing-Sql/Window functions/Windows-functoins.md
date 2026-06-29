@@ -234,6 +234,8 @@ Window functions may require additional sorting, making them slower on large dat
 ---
 
 <div align="center">
+
 ## ⭐ Master Window Functions to unlock powerful SQL analytics and reporting capabilities.
 Made with ❤️ for SQL learners.
+
 </div>
