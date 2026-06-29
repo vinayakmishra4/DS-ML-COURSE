@@ -1,4 +1,3 @@
-````markdown
 # 🪟 Window Functions in SQL
 
 <p align="center">
@@ -331,4 +330,3 @@ After understanding the concepts, explore the complete SQL implementation and pr
 **Happy Learning! 🚀**
 
 </div>
-````
