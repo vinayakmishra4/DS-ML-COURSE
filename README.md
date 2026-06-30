@@ -202,6 +202,9 @@ A lightweight, dependency-free console inventory & billing system built in **pur
 <tr><th align="left">Sub-Module</th><th align="left">What it covers</th><th>README</th></tr>
 <tr><td><b>Window Functions</b></td><td><code>OVER()</code>, <code>PARTITION BY</code>, running calculations</td><td align="center"><a href="https://github.com/vinayakmishra4/DS-ML-COURSE/blob/main/SQL/Advancing-Sql/Window%20functions/Windows-functoins.md">📄</a></td></tr>
 <tr><td><b>Ranking</b></td><td><code>RANK()</code>, <code>DENSE_RANK()</code>, <code>ROW_NUMBER()</code></td><td align="center"><a href="https://github.com/vinayakmishra4/DS-ML-COURSE/blob/main/SQL/Advancing-Sql/Ranking/Ranking.md">📄</a></td></tr>
+<tr><td><b>Advanced Window Functions</b></td><td>Top-N analysis, cumulative calculations, and revenue-based analytics using window functions</td><td align="center"><a href="https://github.com/vinayakmishra4/DS-ML-COURSE/blob/main/SQL/Advancing-Sql/Advanced-Window/Advanced-Window.md">📄</a></td></tr>
+<tr><td><b>Saving Tables</b></td><td>Creating permanent & temporary tables to store query results for reuse and reporting</td><td align="center"><a href="https://github.com/vinayakmishra4/DS-ML-COURSE/blob/main/SQL/Advancing-Sql/Saving/Saving.md">📄</a></td></tr>
+<tr><td><b>Views</b></td><td>Virtual tables — simplifying complex queries, improving security & database management</td><td align="center"><a href="https://github.com/vinayakmishra4/DS-ML-COURSE/blob/main/SQL/Advancing-Sql/Views/Views.md">📄</a></td></tr>
 </table>
 
 </details>
