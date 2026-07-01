@@ -7,7 +7,7 @@
 [![Platform](https://img.shields.io/badge/Platform-GeeksforGeeks-2F8D46?style=for-the-badge&logo=geeksforgeeks&logoColor=white)](https://www.geeksforgeeks.org/)
 [![Status](https://img.shields.io/badge/Status-Completed-success?style=for-the-badge)](#-certificate)
 [![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
-[![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)](#-phase-3-sql)
+[![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)](#%EF%B8%8F-phase-3-sql)
 [![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)](#-phase-2-foundation-of-data-analysis)
 
 <sub>Completed July 10, 2025 &nbsp;•&nbsp; Maintained by <a href="https://github.com/vinayakmishra4"><b>Vinayak Mishra</b></a></sub>
@@ -22,8 +22,8 @@
 
 [**`Phase 1`** Python for Data Science](#-phase-1-python-for-data-science) &nbsp;·&nbsp;
 [**`Phase 2`** Foundation of Data Analysis](#-phase-2-foundation-of-data-analysis) &nbsp;·&nbsp;
-[**`Phase 3`** SQL](#-phase-3-sql) &nbsp;·&nbsp;
-[**`Skills`**](#-skills-gained) &nbsp;·&nbsp;
+[**`Phase 3`** SQL](#%EF%B8%8F-phase-3-sql) &nbsp;·&nbsp;
+[**`Skills`**](#%EF%B8%8F-skills-gained) &nbsp;·&nbsp;
 [**`Certificate`**](#-certificate)
 
 </div>
@@ -34,7 +34,7 @@
 
 This repository documents my journey through the **Complete Machine Learning & Data Science Program** by **GeeksforGeeks**. I took this course to build a structured, end-to-end foundation in data science — starting from spreadsheet-level data handling, moving through Python and its core data libraries, and into database querying with SQL.
 
-The course is organized into **three phases**, each broken into modules with its own notebooks, datasets, and a dedicated README — and backed by real mini-projects that put the concepts into practice.
+The course is organized into **three phases**, each broken into modules with its own notebooks, datasets, and a dedicated README — backed by real mini-projects that put the concepts into practice.
 
 <br>
 
@@ -57,10 +57,12 @@ The course is organized into **three phases**, each broken into modules with its
 <table>
 <tr><th align="left">Module</th><th align="left">What it covers</th><th>README</th></tr>
 <tr><td><b>Python Fundamentals</b></td><td>Core language building blocks for data work</td><td align="center"><a href="https://github.com/vinayakmishra4/DS-ML-COURSE/blob/main/Python-for-Data-Science/Python-Fundmentals/README.md">📄</a></td></tr>
-<tr><td><b>Getting Started with OS</b></td><td>OS-level file handling basics (Mac & Windows commands)</td><td align="center"><a href="https://github.com/vinayakmishra4/DS-ML-COURSE/blob/main/Python-for-Data-Science/File-Management-System/Getting-Strat-OS/Intro-to-OS.md">📄</a></td></tr>
 <tr><td><b>Jupyter Notebook Setup</b></td><td>Installing and using Jupyter Notebook (Mac & Windows)</td><td align="center"><a href="https://github.com/vinayakmishra4/DS-ML-COURSE/blob/main/Python-for-Data-Science/File-Management-System/Jupyter-Notebook-Setup/README.md">📄</a></td></tr>
 <tr><td><b>Play Data in Files</b></td><td>File access modes and reading/writing data files</td><td align="center"><a href="https://github.com/vinayakmishra4/DS-ML-COURSE/blob/main/Python-for-Data-Science/File-Management-System/Play-Data-in-Files/README.md">📄</a></td></tr>
+<tr><td><b>Getting Started with OS</b></td><td>OS-level file handling basics (Mac & Windows commands)</td><td align="center">—</td></tr>
 </table>
+
+> ℹ️ *Getting Started with OS has no README.md — sub-topics are documented in individual `.md` files.*
 
 ### 🚀 Project Built in This Phase
 
@@ -83,7 +85,7 @@ A lightweight, dependency-free console inventory & billing system built in **pur
 </tr>
 </table>
 
-<div align="right"><a href="#-jump-to-a-phase">⬆ back to top</a></div>
+<div align="right"><a href="#-complete-machine-learning--data-science-program">⬆ back to top</a></div>
 
 ---
 
@@ -102,6 +104,7 @@ A lightweight, dependency-free console inventory & billing system built in **pur
 <tr><td><b>Exploring Data</b></td><td>Sheet navigation, data types, type conversion, sorting, TRIM, nesting functions, exact matches</td><td align="center"><a href="https://github.com/vinayakmishra4/DS-ML-COURSE/blob/main/Foundation%20of%20Data%20Analysis/Data-Exploration-Excel/Exploring-Data/Readme.md">📄</a></td></tr>
 <tr><td><b>Preparing Data</b></td><td>Cell references, date functions, SUM functions, text extraction, VLOOKUP</td><td align="center"><a href="https://github.com/vinayakmishra4/DS-ML-COURSE/blob/main/Foundation%20of%20Data%20Analysis/Data-Exploration-Excel/Preparing-Data/Readme.md">📄</a></td></tr>
 <tr><td><b>Analysing Data</b></td><td>Calculation functions, logic functions, organizing data, count functions</td><td align="center"><a href="https://github.com/vinayakmishra4/DS-ML-COURSE/blob/main/Foundation%20of%20Data%20Analysis/Data-Exploration-Excel/Analysing-Data/Readme.md">📄</a></td></tr>
+<tr><td><b>Mastering Count Functions</b></td><td>Deep-dive into Excel count functions for data analysis</td><td align="center"><a href="https://github.com/vinayakmishra4/DS-ML-COURSE/blob/main/Foundation%20of%20Data%20Analysis/Data-Exploration-Excel/Analysing-Data/Mastering-Count-Functions/Readme.md">📄</a></td></tr>
 </table>
 
 </details>
@@ -114,9 +117,11 @@ A lightweight, dependency-free console inventory & billing system built in **pur
 <tr><th align="left">Sub-Module</th><th align="left">What it covers</th><th>README</th></tr>
 <tr><td><b>NumPy</b></td><td>Array creation, indexing/slicing, reshaping, broadcasting, vectorized ops, linear algebra</td><td align="center"><a href="https://github.com/vinayakmishra4/DS-ML-COURSE/blob/main/Foundation%20of%20Data%20Analysis/Numpy/Readme.md">📄</a></td></tr>
 <tr><td><b>Pandas</b></td><td>Series & DataFrames, data selection, core manipulation workflows</td><td align="center"><a href="https://github.com/vinayakmishra4/DS-ML-COURSE/blob/main/Foundation%20of%20Data%20Analysis/Pandas/Readme.md">📄</a></td></tr>
-<tr><td><b>Getting Started with Pandas</b></td><td>Walkthrough of Pandas basics</td><td align="center"><a href="https://github.com/vinayakmishra4/DS-ML-COURSE/blob/main/Foundation%20of%20Data%20Analysis/Getting%20Started%20with%20Pandas/Strated-with-pandas.md">📄</a></td></tr>
 <tr><td><b>Matplotlib</b></td><td>Data visualization and plotting fundamentals</td><td align="center"><a href="https://github.com/vinayakmishra4/DS-ML-COURSE/blob/main/Foundation%20of%20Data%20Analysis/Matplotlib/Readme.md">📄</a></td></tr>
+<tr><td><b>Getting Started with Pandas</b></td><td>Walkthrough of Pandas basics</td><td align="center">—</td></tr>
 </table>
+
+> ℹ️ *Getting Started with Pandas has no README.md — content is in `Strated-with-pandas.md`.*
 
 </details>
 
@@ -158,7 +163,7 @@ A lightweight, dependency-free console inventory & billing system built in **pur
 </tr>
 </table>
 
-<div align="right"><a href="#-jump-to-a-phase">⬆ back to top</a></div>
+<div align="right"><a href="#-complete-machine-learning--data-science-program">⬆ back to top</a></div>
 
 ---
 
@@ -177,6 +182,8 @@ A lightweight, dependency-free console inventory & billing system built in **pur
 <tr><td><b>SQL Fundamentals</b></td><td>Databases & keys, DDL commands, data retrieval, insert/update/delete, <code>CASE</code> logic</td><td align="center"><a href="https://github.com/vinayakmishra4/DS-ML-COURSE/blob/main/SQL/SQL-Fundamental/Readme.md">📄</a></td></tr>
 </table>
 
+> ℹ️ *Individual sub-topics (DDL, Keys, Insert, Update, Delete, CASE, etc.) are documented in their own named `.md` files, not README.md files.*
+
 </details>
 
 <details open>
@@ -185,12 +192,14 @@ A lightweight, dependency-free console inventory & billing system built in **pur
 
 <table>
 <tr><th align="left">Sub-Module</th><th align="left">What it covers</th><th>README</th></tr>
-<tr><td><b>Aggregate Functions</b></td><td><code>SUM</code>, <code>AVG</code>, <code>COUNT</code>, <code>MIN</code>, <code>MAX</code> and friends</td><td align="center"><a href="https://github.com/vinayakmishra4/DS-ML-COURSE/blob/main/SQL/DATA-Retervials-SQL/Aggeragate-function/agg-function.md">📄</a></td></tr>
-<tr><td><b>Grouping & Filtering</b></td><td><code>GROUP BY</code>, <code>HAVING</code>, and filter logic</td><td align="center"><a href="https://github.com/vinayakmishra4/DS-ML-COURSE/blob/main/SQL/DATA-Retervials-SQL/Grouping-Filtering/Grouping-Filtering.md">📄</a></td></tr>
-<tr><td><b>Pattern Matching</b></td><td><code>LIKE</code>, wildcards, and text pattern queries</td><td align="center"><a href="https://github.com/vinayakmishra4/DS-ML-COURSE/blob/main/SQL/DATA-Retervials-SQL/Pattern-Matching/pattern.md">📄</a></td></tr>
-<tr><td><b>SQL Joins</b></td><td><code>INNER</code>, <code>LEFT</code>, and other join types</td><td align="center"><a href="https://github.com/vinayakmishra4/DS-ML-COURSE/blob/main/SQL/DATA-Retervials-SQL/SQL-Joins/sql-joins.md">📄</a></td></tr>
-<tr><td><b>Subqueries</b></td><td>Nested queries and subquery logic</td><td align="center"><a href="https://github.com/vinayakmishra4/DS-ML-COURSE/blob/main/SQL/DATA-Retervials-SQL/Subquiries/Subquries.md">📄</a></td></tr>
+<tr><td><b>Aggregate Functions</b></td><td><code>SUM</code>, <code>AVG</code>, <code>COUNT</code>, <code>MIN</code>, <code>MAX</code></td><td align="center">—</td></tr>
+<tr><td><b>Grouping & Filtering</b></td><td><code>GROUP BY</code>, <code>HAVING</code>, and filter logic</td><td align="center">—</td></tr>
+<tr><td><b>Pattern Matching</b></td><td><code>LIKE</code>, wildcards, and text pattern queries</td><td align="center">—</td></tr>
+<tr><td><b>SQL Joins</b></td><td><code>INNER</code>, <code>LEFT</code>, and other join types</td><td align="center">—</td></tr>
+<tr><td><b>Subqueries</b></td><td>Nested queries and subquery logic</td><td align="center">—</td></tr>
 </table>
+
+> ℹ️ *Data Retrieval sub-topics are documented in individual named `.md` files — no README.md files exist here yet.*
 
 </details>
 
@@ -200,12 +209,14 @@ A lightweight, dependency-free console inventory & billing system built in **pur
 
 <table>
 <tr><th align="left">Sub-Module</th><th align="left">What it covers</th><th>README</th></tr>
-<tr><td><b>Window Functions</b></td><td><code>OVER()</code>, <code>PARTITION BY</code>, running calculations</td><td align="center"><a href="https://github.com/vinayakmishra4/DS-ML-COURSE/blob/main/SQL/Advancing-Sql/Window%20functions/Windows-functoins.md">📄</a></td></tr>
-<tr><td><b>Ranking</b></td><td><code>RANK()</code>, <code>DENSE_RANK()</code>, <code>ROW_NUMBER()</code></td><td align="center"><a href="https://github.com/vinayakmishra4/DS-ML-COURSE/blob/main/SQL/Advancing-Sql/Ranking/Ranking.md">📄</a></td></tr>
-<tr><td><b>Advanced Window Functions</b></td><td>Top-N analysis, cumulative calculations, and revenue-based analytics using window functions</td><td align="center"><a href="https://github.com/vinayakmishra4/DS-ML-COURSE/blob/main/SQL/Advancing-Sql/Advanced-Window/Advanced-Window.md">📄</a></td></tr>
-<tr><td><b>Saving Tables</b></td><td>Creating permanent & temporary tables to store query results for reuse and reporting</td><td align="center"><a href="https://github.com/vinayakmishra4/DS-ML-COURSE/blob/main/SQL/Advancing-Sql/Saving/Saving.md">📄</a></td></tr>
-<tr><td><b>Views</b></td><td>Virtual tables — simplifying complex queries, improving security & database management</td><td align="center"><a href="https://github.com/vinayakmishra4/DS-ML-COURSE/blob/main/SQL/Advancing-Sql/Views/Views.md">📄</a></td></tr>
+<tr><td><b>Window Functions</b></td><td><code>OVER()</code>, <code>PARTITION BY</code>, running calculations</td><td align="center">—</td></tr>
+<tr><td><b>Ranking</b></td><td><code>RANK()</code>, <code>DENSE_RANK()</code>, <code>ROW_NUMBER()</code></td><td align="center">—</td></tr>
+<tr><td><b>Advanced Window Functions</b></td><td>Top-N analysis, cumulative calculations, revenue-based analytics</td><td align="center">—</td></tr>
+<tr><td><b>Saving Tables</b></td><td>Creating permanent & temporary tables to store query results for reuse</td><td align="center">—</td></tr>
+<tr><td><b>Views</b></td><td>Virtual tables — simplifying complex queries, improving security & database management</td><td align="center">—</td></tr>
 </table>
+
+> ℹ️ *Advancing SQL sub-topics are documented in individual named `.md` files — no README.md files exist here yet.*
 
 </details>
 
@@ -221,7 +232,7 @@ A lightweight, dependency-free console inventory & billing system built in **pur
 </tr>
 </table>
 
-<div align="right"><a href="#-jump-to-a-phase">⬆ back to top</a></div>
+<div align="right"><a href="#-complete-machine-learning--data-science-program">⬆ back to top</a></div>
 
 ---
 
@@ -281,7 +292,7 @@ A lightweight, dependency-free console inventory & billing system built in **pur
 
 </div>
 
-> 💡 *Add your certificate link above — replace `INSERT_CERTIFICATE_LINK_HERE` with the real URL.*
+> 💡 *Replace `INSERT_CERTIFICATE_LINK_HERE` above with your real certificate URL.*
 
 ---
 
