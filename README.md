@@ -192,6 +192,7 @@ A lightweight, dependency-free console inventory & billing system built in **pur
 
 <table>
 <tr><th align="left">Sub-Module</th><th align="left">What it covers</th><th>README</th></tr>
+<tr><td><b>Data Retrieval — Module Overview</b></td><td>Full module README covering all data retrieval concepts</td><td align="center"><a href="https://github.com/vinayakmishra4/DS-ML-COURSE/tree/main/SQL/DATA-Retervials-SQL#readme">📄</a></td></tr>
 <tr><td><b>Aggregate Functions</b></td><td><code>SUM</code>, <code>AVG</code>, <code>COUNT</code>, <code>MIN</code>, <code>MAX</code></td><td align="center">—</td></tr>
 <tr><td><b>Grouping & Filtering</b></td><td><code>GROUP BY</code>, <code>HAVING</code>, and filter logic</td><td align="center">—</td></tr>
 <tr><td><b>Pattern Matching</b></td><td><code>LIKE</code>, wildcards, and text pattern queries</td><td align="center">—</td></tr>
@@ -199,7 +200,7 @@ A lightweight, dependency-free console inventory & billing system built in **pur
 <tr><td><b>Subqueries</b></td><td>Nested queries and subquery logic</td><td align="center">—</td></tr>
 </table>
 
-> ℹ️ *Data Retrieval sub-topics are documented in individual named `.md` files — no README.md files exist here yet.*
+> ℹ️ *Individual sub-topic files use custom names — the module-level README above covers all of them.*
 
 </details>
 
@@ -209,6 +210,7 @@ A lightweight, dependency-free console inventory & billing system built in **pur
 
 <table>
 <tr><th align="left">Sub-Module</th><th align="left">What it covers</th><th>README</th></tr>
+<tr><td><b>Advancing SQL — Module Overview</b></td><td>Full module README covering all advancing SQL concepts</td><td align="center"><a href="https://github.com/vinayakmishra4/DS-ML-COURSE/tree/main/SQL/Advancing-Sql#readme">📄</a></td></tr>
 <tr><td><b>Window Functions</b></td><td><code>OVER()</code>, <code>PARTITION BY</code>, running calculations</td><td align="center">—</td></tr>
 <tr><td><b>Ranking</b></td><td><code>RANK()</code>, <code>DENSE_RANK()</code>, <code>ROW_NUMBER()</code></td><td align="center">—</td></tr>
 <tr><td><b>Advanced Window Functions</b></td><td>Top-N analysis, cumulative calculations, revenue-based analytics</td><td align="center">—</td></tr>
@@ -216,7 +218,7 @@ A lightweight, dependency-free console inventory & billing system built in **pur
 <tr><td><b>Views</b></td><td>Virtual tables — simplifying complex queries, improving security & database management</td><td align="center">—</td></tr>
 </table>
 
-> ℹ️ *Advancing SQL sub-topics are documented in individual named `.md` files — no README.md files exist here yet.*
+> ℹ️ *Individual sub-topic files use custom names — the module-level README above covers all of them.*
 
 </details>
 
