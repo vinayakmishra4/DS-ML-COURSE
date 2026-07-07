@@ -59,10 +59,7 @@ The course is organized into **three phases**, each broken into modules with its
 <tr><td><b>Python Fundamentals</b></td><td>Core language building blocks for data work</td><td align="center"><a href="https://github.com/vinayakmishra4/DS-ML-COURSE/blob/main/Python-for-Data-Science/Python-Fundmentals/README.md">📄</a></td></tr>
 <tr><td><b>Jupyter Notebook Setup</b></td><td>Installing and using Jupyter Notebook (Mac & Windows)</td><td align="center"><a href="https://github.com/vinayakmishra4/DS-ML-COURSE/blob/main/Python-for-Data-Science/File-Management-System/Jupyter-Notebook-Setup/README.md">📄</a></td></tr>
 <tr><td><b>Play Data in Files</b></td><td>File access modes and reading/writing data files</td><td align="center"><a href="https://github.com/vinayakmishra4/DS-ML-COURSE/blob/main/Python-for-Data-Science/File-Management-System/Play-Data-in-Files/README.md">📄</a></td></tr>
-<tr><td><b>Getting Started with OS</b></td><td>OS-level file handling basics (Mac & Windows commands)</td><td align="center">—</td></tr>
 </table>
-
-> ℹ️ *Getting Started with OS has no README.md — sub-topics are documented in individual `.md` files.*
 
 ### 🚀 Project Built in This Phase
 
@@ -118,10 +115,7 @@ A lightweight, dependency-free console inventory & billing system built in **pur
 <tr><td><b>NumPy</b></td><td>Array creation, indexing/slicing, reshaping, broadcasting, vectorized ops, linear algebra</td><td align="center"><a href="https://github.com/vinayakmishra4/DS-ML-COURSE/blob/main/Foundation%20of%20Data%20Analysis/Numpy/Readme.md">📄</a></td></tr>
 <tr><td><b>Pandas</b></td><td>Series & DataFrames, data selection, core manipulation workflows</td><td align="center"><a href="https://github.com/vinayakmishra4/DS-ML-COURSE/blob/main/Foundation%20of%20Data%20Analysis/Pandas/Readme.md">📄</a></td></tr>
 <tr><td><b>Matplotlib</b></td><td>Data visualization and plotting fundamentals</td><td align="center"><a href="https://github.com/vinayakmishra4/DS-ML-COURSE/blob/main/Foundation%20of%20Data%20Analysis/Matplotlib/Readme.md">📄</a></td></tr>
-<tr><td><b>Getting Started with Pandas</b></td><td>Walkthrough of Pandas basics</td><td align="center">—</td></tr>
 </table>
-
-> ℹ️ *Getting Started with Pandas has no README.md — content is in `Strated-with-pandas.md`.*
 
 </details>
 
@@ -193,11 +187,6 @@ A lightweight, dependency-free console inventory & billing system built in **pur
 <table>
 <tr><th align="left">Sub-Module</th><th align="left">What it covers</th><th>README</th></tr>
 <tr><td><b>Data Retrieval — Module Overview</b></td><td>Full module README covering all data retrieval concepts</td><td align="center"><a href="https://github.com/vinayakmishra4/DS-ML-COURSE/tree/main/SQL/DATA-Retervials-SQL#readme">📄</a></td></tr>
-<tr><td><b>Aggregate Functions</b></td><td><code>SUM</code>, <code>AVG</code>, <code>COUNT</code>, <code>MIN</code>, <code>MAX</code></td><td align="center">—</td></tr>
-<tr><td><b>Grouping & Filtering</b></td><td><code>GROUP BY</code>, <code>HAVING</code>, and filter logic</td><td align="center">—</td></tr>
-<tr><td><b>Pattern Matching</b></td><td><code>LIKE</code>, wildcards, and text pattern queries</td><td align="center">—</td></tr>
-<tr><td><b>SQL Joins</b></td><td><code>INNER</code>, <code>LEFT</code>, and other join types</td><td align="center">—</td></tr>
-<tr><td><b>Subqueries</b></td><td>Nested queries and subquery logic</td><td align="center">—</td></tr>
 </table>
 
 > ℹ️ *Individual sub-topic files use custom names — the module-level README above covers all of them.*
@@ -211,11 +200,6 @@ A lightweight, dependency-free console inventory & billing system built in **pur
 <table>
 <tr><th align="left">Sub-Module</th><th align="left">What it covers</th><th>README</th></tr>
 <tr><td><b>Advancing SQL — Module Overview</b></td><td>Full module README covering all advancing SQL concepts</td><td align="center"><a href="https://github.com/vinayakmishra4/DS-ML-COURSE/tree/main/SQL/Advancing-Sql#readme">📄</a></td></tr>
-<tr><td><b>Window Functions</b></td><td><code>OVER()</code>, <code>PARTITION BY</code>, running calculations</td><td align="center">—</td></tr>
-<tr><td><b>Ranking</b></td><td><code>RANK()</code>, <code>DENSE_RANK()</code>, <code>ROW_NUMBER()</code></td><td align="center">—</td></tr>
-<tr><td><b>Advanced Window Functions</b></td><td>Top-N analysis, cumulative calculations, revenue-based analytics</td><td align="center">—</td></tr>
-<tr><td><b>Saving Tables</b></td><td>Creating permanent & temporary tables to store query results for reuse</td><td align="center">—</td></tr>
-<tr><td><b>Views</b></td><td>Virtual tables — simplifying complex queries, improving security & database management</td><td align="center">—</td></tr>
 </table>
 
 > ℹ️ *Individual sub-topic files use custom names — the module-level README above covers all of them.*
