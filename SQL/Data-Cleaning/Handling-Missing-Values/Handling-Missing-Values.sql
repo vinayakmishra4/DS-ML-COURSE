@@ -103,7 +103,52 @@ WHERE name IS NOT NULL AND TRIM(name) <> ''
   AND purchase_amount IS NOT NULL
   AND purchase_date IS NOT NULL;
 
+-- Saving the cleaned data into a new table
 
+CREATE TABLE IF NOT EXISTS cleaned_indian_dataset AS
+SELECT *
+FROM messy_indian_dataset
+WHERE name IS NOT NULL AND TRIM(name) <> ''
+  AND age IS NOT NULL
+  AND gender IS NOT NULL AND TRIM(gender) <> ''
+  AND email IS NOT NULL AND TRIM(email) <> ''
+  AND city IS NOT NULL AND TRIM(city) <> ''
+  AND phone_number IS NOT NULL AND TRIM(phone_number) <> ''
+  AND state IS NOT NULL AND TRIM(state) <> ''
+  AND purchase_amount IS NOT NULL
+  AND purchase_date IS NOT NULL;
 
+--- Impute the missing values mean of age
 
+update messy_indian_dataset 
+set age = (select avg(age) from messy_indian_dataset where age is not null)
+where age is null;
+
+-- Impute the missing values varchar values with 'Unknown'
+
+update messy_indian_dataset
+set name = 'Unknown'
+where name is null or trim(name) = '';
+set gender = 'Unknown'
+where gender is null or trim(gender) = '';
+set email = 'Unknown'
+where email is null or trim(email) = '';
+set city = 'Unknown'
+where city is null or trim(city) = '';
+set phone_number = 'Unknown'
+where phone_number is null or trim(phone_number) = '';
+set state = 'Unknown'
+where state is null or trim(state) = '';
+
+-- Impute the missing value of date with the current date
+
+update messy_indian_dataset
+set purchase_date = current_date
+where purchase_date is null;
+
+-- Impute the missing value of purchase_amount with the mean of purchase_amount
+
+update messy_indian_dataset
+set purchase_amount = (select avg(purchase_amount) from messy_indian_dataset where purchase_amount is not null)
+where purchase_amount is null;
 
