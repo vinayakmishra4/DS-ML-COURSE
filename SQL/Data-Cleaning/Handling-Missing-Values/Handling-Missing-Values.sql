@@ -118,11 +118,18 @@ WHERE name IS NOT NULL AND TRIM(name) <> ''
   AND purchase_amount IS NOT NULL
   AND purchase_date IS NOT NULL;
 
---- Impute the missing values mean of age
+-- Impute the missing values mean of age
 
-update messy_indian_dataset 
-set age = (select avg(age) from messy_indian_dataset where age is not null)
-where age is null;
+UPDATE messy_indian_dataset
+SET age = (
+    SELECT avg_age
+    FROM (
+        SELECT AVG(age) AS avg_age
+        FROM messy_indian_dataset
+        WHERE age IS NOT NULL
+    ) AS temp
+)
+WHERE age IS NULL;
 
 -- Impute the missing values varchar values with 'Unknown'
 
