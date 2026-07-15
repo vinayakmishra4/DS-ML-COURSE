@@ -131,21 +131,35 @@ SET age = (
 )
 WHERE age IS NULL;
 
+select * from messy_indian_dataset;
+
 -- Impute the missing values varchar values with 'Unknown'
 
 update messy_indian_dataset
 set name = 'Unknown'
 where name is null or trim(name) = '';
+
+update messy_indian_dataset
 set gender = 'Unknown'
 where gender is null or trim(gender) = '';
+
+update messy_indian_dataset
 set email = 'Unknown'
 where email is null or trim(email) = '';
+
+update messy_indian_dataset
 set city = 'Unknown'
 where city is null or trim(city) = '';
+
+update messy_indian_dataset
 set phone_number = 'Unknown'
 where phone_number is null or trim(phone_number) = '';
+
+update messy_indian_dataset
 set state = 'Unknown'
 where state is null or trim(state) = '';
+
+select * from messy_indian_dataset;
 
 -- Impute the missing value of date with the current date
 
@@ -153,9 +167,20 @@ update messy_indian_dataset
 set purchase_date = current_date
 where purchase_date is null;
 
+select * from messy_indian_dataset;
+
 -- Impute the missing value of purchase_amount with the mean of purchase_amount
 
-update messy_indian_dataset
-set purchase_amount = (select avg(purchase_amount) from messy_indian_dataset where purchase_amount is not null)
-where purchase_amount is null;
+UPDATE messy_indian_dataset
+SET purchase_amount = (
+    SELECT avg_amount
+    FROM (
+        SELECT avg(purchase_amount) AS avg_amount
+        FROM messy_indian_dataset
+        WHERE purchase_amount IS NOT NULL
+    ) AS temp
+)
+WHERE purchase_amount IS NULL;
+
+select * from messy_indian_dataset;
 
