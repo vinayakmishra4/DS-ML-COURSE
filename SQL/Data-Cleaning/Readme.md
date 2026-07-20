@@ -25,8 +25,6 @@
 
 **Data Cleaning in SQL** is a hands-on learning module covering the core techniques for turning messy, real-world data into clean, analysis-ready datasets — handling missing values, removing duplicates, detecting outliers, and working with date fields, entirely in SQL. Each concept is documented alongside a working practice script, and the module closes with two applied cleaning projects on real datasets.
 
-This module sits inside the same broader personal learning repository, **[DS-ML-COURSE](https://github.com/vinayakmishra4/DS-ML-COURSE)**, that also documents the **[Advancing SQL](https://github.com/vinayakmishra4/DS-ML-COURSE/tree/main/SQL/Advancing-Sql)** module — together tracking an ongoing data science and machine learning journey.
-
 ---
 
 ## 📋 Course Info
