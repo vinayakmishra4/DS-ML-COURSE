@@ -182,17 +182,6 @@ Optimized Result
 
 ---
 
-## 🔍 How Query Optimization Works
-
-1. The SQL query is submitted to the database.
-2. The parser validates the syntax.
-3. The Query Optimizer evaluates multiple execution plans.
-4. The database selects the lowest-cost execution plan.
-5. The query is executed efficiently.
-6. Results are returned to the user.
-
----
-
 ## 📈 Advantages
 
 - Faster query execution
