@@ -1,157 +1,166 @@
 # 📘 SQL Common Table Expression (CTE): Complete Guide
 
-> A comprehensive guide to understanding Common Table Expressions (CTEs) in SQL.
+<div align="center">
+
+![SQL](https://img.shields.io/badge/SQL-CTE-blue?style=for-the-badge)
+![Level](https://img.shields.io/badge/Level-Beginner%20to%20Intermediate-success?style=for-the-badge)
+![Topic](https://img.shields.io/badge/Documentation-Guide-orange?style=for-the-badge)
+
+**Write cleaner, modular, and more maintainable SQL queries with Common Table Expressions (CTEs).**
+
+</div>
+
+---
+
+## 📑 Table of Contents
+
+- 📖 Overview
+- 🎯 Why CTE?
+- ✨ Features
+- 🛠️ Prerequisites
+- 📝 Syntax
+- ⚙️ Working
+- 🔄 Types
+- 📊 CTE vs Subquery
+- ✅ Advantages
+- ⚠️ Limitations
+- 💡 Best Practices
+- 🌍 Use Cases
+- 📚 Quick Revision
+- 🔗 SQL Script
 
 ---
 
 ## 📖 Overview
 
-A Common Table Expression (CTE) is a temporary named result set that exists only for the duration of a single SQL statement. It improves readability, maintainability, and helps organize complex SQL queries.
+A **Common Table Expression (CTE)** is a temporary named result set created using the **WITH** clause. It exists only for the execution of a single SQL statement and helps organize complex logic into readable sections.
 
 ## 🎯 Why Use CTE?
 
-- Simplifies complex queries
-- Improves readability
-- Replaces repeated subqueries
-- Supports recursive operations
-- Easier debugging
+- Improve readability
+- Reduce repeated subqueries
+- Break large queries into logical steps
+- Simplify maintenance
+- Support recursive queries
 
 ## ✨ Features
 
-- Temporary result set
-- Created with the `WITH` clause
-- Reusable within one query
-- Supports recursive and non-recursive CTEs
+| Feature | Description |
+|---------|-------------|
+| Temporary | Exists only during query execution |
+| Readable | Makes SQL easier to understand |
+| Reusable | Can be referenced multiple times |
+| Recursive | Supports hierarchical queries |
 
-## 🛠 Prerequisites
+## 🛠️ Prerequisites
 
-- Basic SQL knowledge
-- Understanding of SELECT, WHERE, JOIN, GROUP BY
-
-## 📚 What is a CTE?
-
-A CTE behaves like a temporary virtual table that can be referenced by the main query.
-
-## 🧩 Components
-
-- WITH keyword
-- CTE name
-- Query definition
-- Main query
+- Basic SQL
+- SELECT, WHERE, JOIN
+- GROUP BY and ORDER BY
 
 ## 📝 Syntax
 
 ```sql
 WITH CTE_Name AS (
-    SELECT column_name
-    FROM table_name
-    WHERE condition
+    SELECT ...
 )
-SELECT *
+SELECT ...
 FROM CTE_Name;
 ```
 
-## ⚙️ Working Process
-
-1. Define the CTE.
-2. Execute the internal query.
-3. Store the temporary result.
-4. Use it in the main query.
-5. Remove it after execution.
-
-## 📊 Workflow
+## ⚙️ Working
 
 ```text
-Table
-  │
-  ▼
-Filter Data
-  │
-  ▼
-Create CTE
-  │
-  ▼
-Main Query
-  │
-  ▼
-Result
+Base Table
+    │
+    ▼
+ Apply Filters
+    │
+    ▼
+ Create CTE
+    │
+    ▼
+ Main Query
+    │
+    ▼
+ Final Result
 ```
 
-## 🔄 Types of CTE
+## 🔄 Types
 
 ### Non-Recursive CTE
 Used for simplifying standard queries.
 
 ### Recursive CTE
-Used for hierarchical and recursive data.
+Used for hierarchical data like employee-manager or category trees.
 
-## 📋 CTE vs Subquery
+## 📊 CTE vs Subquery
 
 | Feature | CTE | Subquery |
-|---|---|---|
-| Readability | High | Moderate |
-| Reusability | Yes | No |
-| Recursive Support | Yes | No |
+|:--|:--:|:--:|
+| Readability | ⭐⭐⭐⭐⭐ | ⭐⭐⭐ |
+| Reusability | ✅ | ❌ |
+| Recursive Support | ✅ | ❌ |
+| Maintenance | Easy | Moderate |
 
 ## ✅ Advantages
 
 - Cleaner SQL
-- Better maintenance
-- Modular query design
-- Easier debugging
+- Better organization
+- Easy debugging
+- Modular design
+- Easier collaboration
 
 ## ⚠️ Limitations
 
-- Temporary only
-- Scope limited to one statement
-- Performance depends on DB engine
+- Temporary scope
+- Not permanently stored
+- Performance varies by database engine
 
 ## 💡 Best Practices
 
-- Use meaningful names.
-- Keep CTEs focused.
+- Use meaningful CTE names.
+- Keep each CTE focused.
 - Avoid excessive nesting.
-
-## 🚨 Common Mistakes
-
-- Assuming CTEs store data permanently.
-- Using vague names.
-- Overusing nested CTEs.
+- Filter early for better performance.
 
 ## 🌍 Real-World Use Cases
 
-- Sales reports
+- Sales dashboards
 - Customer segmentation
-- Financial analysis
-- Data transformation
-- Hierarchical queries
+- Financial reports
+- Data cleaning
+- Hierarchical reporting
+- Business intelligence
 
 ## 📚 Quick Revision
 
-- CTE = Common Table Expression
-- Uses WITH
+> **CTE = Common Table Expression**
+
+- Created with **WITH**
 - Temporary result set
-- Supports recursion
 - Improves readability
-
-## 📖 Summary
-
-CTEs make SQL easier to read, maintain, and organize by breaking complex logic into manageable blocks.
+- Supports recursion
+- Ideal for complex SQL
 
 ---
 
 ## 🔗 SQL Script
 
-**📂 Complete SQL File**
+### 📂 Complete SQL File
 
-**[View the Complete SQL Script](https://github.com/vinayakmishra4/DS-ML-COURSE/blob/main/SQL/Qurey-Optimization-techenqiue/CTE/CTE.sql)**
+➡️ **[View the Complete CTE SQL Script](https://github.com/vinayakmishra4/DS-ML-COURSE/blob/main/SQL/Qurey-Optimization-techenqiue/CTE/CTE.sql)**
 
 ---
 
-## ⭐ Support
+<div align="center">
 
-If this guide helped you, consider starring the repository.
+### ⭐ Support the Project
+
+If this documentation helped you, consider **starring the repository**.
 
 **Made with ❤️ by Vinayak Mishra**
 
-Happy Learning! 🚀
+🚀 Happy Learning!
+
+</div>
