@@ -351,31 +351,6 @@ Organized into **3 phases**, each module has its own notebooks, datasets, and de
 <td>Full module README — covers all data retrieval concepts end-to-end</td>
 <td align="center"><a href="https://github.com/vinayakmishra4/DS-ML-COURSE/tree/main/SQL/DATA-Retervials-SQL#readme"><img src="https://img.shields.io/badge/view-README-4479A1?style=flat-square&logo=markdown"/></a></td>
 </tr>
-<tr>
-<td><b>➕ Aggregate Functions</b></td>
-<td><code>SUM</code>, <code>AVG</code>, <code>COUNT</code>, <code>MIN</code>, <code>MAX</code></td>
-<td align="center">—</td>
-</tr>
-<tr>
-<td><b>🔗 Grouping & Filtering</b></td>
-<td><code>GROUP BY</code>, <code>HAVING</code>, and layered filter logic</td>
-<td align="center">—</td>
-</tr>
-<tr>
-<td><b>🔤 Pattern Matching</b></td>
-<td><code>LIKE</code>, wildcards, and text pattern queries</td>
-<td align="center">—</td>
-</tr>
-<tr>
-<td><b>🔀 SQL Joins</b></td>
-<td><code>INNER</code>, <code>LEFT</code>, <code>RIGHT</code>, and other join types</td>
-<td align="center">—</td>
-</tr>
-<tr>
-<td><b>🪆 Subqueries</b></td>
-<td>Nested queries, correlated subqueries, and subquery logic</td>
-<td align="center">—</td>
-</tr>
 </tbody>
 </table>
 
@@ -400,31 +375,6 @@ Organized into **3 phases**, each module has its own notebooks, datasets, and de
 <td><b>📖 Module Overview</b></td>
 <td>Full module README — covers all advancing SQL concepts end-to-end</td>
 <td align="center"><a href="https://github.com/vinayakmishra4/DS-ML-COURSE/tree/main/SQL/Advancing-Sql#readme"><img src="https://img.shields.io/badge/view-README-4479A1?style=flat-square&logo=markdown"/></a></td>
-</tr>
-<tr>
-<td><b>🪟 Window Functions</b></td>
-<td><code>OVER()</code>, <code>PARTITION BY</code>, running totals & moving calculations</td>
-<td align="center">—</td>
-</tr>
-<tr>
-<td><b>🏅 Ranking</b></td>
-<td><code>RANK()</code>, <code>DENSE_RANK()</code>, <code>ROW_NUMBER()</code></td>
-<td align="center">—</td>
-</tr>
-<tr>
-<td><b>🪟⚡ Advanced Window Functions</b></td>
-<td>Top-N analysis, cumulative calculations, revenue-based analytics</td>
-<td align="center">—</td>
-</tr>
-<tr>
-<td><b>💾 Saving Tables</b></td>
-<td>Creating permanent & temporary tables to store and reuse query results</td>
-<td align="center">—</td>
-</tr>
-<tr>
-<td><b>👁️ Views</b></td>
-<td>Virtual tables — simplifying complex queries, improving security & manageability</td>
-<td align="center">—</td>
 </tr>
 </tbody>
 </table>
