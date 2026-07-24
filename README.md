@@ -303,7 +303,7 @@ Organized into **3 phases**, each module has its own notebooks, datasets, and de
 ## 🗄️ Phase 3: SQL
 
 <div align="center">
-<sub>Database querying — from fundamentals to advanced retrieval, analytics, and data cleaning</sub>
+<sub>Database querying — from fundamentals to advanced retrieval, analytics, data cleaning & optimization</sub>
 </div>
 
 <br>
@@ -458,6 +458,31 @@ Organized into **3 phases**, each module has its own notebooks, datasets, and de
 
 <br>
 
+<details open>
+<summary><b>&nbsp;🔵&nbsp; Module 3.5 — Query Optimization Techniques</b></summary>
+<br>
+
+<table>
+<thead>
+<tr>
+<th align="left">📂 Sub-Module</th>
+<th align="left">📝 What It Covers</th>
+<th align="center">🔗 README</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><b>📖 Module Overview</b></td>
+<td>Full module README — covers SQL query optimization techniques end-to-end</td>
+<td align="center"><a href="https://github.com/vinayakmishra4/DS-ML-COURSE/tree/main/SQL/Qurey-Optimization-techenqiue"><img src="https://img.shields.io/badge/view-README-4479A1?style=flat-square&logo=markdown"/></a></td>
+</tr>
+</tbody>
+</table>
+
+</details>
+
+<br>
+
 ### 🚀 Projects Built in This Phase
 
 <table>
@@ -520,6 +545,7 @@ Organized into **3 phases**, each module has its own notebooks, datasets, and de
 | **SQL window fns** | `RANK() OVER (PARTITION BY ... ORDER BY ...)` |
 | **SQL views** | `CREATE VIEW view_name AS SELECT ...` |
 | **SQL data cleaning** | `TRIM(...)`, `NULLIF(...)`, `COALESCE(...)`, `REPLACE(...)` |
+| **Query optimization** | Indexes, `EXPLAIN`, avoiding `SELECT *`, query restructuring |
 
 </details>
 
