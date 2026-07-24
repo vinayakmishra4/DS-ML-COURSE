@@ -20,7 +20,6 @@
 - Repository Structure
 - Topics Covered
 - How to Use This Repository
-- Quick Look: One Idea Per Topic
 - Common Pitfalls Across These Techniques
 - Conclusion & Next Steps
 - Author
@@ -31,7 +30,7 @@
 
 This folder is a practice-first reference on **SQL Query Optimization** — the set of techniques that make a query return the same result faster, using less CPU, memory, and disk I/O.
 
-It's organized as **five focused guides**, each pairing a written explanation (`.md`) with a runnable script (`.sql`), tested against a shared sample table, `messy_indian_dataset`, so every concept is backed by SQL you can actually run — not just theory.
+It's organized as **five focused guides**, each pairing a written explanation (`.md`) with a runnable script (`.sql`), tested against a shared sample table, `messy_indian_dataset`, so every concept is backed by real SQL rather than just theory.
 
 Two queries can return an identical result set and still differ by orders of magnitude in execution time. Understanding *how* the database engine actually processes a query — not just how you happened to type it — is what separates a query that works from one that scales.
 
@@ -71,15 +70,57 @@ Qurey-Optimization-techenqiue/
 
 ## 📚 Topics Covered
 
-| # | Topic | What It Covers | Guide | Script |
-|--:|-------|-----------------|:--:|:--:|
-| 1 | **Order of Execution** | The real evaluation order — `FROM → WHERE → GROUP BY → HAVING → SELECT → ORDER BY → LIMIT` — versus the order you type a query in. | [📄 Guide](./Order-of-Execution/Order-of-excution.md) | [💻 Script](./Order-of-Execution/Order-of-excution.sql) |
-| 2 | **Query Optimization Techniques** | The general toolbox: column pruning, correct `JOIN` choice, appropriate data types, reading execution plans, caching, and temporary tables. | [📄 Guide](./Optimization-Qurey/Optimization-Qurey.md) | [💻 Script](./Optimization-Qurey/Optimizaltion-Qurey.sql) |
-| 3 | **Indexing** | Primary, simple, composite, unique, full-text, clustered, and non-clustered indexes — and when each one is worth the write-side cost. | [📄 Guide](./Indexing/Indexing.md) | [💻 Script](./Indexing/Indexing.sql) |
-| 4 | **CTE (Common Table Expressions)** | Using `WITH` to turn nested, repeated subqueries into readable, reusable — even recursive — steps. | [📄 Guide](./CTE/CTE.md) | [💻 Script](./CTE/CTE.sql) |
-| 5 | **Table Partitioning** | Splitting huge tables into range, list, hash, key, or composite partitions so the engine only scans what it needs to (partition pruning). | [📄 Guide](./Partition-Table/Partition-Table.md) | [💻 Script](./Partition-Table/Partition-Table.sql) |
+> 💡 **Suggested reading order:** 1 → 2 → 3 → 4 → 5 — start with how SQL actually thinks, then the general toolbox, then each specific technique in turn. Click a topic to expand it.
 
-> 💡 **Suggested reading order:** 1 → 2 → 3 → 4 → 5 — start with how SQL actually thinks, then the general toolbox, then each specific technique in turn.
+<details>
+<summary><strong>1. Order of Execution</strong></summary>
+<br>
+
+The real evaluation order — `FROM → WHERE → GROUP BY → HAVING → SELECT → ORDER BY → LIMIT` — versus the order you type a query in.
+
+📄 [Guide](./Order-of-Execution/Order-of-excution.md) &nbsp;·&nbsp; 💻 [Script](./Order-of-Execution/Order-of-excution.sql)
+
+</details>
+
+<details>
+<summary><strong>2. Query Optimization Techniques</strong></summary>
+<br>
+
+The general toolbox: column pruning, correct `JOIN` choice, appropriate data types, reading execution plans, caching, and temporary tables.
+
+📄 [Guide](./Optimization-Qurey/Optimization-Qurey.md) &nbsp;·&nbsp; 💻 [Script](./Optimization-Qurey/Optimizaltion-Qurey.sql)
+
+</details>
+
+<details>
+<summary><strong>3. Indexing</strong></summary>
+<br>
+
+Primary, simple, composite, unique, full-text, clustered, and non-clustered indexes — and when each one is worth the write-side cost.
+
+📄 [Guide](./Indexing/Indexing.md) &nbsp;·&nbsp; 💻 [Script](./Indexing/Indexing.sql)
+
+</details>
+
+<details>
+<summary><strong>4. CTE (Common Table Expressions)</strong></summary>
+<br>
+
+Using `WITH` to turn nested, repeated subqueries into readable, reusable — even recursive — steps.
+
+📄 [Guide](./CTE/CTE.md) &nbsp;·&nbsp; 💻 [Script](./CTE/CTE.sql)
+
+</details>
+
+<details>
+<summary><strong>5. Table Partitioning</strong></summary>
+<br>
+
+Splitting huge tables into range, list, hash, key, or composite partitions so the engine only scans what it needs to (partition pruning).
+
+📄 [Guide](./Partition-Table/Partition-Table.md) &nbsp;·&nbsp; 💻 [Script](./Partition-Table/Partition-Table.sql)
+
+</details>
 
 ---
 
@@ -90,61 +131,6 @@ Qurey-Optimization-techenqiue/
 3. Point it at your own schema — swap out `messy_indian_dataset` for a table of your own, or recreate one with similar columns to follow along exactly.
 4. Read the matching `.md` guide alongside the script; each one explains the *why* before the *how*, with diagrams, comparison tables, and real-world use cases.
 5. Run `EXPLAIN` (or `EXPLAIN ANALYZE`) on your own queries before and after applying a technique — seeing the plan change on your own data teaches more than reading about it does.
-
----
-
-## ⚡ Quick Look: One Idea Per Topic
-
-A single real snippet from each script — enough to see the shape of the idea before diving into the full guide.
-
-**Order of Execution** — aggregate filters belong in `HAVING`, not `WHERE`:
-```sql
-SELECT city, AVG(purchase_amount) AS avg_purchase
-FROM messy_indian_dataset
-GROUP BY city
-HAVING AVG(purchase_amount) > 1000;
-```
-
-**Query Optimization** — select only what you need:
-```sql
--- Avoid: pulls every column, whether you use it or not
-SELECT * FROM messy_indian_dataset;
-
--- Prefer: only the columns the application actually uses
-SELECT name, city, purchase_amount FROM messy_indian_dataset;
-```
-
-**Indexing** — let the engine skip the full scan:
-```sql
-CREATE INDEX idx_city ON messy_indian_dataset(city);
-
-SELECT name, city, purchase_amount
-FROM messy_indian_dataset
-WHERE city = 'Mumbai';
-```
-
-**CTE** — name the logic instead of nesting it:
-```sql
-WITH MumbaiHighSpenders AS (
-    SELECT id, name, city, purchase_amount
-    FROM messy_indian_dataset
-    WHERE city = 'Mumbai' AND purchase_amount > 1000 AND gender = 'Male'
-)
-SELECT id, name, city, purchase_amount
-FROM MumbaiHighSpenders;
-```
-
-**Table Partitioning** — spread rows across partitions by hash:
-```sql
-CREATE TABLE partitioned_dataset (
-    id INT,
-    name VARCHAR(50),
-    city VARCHAR(50),
-    purchase_amount DECIMAL(10, 2),
-    purchase_date DATE
-)
-PARTITION BY HASH(id) PARTITIONS 4;
-```
 
 ---
 
