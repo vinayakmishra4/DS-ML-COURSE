@@ -1,3 +1,13 @@
+# <div align="center">
+  <h3>Complete Beginner Installation Guide</h3>
+  <p>
+    <img src="https://img.shields.io/badge/Platform-Windows-blue?logo=windows&logoColor=white" alt="Platform: Windows" />
+    <img src="https://img.shields.io/badge/Tool-Power%20BI-yellow?logo=powerbi&logoColor=white" alt="Tool: Power BI" />
+    <img src="https://img.shields.io/badge/Level-Beginner-brightgreen" alt="Level: Beginner" />
+    <img src="https://img.shields.io/badge/Microsoft-Official-blueviolet?logo=microsoft&logoColor=white" alt="Microsoft" />
+  </p>
+</div>
+
 # 🚀 Installation of Power BI Desktop
 
 > **Power BI Desktop** is a free Business Intelligence (BI) tool developed by **Microsoft** that helps transform raw data into meaningful insights through interactive reports and dashboards.
@@ -12,7 +22,27 @@ Installing Power BI Desktop is quick and simple. This guide walks you through ea
 
 ---
 
+## 📚 Table of Contents
+
+- [Overview](#-overview)
+- [Visit Website](#-step-1-visit-the-official-power-bi-website)
+- [Download](#-step-2-download-power-bi-desktop)
+- [Language](#-step-3-choose-your-language)
+- [System Version](#-step-4-select-the-correct-system-version)
+- [Installation](#-step-5-install-power-bi-desktop)
+- [Launch](#-launch-power-bi-desktop)
+- [Pro Tips](#-pro-tips)
+- [Troubleshooting](#-common-installation-problems)
+- [Checklist](#-quick-installation-checklist)
+- [Summary](#-summary)
+- [What's Next](#-whats-next)
+
+---
+
 # 📥 Step 1: Visit the Official Power BI Website
+
+[!IMPORTANT]
+> **Always download Power BI Desktop from the official Microsoft website to ensure you get the latest and safest version.**
 
 Open your preferred web browser and visit the **official Microsoft Power BI website**.
 
@@ -75,7 +105,22 @@ If you're unsure which version to download:
    - **64-bit Operating System**
    - **32-bit Operating System**
 
+[!TIP]
+> For most users, the **64-bit installer** is recommended for better performance and compatibility.
+
 ---
+
+
+---
+
+```mermaid
+flowchart LR
+    A[Visit Website] --> B[Download]
+    B --> C[Select Language]
+    C --> D[Choose Version]
+    D --> E[Install]
+    E --> F[Launch]
+```
 
 # ⚙️ Step 5: Install Power BI Desktop
 
@@ -131,12 +176,20 @@ When the application opens successfully, you're ready to begin creating reports 
 
 # 🎯 Quick Installation Checklist
 
-- ✅ Visit the official Power BI website
-- ✅ Download the standalone installer
-- ✅ Choose the correct language
-- ✅ Select the correct system version
-- ✅ Install Power BI Desktop
-- ✅ Launch the application
+- [x] Visit the official Power BI website
+- [x] Download the standalone installer
+- [x] Choose the correct language
+- [x] Select the correct system version
+- [x] Install Power BI Desktop
+- [x] Launch the application
+
+---
+
+# 💡 Did You Know?
+
+- **Power BI Desktop is completely free to download and use.**
+- **Millions of users worldwide rely on Power BI for business analytics.**
+- **Power BI Service lets you share your reports online with others.**
 
 ---
 
@@ -164,6 +217,8 @@ You're now ready to:
 - 📊 Create visualizations
 - 📈 Build interactive dashboards
 - 🚀 Share business insights
+
+After you get familiar with the interface, continue to the next chapter to deepen your Power BI skills!
 
 ---
 
