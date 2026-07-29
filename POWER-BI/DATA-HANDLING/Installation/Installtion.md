@@ -1,4 +1,3 @@
-```markdown
 # 🚀 Installation of Power BI Desktop
 
 > **Power BI Desktop** is a free Business Intelligence (BI) tool developed by **Microsoft** that helps transform raw data into meaningful insights through interactive reports and dashboards.
@@ -194,4 +193,3 @@ In the next chapter, you'll explore:
 🚀 *Keep Learning • Keep Building • Keep Growing*
 
 </div>
-```
