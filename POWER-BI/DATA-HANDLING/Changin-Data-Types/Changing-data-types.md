@@ -1,138 +1,227 @@
 # 🔄 Changing Data Types in Power Query
 
+<p align="center">
+  <img src="https://img.shields.io/badge/Power%20BI-Power%20Query-F2C811?style=for-the-badge&logo=powerbi&logoColor=black" />
+  <img src="https://img.shields.io/badge/Topic-Data%20Transformation-1E90FF?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Level-Beginner-success?style=for-the-badge" />
+</p>
+
+---
+
 ## 📖 Overview
 
-Changing data types is an essential step in data preparation using **Power Query**. Assigning the correct data type to each column ensures that Power BI can correctly interpret, process, and analyze your data. Proper data types enable accurate calculations, filtering, sorting, and visualization.
+Changing data types is one of the most important data preparation tasks in **Power Query**. Every column in your dataset should have the correct data type so Power BI can accurately interpret, process, and analyze the information.
+
+Proper data types improve data quality, enable calculations, reduce errors, and ensure your reports and dashboards perform efficiently.
 
 ---
 
-## 🎯 Why Data Types Are Important
+## 🎯 Learning Objectives
 
-Each column in a dataset is assigned a data type that defines how Power BI stores and processes its values. Incorrect data types can prevent calculations, cause errors, and limit the functionality available for data analysis.
+By the end of this topic, you will understand how to:
 
-For example:
-
-- Numeric columns can be used in mathematical calculations.
-- Date columns enable time-based analysis.
-- Text columns are used for categorical information.
-- Boolean values represent True or False conditions.
-
----
-
-## 📥 Loading Data into Power Query
-
-To modify data types:
-
-1. Open **Power BI Desktop**.
-2. Select **Transform Data** to open the **Power Query Editor**.
-3. Review the automatically assigned data types for each column.
-4. Identify columns that require data type changes.
+- ✔ Understand the importance of data types
+- ✔ Identify incorrect data types
+- ✔ Convert text into numbers and dates
+- ✔ Handle mixed data types
+- ✔ Apply data types to multiple columns
+- ✔ Follow best practices for clean datasets
 
 ---
 
-## 🔢 Changing Numeric Columns
+## 📌 Why Data Types Matter
 
-Columns containing values such as revenue, sales, quantity, or profit should use an appropriate numeric data type.
+Power BI assigns a data type to every column. The assigned type determines how the values are stored, displayed, and used during analysis.
 
-Common numeric data types include:
-
-- Whole Number
-- Decimal Number
-- Fixed Decimal Number
-- Percentage
-
-Using the correct numeric type enables:
-
-- Sum
-- Average
-- Minimum
-- Maximum
-- Mathematical calculations
+| 📂 Data Type | 📋 Description | 💡 Common Example |
+|--------------|----------------|------------------|
+| 🔤 Text | Stores words and characters | Customer Name |
+| 🔢 Whole Number | Stores integer values | Order ID |
+| 💰 Fixed Decimal Number | Stores currency values | Revenue |
+| 📈 Decimal Number | Stores decimal values | Profit Margin |
+| 📅 Date | Stores calendar dates | Order Date |
+| ⏰ Date/Time | Stores date and time | Delivery Timestamp |
+| ✅ True/False | Stores Boolean values | Active Status |
 
 ---
 
-## 📅 Changing Date Columns
+# 📥 Loading Data into Power Query
 
-Date values are sometimes imported as text. Converting them to the **Date** data type allows Power BI to perform date-related operations such as:
+Before changing data types:
 
-- Filtering by year or month
-- Creating date hierarchies
-- Time intelligence calculations
-- Trend analysis
+1. Open **Power BI Desktop**
+2. Select **Transform Data**
+3. Open the **Power Query Editor**
+4. Review the automatically assigned data types
+5. Identify columns that require correction
 
----
-
-## 🆔 Changing Identifier Columns
-
-Columns such as Order ID, Customer ID, or Product ID should generally use the **Whole Number** data type when they contain numeric identifiers.
-
-Using the appropriate data type improves sorting, filtering, and storage efficiency.
+> **💡 Tip:** Always verify data types immediately after importing a dataset.
 
 ---
 
-## ⚠ Handling Mixed Data Types
+# 🔄 Common Data Type Conversions
 
-Some columns may contain a combination of numbers and text.
+| Column | Recommended Data Type | Purpose |
+|---------|-----------------------|----------|
+| Revenue | 💰 Fixed Decimal Number | Currency calculations |
+| Sales | 🔢 Whole Number | Numeric analysis |
+| Quantity | 🔢 Whole Number | Counting and aggregation |
+| Order Date | 📅 Date | Time-based analysis |
+| Customer Name | 🔤 Text | Descriptive information |
+| Order ID | 🔢 Whole Number | Unique identification |
+
+---
+
+# 🔢 Numeric Data Types
+
+Numeric columns should always use an appropriate numeric format.
 
 Examples include:
 
-- 250
-- 500
-- N/A
-- 0 Sales
+- Revenue
+- Sales
+- Quantity
+- Profit
+- Discount
 
-Power Query often imports these columns as **Text**.
+Using numeric data types enables:
 
-Before changing the data type:
-
-- Remove invalid text values.
-- Replace inconsistent entries.
-- Clean the data.
-- Convert the column to the desired data type.
-
----
-
-## 🚀 Converting Multiple Columns
-
-Power Query allows multiple columns to be converted simultaneously.
-
-Select the required columns and apply the desired data type to update all selected columns at once. This helps maintain consistency across the dataset and saves time.
+- ➕ Sum
+- 📊 Average
+- 📈 Maximum
+- 📉 Minimum
+- ➗ Mathematical calculations
 
 ---
 
-## 💡 Best Practices
+# 📅 Date Data Types
 
-- Verify data types immediately after importing data.
-- Use **Whole Number** for identifiers and counts.
-- Use **Fixed Decimal Number** for currency values.
-- Store dates using the **Date** data type.
-- Clean mixed data before conversion.
-- Check for errors after changing data types.
+Dates imported as text cannot be used effectively for analysis.
 
----
+Converting them to the **Date** data type allows Power BI to:
 
-## ❌ Common Issues
-
-| Issue | Recommendation |
-|-------|----------------|
-| Numbers stored as Text | Convert to an appropriate numeric data type |
-| Dates stored as Text | Convert to the Date data type |
-| Mixed Text and Numbers | Clean the data before conversion |
-| Incorrect automatic detection | Manually assign the correct data type |
-| Conversion errors | Review invalid or inconsistent values |
+- 📅 Filter by Year
+- 📆 Group by Month
+- 📊 Build Date Hierarchies
+- 📈 Perform Time Intelligence
+- 📌 Create Trend Analysis
 
 ---
 
-## 📚 Summary
+# 🆔 Identifier Columns
 
-Selecting the correct data type is a fundamental part of data preparation in Power Query. Proper data types improve data quality, enable accurate calculations, support advanced analysis, and ensure reliable report performance. Reviewing and correcting data types before building reports helps create more efficient and meaningful Power BI solutions.
+Columns such as:
+
+- Order ID
+- Customer ID
+- Product ID
+
+should generally use the **Whole Number** data type.
+
+Benefits include:
+
+- Faster sorting
+- Better filtering
+- Improved storage efficiency
+- Consistent formatting
 
 ---
 
-## 📂 Practice File
+# ⚠ Handling Mixed Data Types
 
-Practice this topic using the Power BI file included in this repository.
+Sometimes a column contains both text and numeric values.
 
-**📥 Practice File:** [**Changing-Data-Types.pbix**](https://github.com/vinayakmishra4/DS-ML-COURSE/blob/main/POWER-BI/DATA-HANDLING/Changin-Data-Types/Changing-Data-Types.pbix)
+Example:
+
+| Sales |
+|-------|
+| 500 |
+| 700 |
+| N/A |
+| 1200 |
+| 0 Sales |
+
+Since mixed values exist, Power Query usually imports the entire column as **Text**.
+
+### Recommended Approach
+
+- Clean invalid values
+- Replace inconsistent entries
+- Remove unnecessary text
+- Convert the cleaned column into the required data type
 
 ---
+
+# 🚀 Batch Data Type Conversion
+
+Power Query allows multiple columns to be updated simultaneously.
+
+### Benefits
+
+- ⚡ Saves time
+- 📌 Maintains consistency
+- ✅ Reduces manual work
+- 🚀 Improves productivity
+
+---
+
+# 💡 Best Practices
+
+> Follow these recommendations for clean and reliable datasets.
+
+- ✔ Verify data types after every import.
+- ✔ Store currency as **Fixed Decimal Number**.
+- ✔ Use **Whole Number** for IDs.
+- ✔ Keep dates in **Date** format.
+- ✔ Clean mixed data before conversion.
+- ✔ Review conversion errors carefully.
+- ✔ Maintain consistent data types throughout the dataset.
+
+---
+
+# ❌ Common Mistakes
+
+| ❌ Issue | ✅ Recommended Solution |
+|-----------|-------------------------|
+| Revenue stored as Text | Convert to Fixed Decimal Number |
+| Dates imported as Text | Convert to Date |
+| IDs stored as Text | Convert to Whole Number |
+| Mixed Text and Numbers | Clean data before conversion |
+| Ignoring conversion errors | Review and fix invalid values |
+
+---
+
+# 🌟 Key Takeaways
+
+- Correct data types are essential for accurate analysis.
+- Numeric columns enable mathematical calculations.
+- Date columns support time-based reporting.
+- Identifier columns should use Whole Number where appropriate.
+- Clean mixed data before changing its data type.
+- Applying correct data types improves report accuracy and performance.
+
+---
+
+# 📂 Practice File
+
+Practice the concepts covered in this tutorial using the Power BI project included in this repository.
+
+<p align="center">
+
+### 📥 **Download the Practice File**
+
+<a href="https://github.com/vinayakmishra4/DS-ML-COURSE/blob/main/POWER-BI/DATA-HANDLING/Changin-Data-Types/Changing-Data-Types.pbix">
+  <img src="https://img.shields.io/badge/Download-PBIX%20Practice%20File-F2C811?style=for-the-badge&logo=powerbi&logoColor=black"/>
+</a>
+
+</p>
+
+---
+
+<div align="center">
+
+### ⭐ If you found this documentation helpful, don't forget to **Star** the repository!
+
+**Happy Learning and Keep Building Amazing Power BI Reports! 🚀**
+
+</div>
