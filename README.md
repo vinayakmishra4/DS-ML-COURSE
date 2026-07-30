@@ -13,6 +13,7 @@
 [![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)](#-module-22--python-data-libraries)
 [![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)](#-module-22--python-data-libraries)
 [![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge&logo=python&logoColor=white)](#-module-22--python-data-libraries)
+[![PowerBI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)](#-phase-4-data-visualization)
 
 <br>
 
@@ -32,9 +33,9 @@
 
 ## 📚 Quick Navigation
 
-| 🐍 | 📊 | 🗄️ | 🛠️ | 🎓 |
-|:---:|:---:|:---:|:---:|:---:|
-| [**Phase 1**<br>Python for Data Science](#-phase-1-python-for-data-science) | [**Phase 2**<br>Foundation of Data Analysis](#-phase-2-foundation-of-data-analysis) | [**Phase 3**<br>SQL](#️-phase-3-sql) | [**Skills**<br>Gained](#️-skills-gained) | [**Certificate**<br>& Links](#-certificate) |
+| 🐍 | 📊 | 🗄️ | 📉 | 🛠️ | 🎓 |
+|:---:|:---:|:---:|:---:|:---:|:---:|
+| [**Phase 1**<br>Python for Data Science](#-phase-1-python-for-data-science) | [**Phase 2**<br>Foundation of Data Analysis](#-phase-2-foundation-of-data-analysis) | [**Phase 3**<br>SQL](#️-phase-3-sql) | [**Phase 4**<br>Data Visualization](#-phase-4-data-visualization) | [**Skills**<br>Gained](#️-skills-gained) | [**Certificate**<br>& Links](#-certificate) |
 
 </div>
 
@@ -351,6 +352,31 @@ Organized into **3 phases**, each module has its own notebooks, datasets, and de
 <td>Full module README — covers all data retrieval concepts end-to-end</td>
 <td align="center"><a href="https://github.com/vinayakmishra4/DS-ML-COURSE/tree/main/SQL/DATA-Retervials-SQL#readme"><img src="https://img.shields.io/badge/view-README-4479A1?style=flat-square&logo=markdown"/></a></td>
 </tr>
+<tr>
+<td><b>➕ Aggregate Functions</b></td>
+<td><code>SUM</code>, <code>AVG</code>, <code>COUNT</code>, <code>MIN</code>, <code>MAX</code></td>
+<td align="center">—</td>
+</tr>
+<tr>
+<td><b>🔗 Grouping & Filtering</b></td>
+<td><code>GROUP BY</code>, <code>HAVING</code>, and layered filter logic</td>
+<td align="center">—</td>
+</tr>
+<tr>
+<td><b>🔤 Pattern Matching</b></td>
+<td><code>LIKE</code>, wildcards, and text pattern queries</td>
+<td align="center">—</td>
+</tr>
+<tr>
+<td><b>🔀 SQL Joins</b></td>
+<td><code>INNER</code>, <code>LEFT</code>, <code>RIGHT</code>, and other join types</td>
+<td align="center">—</td>
+</tr>
+<tr>
+<td><b>🪆 Subqueries</b></td>
+<td>Nested queries, correlated subqueries, and subquery logic</td>
+<td align="center">—</td>
+</tr>
 </tbody>
 </table>
 
@@ -375,6 +401,31 @@ Organized into **3 phases**, each module has its own notebooks, datasets, and de
 <td><b>📖 Module Overview</b></td>
 <td>Full module README — covers all advancing SQL concepts end-to-end</td>
 <td align="center"><a href="https://github.com/vinayakmishra4/DS-ML-COURSE/tree/main/SQL/Advancing-Sql#readme"><img src="https://img.shields.io/badge/view-README-4479A1?style=flat-square&logo=markdown"/></a></td>
+</tr>
+<tr>
+<td><b>🪟 Window Functions</b></td>
+<td><code>OVER()</code>, <code>PARTITION BY</code>, running totals & moving calculations</td>
+<td align="center">—</td>
+</tr>
+<tr>
+<td><b>🏅 Ranking</b></td>
+<td><code>RANK()</code>, <code>DENSE_RANK()</code>, <code>ROW_NUMBER()</code></td>
+<td align="center">—</td>
+</tr>
+<tr>
+<td><b>🪟⚡ Advanced Window Functions</b></td>
+<td>Top-N analysis, cumulative calculations, revenue-based analytics</td>
+<td align="center">—</td>
+</tr>
+<tr>
+<td><b>💾 Saving Tables</b></td>
+<td>Creating permanent & temporary tables to store and reuse query results</td>
+<td align="center">—</td>
+</tr>
+<tr>
+<td><b>👁️ Views</b></td>
+<td>Virtual tables — simplifying complex queries, improving security & manageability</td>
+<td align="center">—</td>
 </tr>
 </tbody>
 </table>
@@ -452,11 +503,63 @@ Organized into **3 phases**, each module has its own notebooks, datasets, and de
 
 <br>
 
+## 📉 Phase 4: Data Visualization
+
+<div align="center">
+<sub>Transforming raw data into compelling visual stories using industry-standard BI tools</sub>
+</div>
+
+<br>
+
+<details open>
+<summary><b>&nbsp;🟠&nbsp; Module 4.1 — Power BI</b></summary>
+<br>
+
+<table>
+<thead>
+<tr>
+<th align="left">📂 Sub-Module</th>
+<th align="left">📝 What It Covers</th>
+<th align="center">🔗 README</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><b>📊 Data Handling in Power BI</b></td>
+<td>Importing, transforming & managing data inside Power BI for visualization</td>
+<td align="center"><a href="https://github.com/vinayakmishra4/DS-ML-COURSE/blob/main/POWER-BI/DATA-HANDLING/Readme.md"><img src="https://img.shields.io/badge/view-README-F2C811?style=flat-square&logo=powerbi&logoColor=black"/></a></td>
+</tr>
+</tbody>
+</table>
+
+</details>
+
+<br>
+
+### 🚀 Projects Built in This Phase
+
+<table>
+<tr>
+<td align="center" style="padding: 20px;">
+
+**🛠️ No projects linked yet for this phase**
+*Share a repo link and it'll be added here with full styling*
+
+</td>
+</tr>
+</table>
+
+<div align="right"><a href="#-quick-navigation">⬆ back to top</a></div>
+
+---
+
+<br>
+
 ## 🛠️ Skills Gained
 
 <table>
 <tr>
-<td width="50%" valign="top">
+<td width="33%" valign="top">
 
 **Data & Analysis**
 - 🧹 Clean and prepare messy, real-world datasets
@@ -465,13 +568,22 @@ Organized into **3 phases**, each module has its own notebooks, datasets, and de
 - 🐼 Manipulate data efficiently with NumPy & Pandas
 
 </td>
-<td width="50%" valign="top">
+<td width="33%" valign="top">
 
 **Engineering & Databases**
 - 🌐 Extract web data via scraping & browser automation
 - 🗃️ Write SQL — joins, subqueries, window functions, views
 - 🧹 Clean and standardize data directly in SQL
 - 📝 Structure and document multi-phase technical projects on GitHub
+
+</td>
+<td width="33%" valign="top">
+
+**Visualization & BI Tools**
+- 📊 Build dashboards and reports in **Power BI**
+- 🔄 Import, transform & manage data inside Power BI
+- 📈 Create Matplotlib plots for data storytelling
+- 🎯 Choose the right visual for the right insight
 
 </td>
 </tr>
