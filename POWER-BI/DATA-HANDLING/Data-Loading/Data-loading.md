@@ -1,4 +1,3 @@
-```markdown
 # 📥 Data Loading in Power BI
 
 > **Master the process of loading, cleaning, and transforming data using Power Query in Power BI.** Learn how to prepare raw datasets by editing rows and columns before creating reports and dashboards.
@@ -272,4 +271,3 @@ Data loading and cleaning form the foundation of every successful Power BI proje
 **Happy Learning! 🚀📊**
 
 </div>
-```
