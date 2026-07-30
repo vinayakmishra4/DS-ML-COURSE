@@ -1,4 +1,3 @@
-````markdown
 # 🔄 Changing Data Types in Power Query
 
 ## 📖 Overview
@@ -137,4 +136,3 @@ Practice this topic using the Power BI file included in this repository.
 **📥 Practice File:** [**Changing-Data-Types.pbix**](https://github.com/vinayakmishra4/DS-ML-COURSE/blob/main/POWER-BI/DATA-HANDLING/Changin-Data-Types/Changing-Data-Types.pbix)
 
 ---
-````
