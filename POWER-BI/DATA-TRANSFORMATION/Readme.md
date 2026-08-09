@@ -344,7 +344,7 @@ By completing this project, you will understand how to:
 
 ## 🔗 Practice file
 
-📊 **[View the Power BI Transformation Project →](https://github.com/vinayakmishra4/DS-ML-COURSE/blob/main/POWER-BI/DATA-TRANSFORMATION/Extrtaction/Extraction.pbix)**
+📊 **[View the Power BI Transformation Project →](https://github.com/vinayakmishra4/DS-ML-COURSE/blob/main/POWER-BI/DATA-TRANSFORMATION/Data-Transfromation.pbix)**
 
 ---
 
