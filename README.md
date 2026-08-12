@@ -17,7 +17,7 @@
 
 <br>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=16&pause=1000&color=2F8D46&center=true&vCenter=true&width=600&lines=Data+Science+%7C+Machine+Learning+%7C+SQL;Python+%7C+Pandas+%7C+NumPy+%7C+Matplotlib;EDA+%7C+Preprocessing+%7C+Web+Scraping;Completed+July+10%2C+2025+%F0%9F%8E%93" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=16&pause=1000&color=2F8D46&center=true&vCenter=true&width=600&lines=Data+Science+%7C+Machine+Learning+%7C+SQL;Python+%7C+Pandas+%7C+NumPy+%7C+Matplotlib;EDA+%7C+Preprocessing+%7C+Web+Scraping;Power+BI+%7C+Data+Visualization+%7C+Dashboards;Completed+July+10%2C+2025+%F0%9F%8E%93" alt="Typing SVG" />
 
 <br>
 
@@ -43,9 +43,9 @@
 
 ## 🧭 Overview
 
-This repository documents my journey through the **Complete Machine Learning & Data Science Program** by **GeeksforGeeks** — a structured, end-to-end foundation in data science covering spreadsheet-level data handling, Python's core data libraries, and SQL for database querying.
+This repository documents my journey through the **Complete Machine Learning & Data Science Program** by **GeeksforGeeks** — a structured, end-to-end foundation in data science covering spreadsheet-level data handling, Python's core data libraries, SQL for database querying, and business intelligence with Power BI.
 
-Organized into **3 phases**, each module has its own notebooks, datasets, and dedicated README, backed by real mini-projects that put concepts into practice.
+Organized into **4 phases**, each module has its own notebooks, datasets, and dedicated README, backed by real mini-projects that put concepts into practice.
 
 <br>
 
@@ -525,9 +525,24 @@ Organized into **3 phases**, each module has its own notebooks, datasets, and de
 </thead>
 <tbody>
 <tr>
-<td><b>📊 Data Handling in Power BI</b></td>
-<td>Importing, transforming & managing data inside Power BI for visualization</td>
+<td><b>📥 Data Handling</b></td>
+<td>Importing, connecting & managing data sources inside Power BI</td>
 <td align="center"><a href="https://github.com/vinayakmishra4/DS-ML-COURSE/blob/main/POWER-BI/DATA-HANDLING/Readme.md"><img src="https://img.shields.io/badge/view-README-F2C811?style=flat-square&logo=powerbi&logoColor=black"/></a></td>
+</tr>
+<tr>
+<td><b>🔄 Data Transformation</b></td>
+<td>Shaping, cleaning & transforming raw data using Power Query Editor</td>
+<td align="center"><a href="https://github.com/vinayakmishra4/DS-ML-COURSE/blob/main/POWER-BI/DATA-TRANSFORMATION/Readme.md"><img src="https://img.shields.io/badge/view-README-F2C811?style=flat-square&logo=powerbi&logoColor=black"/></a></td>
+</tr>
+<tr>
+<td><b>🗂️ Data Modeling</b></td>
+<td>Building relationships, schemas & calculated columns/measures using DAX</td>
+<td align="center"><a href="https://github.com/vinayakmishra4/DS-ML-COURSE/blob/main/POWER-BI/DATA-MODELING/Readme.md"><img src="https://img.shields.io/badge/view-README-F2C811?style=flat-square&logo=powerbi&logoColor=black"/></a></td>
+</tr>
+<tr>
+<td><b>📈 Data Visualization</b></td>
+<td>Creating interactive charts, dashboards & reports to communicate insights</td>
+<td align="center"><a href="https://github.com/vinayakmishra4/DS-ML-COURSE/tree/main/POWER-BI/DATA-VISUILZATION"><img src="https://img.shields.io/badge/view-README-F2C811?style=flat-square&logo=powerbi&logoColor=black"/></a></td>
 </tr>
 </tbody>
 </table>
@@ -574,14 +589,14 @@ Organized into **3 phases**, each module has its own notebooks, datasets, and de
 - 🌐 Extract web data via scraping & browser automation
 - 🗃️ Write SQL — joins, subqueries, window functions, views
 - 🧹 Clean and standardize data directly in SQL
-- 📝 Structure and document multi-phase technical projects on GitHub
+- ⚡ Optimize queries for speed and scalability
 
 </td>
 <td width="33%" valign="top">
 
 **Visualization & BI Tools**
-- 📊 Build dashboards and reports in **Power BI**
-- 🔄 Import, transform & manage data inside Power BI
+- 📊 Build interactive dashboards & reports in **Power BI**
+- 🔄 Transform & model data with Power Query and DAX
 - 📈 Create Matplotlib plots for data storytelling
 - 🎯 Choose the right visual for the right insight
 
@@ -608,6 +623,7 @@ Organized into **3 phases**, each module has its own notebooks, datasets, and de
 | **SQL views** | `CREATE VIEW view_name AS SELECT ...` |
 | **SQL data cleaning** | `TRIM(...)`, `NULLIF(...)`, `COALESCE(...)`, `REPLACE(...)` |
 | **Query optimization** | Indexes, `EXPLAIN`, avoiding `SELECT *`, query restructuring |
+| **Power BI DAX** | `CALCULATE(...)`, `SUMX(...)`, `RELATED(...)`, `IF(...)` |
 
 </details>
 
@@ -660,13 +676,14 @@ Organized into **3 phases**, each module has its own notebooks, datasets, and de
 
 ## 🧗 Key Takeaways & Next Steps
 
-This program gave me a practical, end-to-end view of the data science workflow — from raw data in spreadsheets and databases all the way to clean, analyzed, and visualized datasets in Python.
+This program gave me a practical, end-to-end view of the data science workflow — from raw data in spreadsheets and databases all the way to clean, analyzed, visualized datasets in Python and interactive dashboards in Power BI.
 
 | 🎯 What's Next | 📌 Details |
 |:---|:---|
 | 🌾 **Independent Projects** | EDA on agricultural & retail sales datasets (sugarcane production, Black Friday sales) |
 | 🤖 **Machine Learning** | Regression, classification, clustering, and model evaluation |
 | 🗃️ **Advanced SQL** | Complex query optimization on large real-world datasets |
+| 📊 **Power BI Dashboards** | End-to-end BI reports combining data modeling, DAX & visualization |
 | 💼 **Portfolio Building** | End-to-end projects: cleaning → EDA → visualization → modeling |
 
 ---
