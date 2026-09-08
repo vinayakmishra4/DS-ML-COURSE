@@ -596,6 +596,31 @@ Organized into **4 phases**, each module has its own notebooks, datasets, and de
 
 <br>
 
+<details open>
+<summary><b>&nbsp;🟠&nbsp; Module 4.4 — Relationships &amp; Tables</b></summary>
+<br>
+
+<table>
+<thead>
+<tr>
+<th align="left">📂 Sub-Module</th>
+<th align="left">📝 What It Covers</th>
+<th align="center">🔗 README</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><b>🔗 Relationships &amp; Tables</b></td>
+<td>Defining table relationships, cardinality & cross-filter direction to build a solid data model</td>
+<td align="center"><a href="https://github.com/vinayakmishra4/DS-ML-COURSE/blob/main/POWER-BI/Relationships-Table/Readme.md"><img src="https://img.shields.io/badge/view-README-F2C811?style=flat-square&logo=powerbi&logoColor=black"/></a></td>
+</tr>
+</tbody>
+</table>
+
+</details>
+
+<br>
+
 ### 🚀 Projects Built in This Phase
 
 <table>
