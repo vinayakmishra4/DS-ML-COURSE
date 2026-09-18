@@ -1,341 +1,182 @@
-**![Power BI](https://img.shields.io/badge/Power%20BI-Data%20Visualization-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
+![Power BI](https://img.shields.io/badge/Power%20BI-Data%20Visualization-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
 ![Markdown](https://img.shields.io/badge/Documentation-Markdown-blue?style=for-the-badge)
 ![Learning](https://img.shields.io/badge/Focus-Hands--On%20Learning-success?style=for-the-badge)
 
-# 📊 Data Visualization with Power BI\*\***
+# 📊 Data Visualization with Power BI
 
-\\> **\*\*\\\*\\\*Turn raw data into clear, meaningful, and actionable insights.\\\*\\\*\*\***
+> **Turn raw data into clear, meaningful, and actionable insights.**
 
-\\> Data visualization is a key part of data analysis.
+Data visualization is a key part of data analysis. It presents data in a clear, meaningful, and easy-to-understand way. This guide focuses on practical visualization techniques in **Power BI**, covering axes, legends, relationships, formatting, line charts, tree maps, pie charts, and slicers.
 
-\\> It presents data in a clear, meaningful, and easy-to-understand way.
+---
 
-\\> This guide focuses on practical visualization techniques in **\*\*\\\*\\\*Power BI\\\*\\\*\*\***.
+## 📚 Table of Contents
 
-\\> The topics include axes, legends, relationships, formatting, line charts, and pie charts.
+1. [🚀 Getting Started with Visualizations](#-getting-started-with-visualizations)
+2. [🏷️ Legends and Categories](#️-legends-and-categories)
+3. [🔗 Connecting Tables for Accurate Visuals](#-connecting-tables-for-accurate-visuals)
+4. [🎨 Formatting Visuals](#-formatting-visuals)
+5. [📈 Line Charts](#-line-charts)
+6. [🌳 Tree Map Visual](#-tree-map-visual)
+7. [🥧 Pie Charts](#-pie-charts)
+8. [🏷️ Working with Data Labels](#️-working-with-data-labels)
+9. [🔍 Slicers](#-slicers)
+10. [🧪 Practice File](#-power-bi-practice-file)
+11. [🎯 Conclusion](#-conclusion)
 
-**\*\*---\*\***
+---
 
-**\*\*## 📚 Table of Contents\*\***
+## 🗺️ Learning Roadmap
 
-1\\. 🚀 Getting Started with Visualizations
-
-2\\. 🏷️ Legends and Categories
-
-3\\. 🔗 Connecting Tables
-
-4\\. 🎨 Formatting Visuals
-
-5\\. 📈 Line Charts
-
-6\\. 🥧 Pie Charts
-
-7\\. 🔍 Slicers
-
-8\\. 🧪 Practice File
-
-9\\. 🎯 Conclusion
-
-**---**
-
-**\*\*## 🗺️ Learning Roadmap\*\***
-
-\\\`\\\`\\\`text
-
+```text
 Data Modeling
-
-│
-
-▼
-
+      │
+      ▼
 Choose the Right Visual
-
-│
-
-├── 📊 Axes & Aggregations
-
-├── 🏷️ Legends & Categories
-
-├── 🔲 Small Multiples
-
-├── 📈 Line Charts
-
-├── 🥧 Pie Charts
-
-└── 🔍 Slicers
-
-│
-
-▼
-
+      │
+      ├── 📊 Axes & Aggregations
+      ├── 🏷️ Legends & Categories
+      ├── 🔲 Small Multiples
+      ├── 📈 Line Charts
+      ├── 🌳 Tree Maps
+      ├── 🥧 Pie Charts
+      └── 🔍 Slicers
+      │
+      ▼
 Format & Customize
-
-│
-
-├── Titles
-
-├── Axes
-
-├── Legends
-
-└── Data Labels
-
-│
-
-▼
-
+      │
+      ├── Titles
+      ├── Axes
+      ├── Legends
+      └── Data Labels
+      │
+      ▼
 Practice with the PBIX File
-
-│
-
-▼
-
+      │
+      ▼
 Build Clear Data Stories 🚀
+```
 
-\\\`\\\`\\\`
+---
 
-**\*\*---\*\***
+## 🚀 Getting Started with Visualizations
 
-**\*\*## 🚀 Getting Started with Visualizations\*\***
+After transforming and modeling data, the next step is creating visualizations. Power BI provides many visualization types for different analytical purposes — common visuals include bar charts, stacked column charts, pie charts, and line charts.
 
-After transforming and modeling data, the next step is creating visualizations.
+- To start building a visual, open the **Add and Build Your Visual** area. If it isn't visible, use the **Data** option.
+- Choose the visualization type that best represents your data.
+- For a basic chart, assign fields to the axes:
+  - The **X-axis** generally represents categories or sequential information.
+  - The **Y-axis** generally represents numerical values or measurements.
 
-Power BI provides many visualization types for different analytical purposes.
+Power BI applies **Sum** aggregation to numerical fields by default. Depending on the analysis, this can be changed to **Average**, **Maximum**, **Minimum**, or **Count**. Choosing the correct aggregation ensures the visual represents the intended analysis.
 
-Common visuals include bar charts, stacked column charts, pie charts, and line charts.
+---
 
-To start building a visual, open the **\*\*\\\*\\\*Add and Build Your Visual\\\*\\\*\*\*** area.
+## 🏷️ Legends and Categories
 
-If the required area is not visible, use the **\*\*\\\*\\\*Data\\\*\\\*\*\*** option.
+Legends help categorize and subcategorize information in a visualization. For example, adding **Promo Bin** to the **Legend** field divides revenue by promotion category, with different colors or sections representing each one.
 
-Choose the visualization type that best represents your data.
+### 🔲 Small Multiples
 
-For a basic chart, assign appropriate fields to the axes.
+Small multiples divide one visualization into several smaller charts, each representing a particular category.
 
-The **\*\*\\\*\\\*X-axis\\\*\\\*\*\*** generally represents categories or sequential information.
+- Add **City** to the **Small multiples** field.
+- Power BI creates a separate chart for each city.
+- Small multiples make comparisons easier — but too many categories can crowd the visual and make it harder to interpret.
 
-The **\*\*\\\*\\\*Y-axis\\\*\\\*\*\*** generally represents numerical values or measurements.
+---
 
-Power BI generally applies **\*\*\\\*\\\*Sum\\\*\\\*\*\*** aggregation to numerical fields by default.
+## 🔗 Connecting Tables for Accurate Visuals
 
-Depending on the analysis, aggregation can be changed to Average, Maximum, Minimum, or Count.
+A visual may not display data correctly when the required tables aren't connected. If a field from another table can't categorize or filter a visual correctly, check the relationships.
 
-Choosing the correct aggregation ensures that the visual represents the intended analysis.
+For example, **City** from a Store table may be needed alongside sales information:
 
-**\*\*------------------------------------------------------------------------------------------\*\***
-
-**\*\*## 🏷️ Legends and Categories\*\***
-
-Legends help categorize and subcategorize information in a visualization.
-
-For example, **\*\*\\\*\\\*Promo Bin\\\*\\\*\*\*** can be added to the **\*\*\\\*\\\*Legend\\\*\\\*\*\*** field.
-
-Revenue can then be divided according to different promotion categories.
-
-Different colors or sections can represent different categories.
-
-**\*\*### 🔲 Small Multiples\*\***
-
-Small multiples divide one visualization into several smaller charts.
-
-Each smaller chart represents a particular category.
-
-For example, add **\*\*\\\*\\\*City\\\*\\\*\*\*** to the **\*\*\\\*\\\*Small multiples\\\*\\\*\*\*** field.
-
-Power BI then creates a separate chart for each city.
-
-Small multiples can make comparisons easier.
-
-Too many categories can make the visual crowded and harder to interpret.
-
-**\*\*------------------------------------------------------------------------\*\***
-
-**\*\*## 🔗 Connecting Tables for Accurate Visuals\*\***
-
-A visual may not display data correctly when required tables are not connected.
-
-If a field from another table cannot categorize or filter a visual correctly, check the relationships.
-
-For example, **\*\*\\\*\\\*City\\\*\\\*\*\*** from a Store table may be used with sales information.
-
-The relevant tables need an appropriate relationship.
-
-Open the **\*\*\\\*\\\*Data Model\\\*\\\*\*\*** view to create or inspect relationships.
-
-Locate the tables that need to be connected.
-
-Identify a common field such as **\*\*\\\*\\\*Store ID\\\*\\\*\*\***.
-
-Connect the matching **\*\*\\\*\\\*Store ID\\\*\\\*\*\*** fields.
-
-Verify that the relationship has been established correctly.
+1. Open the **Data Model** view to create or inspect relationships.
+2. Locate the tables that need to be connected.
+3. Identify a common field, such as **Store ID**.
+4. Connect the matching **Store ID** fields.
+5. Verify that the relationship has been established correctly.
 
 Once tables are related, fields from both tables can be used together.
 
-**\*\*----------------------------------------------------------------------\*\***
+---
 
-**\*\*## 🎨 Formatting Visuals\*\***
+## 🎨 Formatting Visuals
 
 Formatting makes visualizations attractive, readable, and informative.
 
-Select a visual and open the **\*\*\\\*\\\*Format\\\*\\\*\*\*** option represented by the paint roller icon.
+- Select a visual and open the **Format** option (the paint roller icon) to customize it.
+- Titles should clearly communicate what a visual represents — for example, **"Sum of Revenue by Product"** can become **"Revenue by Product."**
+- Titles can be edited through the formatting options.
+- When on-object interaction is enabled, elements like titles, axis labels, and data points can be edited directly for quick formatting changes.
 
-Use the format pane to customize the selected visual.
+---
 
-Titles should clearly communicate what a visual represents.
+## 📈 Line Charts
 
-For example, **\*\*\\\*\\\*Sum of Revenue by Product\\\*\\\*\*\*** can become **\*\*\\\*\\\*Revenue by Product\\\*\\\*\*\***.
+A **line chart** represents data points connected by straight lines. It's useful for showing trends over time and for comparing multiple datasets.
 
-Titles can be edited through the formatting options.
+- The **X-axis** (horizontal) represents time or sequential categories, such as years or months.
+- The **Y-axis** (vertical) represents values or measurements associated with each data point.
 
-When on-object interaction is enabled, certain visual elements can also be edited directly.
+Line charts are ideal for continuous data — examples include sales figures, stock prices, and course applicants over time. A chart can display one line or multiple lines, with each line representing a different data series; multiple lines make it easier to compare trends on the same chart.
 
-On-object interaction can help make quick formatting changes.
+### 🎯 Use Cases for Line Charts
 
-You can customize titles, axis labels, data points, and other visual components.
+| Use Case | Description |
+|---|---|
+| **1️⃣ Trend Analysis** | Track changes in data over time, e.g. sales growth or stock price movement |
+| **2️⃣ Comparisons** | Compare multiple datasets over a specific period, e.g. sales figures across products |
+| **3️⃣ Predictive Analysis** | Use historical data to identify possible future trends, e.g. market growth |
 
-**\*\*--------------------------------------------------------------------------------\*\***
+### 📊 Example Course Dataset
 
-**\*\*## 📈 Line Charts\*\***
+Assume course applicant data from **2017 to 2022** with four key columns:
 
-A **\*\*\\\*\\\*line chart\\\*\\\*\*\*** represents data points connected by straight lines.
+| Column | Description |
+|---|---|
+| **Year** | Timeline, used on the X-axis |
+| **AI/ML** | Number of AI/ML course applicants |
+| **Java** | Number of Java course applicants |
+| **DSA** | Number of DSA course applicants |
 
-It is useful for showing trends over time.
+Each course can be displayed as a separate line, allowing year-wise comparisons between courses.
 
-It can also be used to compare multiple datasets.
+### 🛠️ Creating a Line Chart in Power BI
 
-A line chart uses two main axes.
+**Step 1 — Importing Data**
+1. Open **Power BI Desktop**.
+2. Click **Get Data**.
+3. Choose **Excel Workbook**.
+4. Select the relevant dataset file.
+5. Click **Load** to import the data.
 
-The **\*\*\\\*\\\*X-axis\\\*\\\*\*\*** is the horizontal axis.
+**Step 2 — Creating the Line Chart**
+1. Select the **Line Chart** visual from the visualization pane and resize as needed.
+2. Drag **Year** into the **X-axis** (Axis) field.
+3. Drag a numerical field into the **Y-axis** (Values) field.
+4. Add additional numerical fields for multiple data series.
+5. Use the **Format pane** to adjust line colors, styles, axis labels, gridlines, and data labels.
 
-The X-axis represents time or sequential categories such as years or months.
+### 🔍 Reading a Line Chart
 
-The **\*\*\\\*\\\*Y-axis\\\*\\\*\*\*** is the vertical axis.
+Each point represents a value for a particular time period or category, and the connecting line shows how the value changes between points:
 
-The Y-axis represents values or measurements associated with each data point.
+- ⬆️ An upward line indicates an increase.
+- ⬇️ A downward line indicates a decrease.
+- Multiple lines allow different data series to be compared, and hovering over a point displays its exact value.
 
-Line charts are ideal for continuous data.
+> **Example:** In 2020, AI/ML had 121 applicants, DSA had 139, and Java had 75.
 
-Examples include sales figures, stock prices, and course applicants over time.
-
-A line chart can display one line or multiple lines.
-
-Each line can represent a different data series.
-
-Multiple lines make it easier to compare trends on the same chart.
-
-Line charts help visualize trends, detect patterns, and make comparisons.
-
-**\*\*-------------------------------------------------------------------------\*\***
-
-**\*\*## 🎯 Use Cases for Line Charts\*\***
-
-**\*\*### 1️⃣ Trend Analysis\*\***
-
-Line charts can track changes in data over time.
-
-Examples include sales growth and the rise or fall of stock prices.
-
-**\*\*### 2️⃣ Comparisons\*\***
-
-Line charts can compare multiple datasets over a specific period.
-
-For example, sales figures for different products can be compared.
-
-**\*\*### 3️⃣ Predictive Analysis\*\***
-
-Historical line-chart data can help identify possible future trends.
-
-Examples include market growth and customer behavior.
-
-**\*\*-----------------------------------------------------\*\***
-
-**\*\*## 📊 Example Course Dataset\*\***
-
-Assume we have course applicant data from **\*\*\\\*\\\*2017 to 2022\\\*\\\*\*\***.
-
-The dataset contains four important columns.
-
-**\*\*\\\*\\\*Year\\\*\\\*\*\*** represents the timeline and is used on the X-axis.
-
-**\*\*\\\*\\\*AI/ML\\\*\\\*\*\*** represents the number of AI/ML course applicants.
-
-**\*\*\\\*\\\*Java\\\*\\\*\*\*** represents the number of Java course applicants.
-
-**\*\*\\\*\\\*DSA\\\*\\\*\*\*** represents the number of DSA course applicants.
-
-Each course can be displayed as a separate line.
-
-This allows year-wise comparisons between the courses.
-
-**\*\*------------------------------------------------------\*\***
-
-**\*\*## 🛠️ Creating a Line Chart in Power BI\*\***
-
-**\*\*### Step 1️⃣: Importing Data\*\***
-
-Open **\*\*\\\*\\\*Power BI Desktop\\\*\\\*\*\***.
-
-Click **\*\*\\\*\\\*Get Data\\\*\\\*\*\***.
-
-Choose **\*\*\\\*\\\*Excel Workbook\\\*\\\*\*\***.
-
-Select the relevant dataset file.
-
-Click **\*\*\\\*\\\*Load\\\*\\\*\*\*** to import the data.
-
-After loading the data, the available fields can be used to create visuals.
-
-**\*\*### Step 2️⃣: Creating the Line Chart\*\***
-
-Select the **\*\*\\\*\\\*Line Chart\\\*\\\*\*\*** visual from the visualization pane.
-
-Resize the chart as required.
-
-Drag **\*\*\\\*\\\*Year\\\*\\\*\*\*** into the **\*\*\\\*\\\*X-axis\\\*\\\*\*\*** or Axis field.
-
-Drag a numerical field into the **\*\*\\\*\\\*Y-axis\\\*\\\*\*\*** or Values field.
-
-Add additional numerical fields for multiple data series.
-
-Use the **\*\*\\\*\\\*Format pane\\\*\\\*\*\*** to customize the chart.
-
-You can adjust line colors, styles, axis labels, and gridlines.
-
-Data labels and other formatting options can also improve readability.
-
-**\*\*----------------------------------------------------------------------\*\***
-
-**\*\*## 🔍 Reading a Line Chart\*\***
-
-Each point represents a value for a particular time period or category.
-
-The connecting line shows how the value changes between points.
-
-An upward line indicates an increase between the relevant points.
-
-A downward line indicates a decrease between the relevant points.
-
-Multiple lines allow different data series to be compared.
-
-Hovering over a data point can display its exact value.
-
-For example, the course dataset can show applicant numbers for each year.
-
-In 2020, AI/ML has 121 applicants, DSA has 139, and Java has 75.
-
-**\*\*----------------------------------------------------------------\*\***
-
-**\*\*
 ---
 
 ## 🌳 Tree Map Visual
 
-A **Tree Map** in Power BI displays hierarchical data using nested rectangles. Each rectangle represents a category, and its size is proportional to the value of a selected measure, such as revenue or sales.
+A **Tree Map** in Power BI displays hierarchical data using nested rectangles. Each rectangle represents a category, and its size is proportional to a selected measure, such as revenue or sales.
 
 ### ✨ Why Use a Tree Map?
-
-Tree Maps are useful when you want to:
 
 - 📊 Compare the relative size of multiple categories.
 - 🌳 Display hierarchical data in a compact layout.
@@ -348,7 +189,7 @@ Tree Maps are useful when you want to:
 2. Select the **Tree Map** visual from the **Visualizations** pane.
 3. Add a **Category** field to the **Group** field.
 4. Add a numerical measure, such as **Revenue**, to the **Values** field.
-5. Optionally, add a **Subcategory** field to display hierarchical information.
+5. Optionally, add a **Subcategory** field for hierarchical detail.
 6. Use the **Format** pane to customize colors, titles, labels, and borders.
 
 ### 🧩 Example: Revenue by Product Category
@@ -360,29 +201,27 @@ Tree Maps are useful when you want to:
 | **Revenue** | Controls the size of each rectangle |
 | **Color** | Helps distinguish categories |
 
-Larger rectangles represent categories with higher revenue, while smaller rectangles represent categories with lower revenue. Hover over a rectangle to view additional details, such as the category name and exact revenue value.
+Larger rectangles represent categories with higher revenue; smaller rectangles represent lower revenue. Hover over a rectangle to view details such as category name and exact revenue value.
 
 ### 🌲 Creating a Hierarchy
 
-A Tree Map can show multiple levels of data:
-
 ```text
 Category
-│
-├── Subcategory 1
-├── Subcategory 2
-└── Subcategory 3
+   │
+   ├── Subcategory 1
+   ├── Subcategory 2
+   └── Subcategory 3
 ```
 
-For example, a **Food** category may contain subcategories such as **Breakfast Cereals**, **Pasta**, and **Snacks**. The nested rectangles help explain how each subcategory contributes to the overall category.
+For example, a **Food** category may contain subcategories such as **Breakfast Cereals**, **Pasta**, and **Snacks**. Nested rectangles help show how each subcategory contributes to the overall category.
 
 ### 🎨 Tree Map Formatting Tips
 
 - Use meaningful and descriptive titles.
 - Select contrasting colors for easier category recognition.
 - Enable data labels when category names and values need to be visible.
-- Avoid adding too many categories, as the visual can become crowded.
-- Use tooltips to provide additional information without overloading the visual.
+- Avoid adding too many categories — the visual can become crowded.
+- Use tooltips to add detail without overloading the visual.
 - Keep formatting consistent with the rest of the report.
 
 ### ✅ Benefits of Tree Maps
@@ -394,196 +233,121 @@ For example, a **Food** category may contain subcategories such as **Breakfast C
 | **Hierarchical View** | Show relationships between categories and subcategories |
 | **Interactive Analysis** | Use tooltips and filtering for deeper exploration |
 
-> 💡 **Learning Tip:** Try creating a Tree Map using **Category**, **Subcategory**, and **Revenue**. Experiment with colors, labels, and slicers to understand how the visual changes.
-
-
-## 🥧 Pie Charts\*\***
-
-Pie charts show how individual categories contribute to a whole.
-
-They are particularly useful for proportions or percentages.
-
-**\*\*### ✅ When to Use Pie Charts\*\***
-
-Use pie charts when the data represents a meaningful whole.
-
-Use them when there are only a few categories.
-
-Use them when the main goal is showing proportions.
-
-Use them when differences between categories can be understood easily.
-
-**\*\*### ❌ When to Avoid Pie Charts\*\***
-
-Avoid pie charts when there are many categories.
-
-Avoid them when the chart contains many small segments.
-
-Avoid them when exact comparisons are important.
-
-Avoid them when multiple pie charts need to be compared.
-
-A bar or column chart can provide a clearer comparison in these situations.
-
-**\*\*---------------------------------------------------------------------------\*\***
-
-**\*\*## 🛠️ Creating a Pie Chart\*\***
-
-Select the **\*\*\\\*\\\*Pie Chart\\\*\\\*\*\*** visual.
-
-Add the category field to **\*\*\\\*\\\*Legend\\\*\\\*\*\***.
-
-Add the numerical measure to **\*\*\\\*\\\*Values\\\*\\\*\*\***.
-
-For example, use **\*\*\\\*\\\*City\\\*\\\*\*\*** as the Legend and **\*\*\\\*\\\*Revenue\\\*\\\*\*\*** as Values.
-
-Power BI creates a segment for each category.
-
-The size of each segment represents its contribution to total revenue.
-
-**\*\*----------------------------------------------------------------------\*\***
-
-**\*\*## 🏷️ Working with Data Labels\*\***
-
-Data labels display exact values directly on a visual.
-
-To enable them, select the visual and open the **\*\*\\\*\\\*Format\\\*\\\*\*\*** pane.
-
-Locate **\*\*\\\*\\\*Data labels\\\*\\\*\*\*** and turn the option on.
-
-Labels are useful when precise values are important.
-
-They are especially useful for bar charts and pie charts.
-
-Avoid excessive labels when a visual contains many data points.
-
-Too many labels can make the visualization difficult to read.
-
-**\*\*-------------------------------------------------------------\*\***
-
-\\\*\\\*## 🔍 Slicers
-
-Slicers are a powerful visual tool in Power BI that allow you to filter data dynamically.
-
-They give users control over the data they see in reports and create interactive, user-friendly reports.
-
-A slicer lets users filter data in other visuals on the same report page.
-
-For example, a Store ID slicer can filter a sales chart to show selected stores.
-
-**### 🛠️ Setting Up a Slicer**
-
-Select the **\*\*Slicer\*\*** visual from the visualization pane.
-
-Drag the field you want to filter into the slicer, such as **\*\*Store ID\*\***.
-
-Users can then select individual Store IDs to filter connected visuals.
-
-**### 🎨 Customizing Slicers**
-
-Add a clear title such as **\*\*Slicer for Stores\*\*** through the **\*\*Format\*\*** pane.
-
-Slicers can use a vertical list or dropdown layout.
-
-A dropdown is useful when there are many values or limited report space.
-
-Enable multi-select when users need to select multiple values at once.
-
-Style options such as borders and spacing can help match the report design.
-
-**### 📅 Using Slicers for Date Filtering**
-
-Add a slicer and drag **\*\*Order Date\*\*** into it to filter data by date.
-
-Users can adjust the date range, and connected visuals update accordingly.
-
-Power BI also provides **\*\*Relative Date\*\*** filtering.
-
-This can filter data to the last 30 days, last 6 months, last 2 years, or another relative period.
-
-**### 💡 Practical Example**
-
-**\*\*Store ID Slicer:\*\*** Add a slicer for **\*\*Store ID\*\*** and enable multi-select to compare several stores.
-
-**\*\*Date Slicer:\*\*** Add an **\*\*Order Date\*\*** slicer and use a dropdown or relative-date option for quick time filtering.
-
-**\*\*Appearance:\*\*** Use clear titles and consistent formatting so the slicers are easy to understand.
-
-**### ✅ Benefits of Slicers**
-
-1\. **\*\*Interactive filtering:\*\*** Users can dynamically control the data shown in visuals.
-
-2\. **\*\*Focused analysis:\*\*** Users can focus on specific stores, categories, or time periods.
-
-3\. **\*\*Better user experience:\*\*** Slicers make reports easier to explore.
-
-4\. **\*\*Flexible date analysis:\*\*** Date and relative-date slicers support time-based analysis.
-
-**### 🎯 Slicer Best Practices**
-
-1\. Use clear and descriptive slicer titles.
-
-2\. Use dropdown layouts when long lists would take too much space.
-
-3\. Enable multi-select when comparing multiple categories.
-
-4\. Avoid adding too many slicers to one report page.
-
-5\. Place slicers where users can find them easily.
-
-6\. Keep slicer formatting consistent with the report design.
-
-**### 🎯 Conclusion**
-
-Slicers make Power BI reports interactive and user-friendly by allowing users to filter data dynamically.
-
-They can filter categories, stores, dates, and other criteria and help users explore reports in a focused way.
-
-**## 🧪 Power BI Practice File\\\*\\\***
-
-Use the accompanying \\\`.pbix\\\` file to practice the concepts in this guide.
-
-Practice creating visualizations, configuring axes, and changing aggregations.
-
-Experiment with legends and small multiples.
-
-Explore relationships between tables.
-
-Create and format line charts.
-
-Create and format pie charts.
-
-Practice using titles, axis labels, legends, and data labels.
-
-**\*\*### 📂 Practice File\*\***
-
-**\*\*\\\*\\\*File Type:\\\*\\\*\*\*** \\\`.pbix\\\`
-
-**\*\*\\\*\\\*Location:\\\*\\\*\*\*** \\\`POWER-BI/DATA-VISUILZATION/Data-visuizaltion.pbix\\\`
-
-**\*\*\\\*\\\*🚀 [Open Data Visualization Practice File]\\(\*\***https\://github.com/vinayakmishra4/DS-ML-COURSE/blob/main/POWER-BI/DATA-VISUILZATION/Data-visuizaltion.pbix\*\*)\\\*\\\*\*\*
-
-💡 ***Learning Tip: *** Recreate the visuals yourself instead of only opening the completed report.
+> 💡 **Learning Tip:** Try creating a Tree Map using **Category**, **Subcategory**, and **Revenue**. Experiment with colors, labels, and slicers to see how the visual changes.
 
 ---
 
+## 🥧 Pie Charts
 
-## 🎯 Conclusion**
+Pie charts show how individual categories contribute to a whole — particularly useful for proportions or percentages.
 
-Power BI visualization transforms raw data into meaningful visual stories.
+### ✅ When to Use Pie Charts
 
-Correctly configuring axes, legends, relationships, and aggregations improves accuracy.
+- The data represents a meaningful whole.
+- There are only a few categories.
+- The main goal is showing proportions.
+- Differences between categories can be understood easily.
 
-Line charts are effective for trends, comparisons, and continuous data.
+### ❌ When to Avoid Pie Charts
 
-Pie charts are useful for simple part-to-whole comparisons.
+- There are many categories.
+- The chart would contain many small segments.
+- Exact comparisons are important.
+- Multiple pie charts would need to be compared.
 
-Formatting improves readability and helps viewers understand the message quickly.
+> A bar or column chart provides a clearer comparison in these situations.
 
-Choose visual types based on the story your data needs to communicate.
+### 🛠️ Creating a Pie Chart
 
-Keep designs clear, meaningful, and focused on the data.
+1. Select the **Pie Chart** visual.
+2. Add the category field to **Legend** (e.g. **City**).
+3. Add the numerical measure to **Values** (e.g. **Revenue**).
+4. Power BI creates a segment for each category, sized by its contribution to the total.
 
-*** 📊 Build clear visuals. Discover meaningful insights. Make better decisions. 🚀 ***
+---
 
-The guide content above is *** exactly 200 lines ***. It is based on your original README plus the Line Chart material you provided.
+## 🏷️ Working with Data Labels
+
+Data labels display exact values directly on a visual.
+
+1. Select the visual and open the **Format** pane.
+2. Locate **Data labels** and turn the option on.
+
+Labels are useful when precise values matter — especially for bar charts and pie charts. Avoid excessive labels on visuals with many data points, as this can make the chart harder to read.
+
+---
+
+## 🔍 Slicers
+
+Slicers are a powerful visual tool in Power BI that let you filter data dynamically, giving users control over what they see and making reports interactive and user-friendly. A slicer filters other visuals on the same report page — for example, a Store ID slicer can filter a sales chart to show selected stores.
+
+### 🛠️ Setting Up a Slicer
+
+1. Select the **Slicer** visual from the visualization pane.
+2. Drag the field you want to filter into the slicer, such as **Store ID**.
+3. Users can then select individual Store IDs to filter connected visuals.
+
+### 🎨 Customizing Slicers
+
+- Add a clear title, such as **"Slicer for Stores,"** through the **Format** pane.
+- Slicers can use a vertical list or dropdown layout — dropdowns work well with many values or limited space.
+- Enable multi-select when users need to select multiple values at once.
+- Style options such as borders and spacing help match the report design.
+
+### 📅 Using Slicers for Date Filtering
+
+- Add a slicer and drag **Order Date** into it to filter by date; connected visuals update as the range changes.
+- Power BI also provides **Relative Date** filtering — e.g. the last 30 days, last 6 months, or last 2 years.
+
+### 💡 Practical Example
+
+| Slicer | Setup |
+|---|---|
+| **Store ID** | Add a slicer for Store ID and enable multi-select to compare several stores |
+| **Date** | Add an Order Date slicer with a dropdown or relative-date option for quick time filtering |
+| **Appearance** | Use clear titles and consistent formatting so slicers are easy to understand |
+
+### ✅ Benefits of Slicers
+
+1. **Interactive filtering** — users can dynamically control the data shown in visuals.
+2. **Focused analysis** — users can focus on specific stores, categories, or time periods.
+3. **Better user experience** — slicers make reports easier to explore.
+4. **Flexible date analysis** — date and relative-date slicers support time-based analysis.
+
+### 🎯 Slicer Best Practices
+
+- Use clear and descriptive slicer titles.
+- Use dropdown layouts when long lists would take too much space.
+- Enable multi-select when comparing multiple categories.
+- Avoid adding too many slicers to one report page.
+- Place slicers where users can find them easily.
+- Keep slicer formatting consistent with the report design.
+
+---
+
+## 🧪 Power BI Practice File
+
+Use the accompanying `.pbix` file to practice the concepts in this guide:
+
+- Practice creating visualizations, configuring axes, and changing aggregations.
+- Experiment with legends and small multiples.
+- Explore relationships between tables.
+- Create and format line charts, tree maps, and pie charts.
+- Practice using titles, axis labels, legends, and data labels.
+
+**File Type:** `.pbix`
+**Location:** `POWER-BI/DATA-VISUILZATION/Data-visuizaltion.pbix`
+
+**🚀 [Open Data Visualization Practice File](https://github.com/vinayakmishra4/DS-ML-COURSE/blob/main/POWER-BI/DATA-VISUILZATION/Data-visuizaltion.pbix)**
+
+> 💡 **Learning Tip:** Recreate the visuals yourself instead of only opening the completed report.
+
+---
+
+## 🎯 Conclusion
+
+Power BI visualization transforms raw data into meaningful visual stories. Correctly configuring axes, legends, relationships, and aggregations improves accuracy. Line charts are effective for trends, comparisons, and continuous data; tree maps reveal hierarchical, part-to-whole relationships; and pie charts are useful for simple proportional comparisons. Formatting improves readability and helps viewers understand the message quickly.
+
+**Choose visual types based on the story your data needs to communicate — keep designs clear, meaningful, and focused on the data.**
+
+> 📊 *Build clear visuals. Discover meaningful insights. Make better decisions.* 🚀
