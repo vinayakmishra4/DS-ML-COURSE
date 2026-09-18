@@ -564,6 +564,11 @@ Organized into **4 phases**, each module has its own notebooks, datasets, and de
 <td>Creating interactive charts, dashboards & reports to communicate insights</td>
 <td align="center"><a href="https://github.com/vinayakmishra4/DS-ML-COURSE/tree/main/POWER-BI/DATA-VISUILZATION"><img src="https://img.shields.io/badge/view-README-F2C811?style=flat-square&logo=powerbi&logoColor=black"/></a></td>
 </tr>
+<tr>
+<td><b>🔀 Data Reshape</b></td>
+<td>Reshaping & restructuring data tables — pivoting, unpivoting & reorganising columns for analysis</td>
+<td align="center"><a href="https://github.com/vinayakmishra4/DS-ML-COURSE/blob/main/POWER-BI/DATA-RESHAPE/Readme.md"><img src="https://img.shields.io/badge/view-README-F2C811?style=flat-square&logo=powerbi&logoColor=black"/></a></td>
+</tr>
 </tbody>
 </table>
 
