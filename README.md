@@ -14,6 +14,7 @@
 [![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)](#-module-22--python-data-libraries)
 [![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge&logo=python&logoColor=white)](#-module-22--python-data-libraries)
 [![PowerBI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)](#-phase-4-data-visualization)
+[![ML](https://img.shields.io/badge/Machine_Learning-B31B1B?style=for-the-badge&logo=scikitlearn&logoColor=white)](#-phase-5-machine-learning)
 
 <br>
 
@@ -33,9 +34,9 @@
 
 ## 📚 Quick Navigation
 
-| 🐍 | 📊 | 🗄️ | 📉 | 🛠️ | 🎓 |
-|:---:|:---:|:---:|:---:|:---:|:---:|
-| [**Phase 1**<br>Python for Data Science](#-phase-1-python-for-data-science) | [**Phase 2**<br>Foundation of Data Analysis](#-phase-2-foundation-of-data-analysis) | [**Phase 3**<br>SQL](#️-phase-3-sql) | [**Phase 4**<br>Data Visualization](#-phase-4-data-visualization) | [**Skills**<br>Gained](#️-skills-gained) | [**Certificate**<br>& Links](#-certificate) |
+| 🐍 | 📊 | 🗄️ | 📉 | 🤖 | 🛠️ | 🎓 |
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| [**Phase 1**<br>Python for Data Science](#-phase-1-python-for-data-science) | [**Phase 2**<br>Foundation of Data Analysis](#-phase-2-foundation-of-data-analysis) | [**Phase 3**<br>SQL](#️-phase-3-sql) | [**Phase 4**<br>Data Visualization](#-phase-4-data-visualization) | [**Phase 5**<br>Machine Learning](#-phase-5-machine-learning) | [**Skills**<br>Gained](#️-skills-gained) | [**Certificate**<br>& Links](#-certificate) |
 
 </div>
 
@@ -45,7 +46,7 @@
 
 This repository documents my journey through the **Complete Machine Learning & Data Science Program** by **GeeksforGeeks** — a structured, end-to-end foundation in data science covering spreadsheet-level data handling, Python's core data libraries, SQL for database querying, and business intelligence with Power BI.
 
-Organized into **4 phases**, each module has its own notebooks, datasets, and dedicated README, backed by real mini-projects that put concepts into practice.
+Organized into **5 phases**, each module has its own notebooks, datasets, and dedicated README, backed by real mini-projects that put concepts into practice.
 
 <br>
 
@@ -644,12 +645,69 @@ Organized into **4 phases**, each module has its own notebooks, datasets, and de
 ---
 
 <br>
+## 🤖 Phase 5: Machine Learning
+
+<div align="center">
+<sub>Understanding the foundations of ML — what it is, how it works, and the different learning paradigms</sub>
+</div>
+
+<br>
+
+<details open>
+<summary><b>&nbsp;🔴&nbsp; Module 5.1 — Introduction to Machine Learning</b></summary>
+<br>
+
+<table>
+<thead>
+<tr>
+<th align="left">📂 Sub-Module</th>
+<th align="left">📝 What It Covers</th>
+<th align="center">🔗 README</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><b>🤖 Intro to Machine Learning</b></td>
+<td>What is Machine Learning, why it matters, key terminology, real-world applications & the ML workflow pipeline</td>
+<td align="center"><a href="https://github.com/vinayakmishra4/DS-ML-COURSE/blob/main/Machine-Learning/Intro-to-Machine-Learning/Readme.md"><img src="https://img.shields.io/badge/view-README-B31B1B?style=flat-square&logo=markdown&logoColor=white"/></a></td>
+</tr>
+<tr>
+<td><b>🗂️ Types of Machine Learning</b></td>
+<td>Supervised, Unsupervised & Reinforcement Learning — definitions, differences, algorithms & use cases for each</td>
+<td align="center"><a href="https://github.com/vinayakmishra4/DS-ML-COURSE/blob/main/Machine-Learning/Types-of-ML/Readme.md"><img src="https://img.shields.io/badge/view-README-B31B1B?style=flat-square&logo=markdown&logoColor=white"/></a></td>
+</tr>
+</tbody>
+</table>
+
+</details>
+
+<br>
+
+### 🚀 Projects Built in This Phase
+
+<table>
+<tr>
+<td align="center" style="padding: 20px;">
+
+**🛠️ No projects linked yet for this phase**
+*Share a repo link and it'll be added here with full styling*
+
+</td>
+</tr>
+</table>
+
+<div align="right"><a href="#-quick-navigation">⬆ back to top</a></div>
+
+---
+
+<br>
+
 
 ## 🛠️ Skills Gained
 
 <table>
 <tr>
-<td width="33%" valign="top">
+<td width="25%" valign="top">
 
 **Data & Analysis**
 - 🧹 Clean and prepare messy, real-world datasets
@@ -658,7 +716,7 @@ Organized into **4 phases**, each module has its own notebooks, datasets, and de
 - 🐼 Manipulate data efficiently with NumPy & Pandas
 
 </td>
-<td width="33%" valign="top">
+<td width="25%" valign="top">
 
 **Engineering & Databases**
 - 🌐 Extract web data via scraping & browser automation
@@ -667,13 +725,22 @@ Organized into **4 phases**, each module has its own notebooks, datasets, and de
 - ⚡ Optimize queries for speed and scalability
 
 </td>
-<td width="33%" valign="top">
+<td width="25%" valign="top">
 
 **Visualization & BI Tools**
 - 📊 Build interactive dashboards & reports in **Power BI**
 - 🔄 Transform & model data with Power Query and DAX
 - 📈 Create Matplotlib plots for data storytelling
 - 🎯 Choose the right visual for the right insight
+
+</td>
+<td width="25%" valign="top">
+
+**Machine Learning**
+- 🤖 Understand core ML concepts & terminology
+- 🗂️ Distinguish supervised, unsupervised & reinforcement learning
+- 🔁 Follow the end-to-end ML workflow pipeline
+- 🌍 Apply ML thinking to real-world use cases
 
 </td>
 </tr>
